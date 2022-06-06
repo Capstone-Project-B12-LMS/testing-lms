@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>001_Register</name>
+   <name>002_Register</name>
    <tag></tag>
-   <elementGuidId>0b42d242-133a-4698-9577-c03cc51d307a</elementGuidId>
+   <elementGuidId>1f31261d-16ce-4888-8545-585e80eb5816</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;archen@gmail.com\&quot;,\n  \&quot;fullName\&quot;: \&quot;Archen\&quot;,\n  \&quot;password\&quot;: \&quot;archen12\&quot;,\n  \&quot;roles\&quot;: [\n    \&quot;string\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

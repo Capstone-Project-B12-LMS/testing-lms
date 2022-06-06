@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>001_Register</name>
+   <name>004_Login</name>
    <tag></tag>
-   <elementGuidId>0b42d242-133a-4698-9577-c03cc51d307a</elementGuidId>
+   <elementGuidId>dbbc1670-54ff-418b-8109-e4de8baab4c0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;archen@gmail.com\&quot;,\n  \&quot;fullName\&quot;: \&quot;Archen\&quot;,\n  \&quot;password\&quot;: \&quot;archen12\&quot;,\n  \&quot;roles\&quot;: [\n    \&quot;string\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;archengmail\&quot;,\n  \&quot;password\&quot;: \&quot;archen12\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -26,7 +26,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://ec2-34-212-169-254.us-west-2.compute.amazonaws.com/restapi/register</restUrl>
+   <restUrl>http://ec2-34-212-169-254.us-west-2.compute.amazonaws.com/restapi/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>001_Register</name>
+   <name>003_Register</name>
    <tag></tag>
-   <elementGuidId>0b42d242-133a-4698-9577-c03cc51d307a</elementGuidId>
+   <elementGuidId>3362c085-646a-4b83-94ed-7b5268597ad9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;archen@gmail.com\&quot;,\n  \&quot;fullName\&quot;: \&quot;Archen\&quot;,\n  \&quot;password\&quot;: \&quot;archen12\&quot;,\n  \&quot;roles\&quot;: [\n    \&quot;string\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;archen@gmail.com\&quot;,\n  \&quot;fullName\&quot;: \&quot;Archens\&quot;,\n  \&quot;password\&quot;: \&quot;archen12\&quot;,\n  \&quot;roles\&quot;: [\n    \&quot;string\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -25,7 +25,7 @@
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
+   <restRequestMethod>PUT</restRequestMethod>
    <restUrl>http://ec2-34-212-169-254.us-west-2.compute.amazonaws.com/restapi/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>

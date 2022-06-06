@@ -17,9 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/01_User/01_Register/001_Register'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.response_code_ok)
-
-WS.verifyElementPropertyValue(response, 'data.email', 'archen@gmail.com')
-
