@@ -9,4 +9,9 @@
       <initValue>'com.example.capstone_project_lms'</initValue>
       <name>id_mobile_apk</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>200</initValue>
+      <name>response_code_ok</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
