@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC002_Get User By Id (Invalid id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03db19f2-1da4-4172-bc94-124fa75f6004</testCaseGuid>
+</TestCaseEntity>

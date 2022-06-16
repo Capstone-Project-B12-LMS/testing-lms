@@ -12,6 +12,101 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>200</initValue>
-      <name>response_code_ok</name>
+      <name>response_200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>400</initValue>
+      <name>response_400</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>405</initValue>
+      <name>response_405</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>500</initValue>
+      <name>response_500</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalid email format'</initValue>
+      <name>invalid_email_format</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Method Not Allowed'</initValue>
+      <name>method_now_allowed</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Internal Server Error'</initValue>
+      <name>internal_server_error</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'User not found'</initValue>
+      <name>user_not_found</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password doesn\'t match'</initValue>
+      <name>password_doesnt_match</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1MjE5MTI3LCJ1c2VySWQiOiIwOTAxMjExOS01ZjYwLTRmZjQtYjk0My0yNWY4MzFlYmMzZmMiLCJpYXQiOjE2NTUyMTU1Mjd9.PL17mlDTDpB4iywAReteUEUrD3oyHh0MDAykMpDkqXE'</initValue>
+      <name>bearertoken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'db032544-5b44-4ed1-9220-f3fc13e3984a'</initValue>
+      <name>id_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'restapi/v1'</initValue>
+      <name>api_version</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://ec2-34-212-169-254.us-west-2.compute.amazonaws.com/'</initValue>
+      <name>base_url_api</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ss@gmail.com'</initValue>
+      <name>register_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'archen@gmail.com'</initValue>
+      <name>email_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Archen123!'</initValue>
+      <name>password_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>web_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ss@gmail.com'</initValue>
+      <name>registered_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'401'</initValue>
+      <name>response_401</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'403'</initValue>
+      <name>response_403</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

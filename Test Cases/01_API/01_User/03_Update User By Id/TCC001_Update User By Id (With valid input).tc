@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC001_Update User By Id (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd04bc14-900e-4856-a311-3de414ece15b</testCaseGuid>
+</TestCaseEntity>

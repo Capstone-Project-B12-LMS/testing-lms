@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC005_Login (With unregistered email)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>492d4716-5dea-4b6e-8dfc-de40b40d4b64</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC001_Get User By Id (With valid id and token)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3d5912f-c0f4-4752-978f-48507a347aaf</testCaseGuid>
+</TestCaseEntity>

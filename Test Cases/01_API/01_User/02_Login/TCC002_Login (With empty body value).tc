@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC002_Login (With empty body value)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47ebc68f-7a45-4a0f-84f4-e1ecef8856cf</testCaseGuid>
+</TestCaseEntity>

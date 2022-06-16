@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC005_Update User By Id (With invalid email format)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f67865d0-edec-4eb6-b8dd-4158d0cc16aa</testCaseGuid>
+</TestCaseEntity>

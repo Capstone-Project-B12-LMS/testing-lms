@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC006_Update User By Id (With registered email)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d98234c6-d9d7-492f-90ff-fd3c168be524</testCaseGuid>
+</TestCaseEntity>
