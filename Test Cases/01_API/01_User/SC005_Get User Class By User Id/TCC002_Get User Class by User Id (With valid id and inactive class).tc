@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC002_Get User Class by User Id (With valid id and inactive class)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>449dee98-b89f-442a-a21a-e75ad3c98cf3</testCaseGuid>
+</TestCaseEntity>

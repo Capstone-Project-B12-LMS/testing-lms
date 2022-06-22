@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Update Class By Id (With invalid id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e84d6b3d-6b1c-4947-a391-3451fb6b4288</testCaseGuid>
+</TestCaseEntity>

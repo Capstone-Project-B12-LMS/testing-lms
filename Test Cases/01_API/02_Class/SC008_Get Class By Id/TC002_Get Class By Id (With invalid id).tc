@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Get Class By Id (With invalid id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85c9307f-236c-402d-8f5a-dc13c53f607d</testCaseGuid>
+</TestCaseEntity>

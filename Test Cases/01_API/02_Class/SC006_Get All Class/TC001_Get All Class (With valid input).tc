@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Get All Class (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a57fe5c-80c9-4396-a132-2d77802a6847</testCaseGuid>
+</TestCaseEntity>

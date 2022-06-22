@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Create A Class (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5ef33e7-ef6b-41ba-b2c5-240d5489b268</testCaseGuid>
+</TestCaseEntity>

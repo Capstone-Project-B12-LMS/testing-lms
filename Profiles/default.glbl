@@ -56,12 +56,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1MjE5MTI3LCJ1c2VySWQiOiIwOTAxMjExOS01ZjYwLTRmZjQtYjk0My0yNWY4MzFlYmMzZmMiLCJpYXQiOjE2NTUyMTU1Mjd9.PL17mlDTDpB4iywAReteUEUrD3oyHh0MDAykMpDkqXE'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1OTE4NTM4LCJ1c2VySWQiOiIyODkxY2UyZS05NTdiLTQ0ZmQtYjNkYy1kMGY5ZGY5YmMyOTAiLCJpYXQiOjE2NTU5MTQ5Mzh9.eiFafBVneVj5LuZ2RlNNCsE-pgNBxExiDHGOFh8N_ew'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'db032544-5b44-4ed1-9220-f3fc13e3984a'</initValue>
+      <initValue>'2891ce2e-957b-44fd-b3dc-d0f9df9bc290'</initValue>
       <name>id_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ss@gmail.com'</initValue>
+      <initValue>'archen@gmail.com'</initValue>
       <name>register_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -101,12 +101,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'401'</initValue>
+      <initValue>401</initValue>
       <name>response_401</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'403'</initValue>
+      <initValue>403</initValue>
       <name>response_403</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'a24f8a353c'</initValue>
+      <name>code_class</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2ff04eae-c866-4d0f-b2c9-6292d9fdfa91'</initValue>
+      <name>id_class</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Delete Class By Id (With invalid id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>093c00b0-a1f8-469a-91f0-2c4b713ede32</testCaseGuid>
+</TestCaseEntity>

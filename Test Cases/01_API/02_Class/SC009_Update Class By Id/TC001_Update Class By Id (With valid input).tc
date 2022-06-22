@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Update Class By Id (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0f57679-50d0-4e61-9d78-e455ea09eba8</testCaseGuid>
+</TestCaseEntity>
