@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_Join A Class (With invalid token)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c05c5d7d-6428-4ef3-ac72-5f80cff6fe3a</testCaseGuid>
+</TestCaseEntity>

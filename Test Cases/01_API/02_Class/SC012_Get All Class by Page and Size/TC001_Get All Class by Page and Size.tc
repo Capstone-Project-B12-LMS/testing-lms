@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Get All Class by Page and Size</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0f21604-1c03-49c2-a91a-ec09ecd2327d</testCaseGuid>
+</TestCaseEntity>

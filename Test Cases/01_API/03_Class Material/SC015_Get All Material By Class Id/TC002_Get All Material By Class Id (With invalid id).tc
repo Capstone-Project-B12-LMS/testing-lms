@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Get All Material By Class Id (With invalid id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb63b09c-9f0e-405e-8920-22e26d923264</testCaseGuid>
+</TestCaseEntity>

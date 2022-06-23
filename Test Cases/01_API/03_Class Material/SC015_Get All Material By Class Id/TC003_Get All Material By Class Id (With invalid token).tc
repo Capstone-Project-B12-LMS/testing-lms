@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Get All Material By Class Id (With invalid token)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f9f2676-4ea4-456f-83cc-f3d7bd42c18c</testCaseGuid>
+</TestCaseEntity>

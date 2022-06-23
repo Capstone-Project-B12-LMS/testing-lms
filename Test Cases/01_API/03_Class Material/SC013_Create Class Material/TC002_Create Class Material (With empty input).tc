@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Create Class Material (With empty input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e986eb5b-6000-4e7f-b1bf-cfbd216e2b1b</testCaseGuid>
+</TestCaseEntity>

@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1OTE4NTM4LCJ1c2VySWQiOiIyODkxY2UyZS05NTdiLTQ0ZmQtYjNkYy1kMGY5ZGY5YmMyOTAiLCJpYXQiOjE2NTU5MTQ5Mzh9.eiFafBVneVj5LuZ2RlNNCsE-pgNBxExiDHGOFh8N_ew'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1OTU3NzQxLCJ1c2VySWQiOiIyODkxY2UyZS05NTdiLTQ0ZmQtYjNkYy1kMGY5ZGY5YmMyOTAiLCJpYXQiOjE2NTU5NTQxNDF9.Dll69-C87gJu3pCSmYdOHJw-no1HwPRdj07AF3hZpa0'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -118,5 +118,15 @@
       <description></description>
       <initValue>'2ff04eae-c866-4d0f-b2c9-6292d9fdfa91'</initValue>
       <name>id_class</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eb82d65d47'</initValue>
+      <name>code_class_join</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>id_material</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

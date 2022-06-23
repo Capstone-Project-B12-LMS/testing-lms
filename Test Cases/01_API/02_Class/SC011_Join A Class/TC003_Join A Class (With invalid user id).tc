@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Join A Class (With invalid user id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d89d25ee-c5e8-4e71-9cf0-f09df642affc</testCaseGuid>
+</TestCaseEntity>
