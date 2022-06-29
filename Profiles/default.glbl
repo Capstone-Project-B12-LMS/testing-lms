@@ -56,12 +56,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1OTU3NzQxLCJ1c2VySWQiOiIyODkxY2UyZS05NTdiLTQ0ZmQtYjNkYy1kMGY5ZGY5YmMyOTAiLCJpYXQiOjE2NTU5NTQxNDF9.Dll69-C87gJu3pCSmYdOHJw-no1HwPRdj07AF3hZpa0'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2MzQxMjcyLCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTYzMzc2NzJ9.LBWwicoCn0piAo-D6PFnFz3CPlXIKPxRmk3XQsHUXWo'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2891ce2e-957b-44fd-b3dc-d0f9df9bc290'</initValue>
+      <initValue>'697317dd-01ec-4055-ab58-2a1712cd6fd6'</initValue>
       <name>id_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://ec2-34-212-169-254.us-west-2.compute.amazonaws.com/'</initValue>
+      <initValue>'http://ec2-35-89-26-59.us-west-2.compute.amazonaws.com'</initValue>
       <name>base_url_api</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,7 +96,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ss@gmail.com'</initValue>
+      <initValue>'ok@gmail.com'</initValue>
       <name>registered_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,22 +111,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'a24f8a353c'</initValue>
+      <initValue>'18ed58ca16'</initValue>
       <name>code_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2ff04eae-c866-4d0f-b2c9-6292d9fdfa91'</initValue>
+      <initValue>'492535a2-f2d4-42b4-b4ae-f6cc0b77d280'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eb82d65d47'</initValue>
+      <initValue>'2e5f0d107b'</initValue>
       <name>code_class_join</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'1'</initValue>
       <name>id_material</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'archen@gmail.com'</initValue>
+      <name>new_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Arch'</initValue>
+      <name>nama_user</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
