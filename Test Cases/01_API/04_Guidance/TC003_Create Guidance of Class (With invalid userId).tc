@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Create Guidance of Class (With invalid userId)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39882420-7352-492a-857c-016792a523ed</testCaseGuid>
+</TestCaseEntity>

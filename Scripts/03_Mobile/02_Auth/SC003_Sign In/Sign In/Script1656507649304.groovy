@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
+
+for (int i = 1; i <= 5; i++) {
+    Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/field_email'), 0)
+
+    Mobile.setText(findTestObject('03_Mobile/SC002_Sign In/field_email'), findTestData('signin').getValue(3, i), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/field_password'), 0)
+
+    Mobile.setText(findTestObject('03_Mobile/SC002_Sign In/field_password'), findTestData('signin').getValue(4, i), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/button_signin'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+    if (findTestData('signin').getValue(2, i) == 'negative') {
+        Mobile.verifyElementExist(findTestObject('03_Mobile/SC002_Sign In/welcome_back'), 0) // verify
+    } else {
+        Mobile.verifyElementExist(findTestObject(null), 0)
+    }
+}
+

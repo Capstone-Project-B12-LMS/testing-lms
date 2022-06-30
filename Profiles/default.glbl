@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2MzQxMjcyLCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTYzMzc2NzJ9.LBWwicoCn0piAo-D6PFnFz3CPlXIKPxRmk3XQsHUXWo'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2NTgzODE0LCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY1ODAyMTR9.GJK7C5ZmbIIQ8F05rF8Z3F15wE8P9W90eL8ZWXrDUTE'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://ec2-35-89-26-59.us-west-2.compute.amazonaws.com'</initValue>
+      <initValue>'http://ec2-34-219-136-154.us-west-2.compute.amazonaws.com'</initValue>
       <name>base_url_api</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1'</initValue>
+      <initValue>'033b4cbb-1937-4a95-b3da-7a5924167faa'</initValue>
       <name>id_material</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -138,5 +138,10 @@
       <description></description>
       <initValue>'Arch'</initValue>
       <name>nama_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo-lms-capstone.netlify.app/'</initValue>
+      <name>url_website</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

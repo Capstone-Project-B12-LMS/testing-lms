@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>{${GlobalVariable.base_url_api}/${GlobalVariable.api_version}/material/class/${GlobalVariable.id_class}</restUrl>
+   <restUrl>${GlobalVariable.base_url_api}/${GlobalVariable.api_version}/material/class/${GlobalVariable.id_class}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03_Class Material,,,,2022-06-30 12:07:57,2022-06-30 12:08:17,19.311s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token),,,,2022-06-30 12:07:58,2022-06-30 12:08:03,5.412s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token)""))",,,,2022-06-30 12:07:59,2022-06-30 12:08:03,4.329s,PASSED
+"verifyResponseStatusCode(response, response_403, CONTINUE_ON_FAILURE)",,,,2022-06-30 12:08:03,2022-06-30 12:08:03,0.078s,FAILED
+"verifyElementPropertyValue(response, ""error"", ""Forbidden"")",,,,2022-06-30 12:08:03,2022-06-30 12:08:03,0.186s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id),,,,2022-06-30 12:08:03,2022-06-30 12:08:05,2.121s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id)""))",,,,2022-06-30 12:08:04,2022-06-30 12:08:05,1.461s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-06-30 12:08:05,2022-06-30 12:08:05,0.016s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-06-30 12:08:05,2022-06-30 12:08:05,0.064s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC002_Create Class Material (With empty input),,,,2022-06-30 12:08:05,2022-06-30 12:08:07,1.844s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC013_Create Class Material/TC002_Create Class Material (With empty input)""))",,,,2022-06-30 12:08:06,2022-06-30 12:08:07,1.212s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-06-30 12:08:07,2022-06-30 12:08:07,0.015s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-06-30 12:08:07,2022-06-30 12:08:07,0.080s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC001_Create Class Material (With valid input),,,,2022-06-30 12:08:07,2022-06-30 12:08:12,4.650s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size""))",,,,2022-06-30 12:08:08,2022-06-30 12:08:12,4.084s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-06-30 12:08:12,2022-06-30 12:08:12,0.016s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-06-30 12:08:12,2022-06-30 12:08:12,0.070s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Get All Material By Id/TC003_Get Material By Id (With invalid token),,,,2022-06-30 12:08:12,2022-06-30 12:08:13,0.743s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC014_Get All Material By Id/TC003_Get Material By Id (With invalid token)""))",,,,2022-06-30 12:08:13,2022-06-30 12:08:13,0.176s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Get All Material By Id/TC002_Get Material By Id (With invalid id),,,,2022-06-30 12:08:13,2022-06-30 12:08:13,0.643s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC014_Get All Material By Id/TC002_Get Material By Id (With invalid id)""))",,,,2022-06-30 12:08:13,2022-06-30 12:08:13,0.205s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Get All Material By Id/TC001_Get Material By Id,,,,2022-06-30 12:08:13,2022-06-30 12:08:14,0.906s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC014_Get All Material By Id/TC001_Get Material By Id""))",,,,2022-06-30 12:08:14,2022-06-30 12:08:14,0.190s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token),,,,2022-06-30 12:08:14,2022-06-30 12:08:15,0.762s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)""))",,,,2022-06-30 12:08:15,2022-06-30 12:08:15,0.170s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id),,,,2022-06-30 12:08:15,2022-06-30 12:08:16,0.703s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)""))",,,,2022-06-30 12:08:16,2022-06-30 12:08:16,0.213s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id,,,,2022-06-30 12:08:16,2022-06-30 12:08:17,0.799s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id""))",,,,2022-06-30 12:08:16,2022-06-30 12:08:17,0.247s,FAILED

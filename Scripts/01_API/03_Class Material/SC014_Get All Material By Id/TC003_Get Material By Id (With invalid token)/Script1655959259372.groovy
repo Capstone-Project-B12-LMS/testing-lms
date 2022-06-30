@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/03_Material/SC014_Get All Material By Id/TC003_Get Material By Id (With invalid token)'))
+response = WS.sendRequest(findTestObject('01_API/03_Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_403, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'error', 'Forbidden')
+WS.verifyElementPropertyValue(response, 'errors.message', 'access denied')
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/03_Material/SC014_Get All Material By Id/TC001_Get Material By Id'))
+response = WS.sendRequest(findTestObject('01_API/03_Material/SC014_Get Material By Id/TC001_Get Material By Id'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
 
