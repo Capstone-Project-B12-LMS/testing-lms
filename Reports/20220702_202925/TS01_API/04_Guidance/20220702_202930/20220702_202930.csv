@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04_Guidance,,,,2022-07-02 20:30:45,2022-07-02 20:30:59,14.186s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId),,,,2022-07-02 20:30:46,2022-07-02 20:30:50,4.603s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)""))",,,,2022-07-02 20:30:46,2022-07-02 20:30:50,3.937s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:50,2022-07-02 20:30:50,0.037s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""Class not found"")",,,,2022-07-02 20:30:50,2022-07-02 20:30:50,0.091s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId),,,,2022-07-02 20:30:50,2022-07-02 20:30:52,1.920s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)""))",,,,2022-07-02 20:30:51,2022-07-02 20:30:52,1.457s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:52,2022-07-02 20:30:52,0.008s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""User not found"")",,,,2022-07-02 20:30:52,2022-07-02 20:30:52,0.033s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token),,,,2022-07-02 20:30:52,2022-07-02 20:30:53,0.997s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)""))",,,,2022-07-02 20:30:53,2022-07-02 20:30:53,0.659s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:53,2022-07-02 20:30:53,0.006s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:30:53,2022-07-02 20:30:53,0.030s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input),,,,2022-07-02 20:30:53,2022-07-02 20:30:55,1.640s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)""))",,,,2022-07-02 20:30:54,2022-07-02 20:30:55,1.191s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:55,2022-07-02 20:30:55,0.006s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:30:55,2022-07-02 20:30:55,0.033s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token),,,,2022-07-02 20:30:55,2022-07-02 20:30:56,1.252s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC017_Get All Guidances of Class/TC003_Get All Guidances in Class (With invalid token)""))",,,,2022-07-02 20:30:56,2022-07-02 20:30:56,0.586s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:56,2022-07-02 20:30:56,0.004s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:30:56,2022-07-02 20:30:56,0.035s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId),,,,2022-07-02 20:30:56,2022-07-02 20:30:58,1.472s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC017_Get All Guidances of Class/TC002_Get All Guidances in Class (With invalid classId)""))",,,,2022-07-02 20:30:57,2022-07-02 20:30:58,0.977s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:58,2022-07-02 20:30:58,0.004s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-02 20:30:58,2022-07-02 20:30:58,0.029s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input),,,,2022-07-02 20:30:58,2022-07-02 20:30:59,1.778s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC017_Get All Guidances of Class/TC001_Get All Guidances in Class (With valid input)""))",,,,2022-07-02 20:30:58,2022-07-02 20:30:59,1.257s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:30:59,2022-07-02 20:30:59,0.003s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:30:59,2022-07-02 20:30:59,0.038s,PASSED

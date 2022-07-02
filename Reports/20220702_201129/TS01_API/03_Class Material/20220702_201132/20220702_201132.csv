@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03_Class Material,,,,2022-07-02 20:12:26,2022-07-02 20:12:43,17.435s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token),,,,2022-07-02 20:12:26,2022-07-02 20:12:30,3.999s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token)""))",,,,2022-07-02 20:12:27,2022-07-02 20:12:30,3.355s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:30,2022-07-02 20:12:30,0.029s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:12:30,2022-07-02 20:12:30,0.058s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id),,,,2022-07-02 20:12:30,2022-07-02 20:12:32,1.286s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id)""))",,,,2022-07-02 20:12:31,2022-07-02 20:12:32,0.903s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:32,2022-07-02 20:12:32,0.009s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-02 20:12:32,2022-07-02 20:12:32,0.035s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC002_Create Class Material (With empty input),,,,2022-07-02 20:12:32,2022-07-02 20:12:33,1.350s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC013_Create Class Material/TC002_Create Class Material (With empty input)""))",,,,2022-07-02 20:12:32,2022-07-02 20:12:33,0.960s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:33,2022-07-02 20:12:33,0.008s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-02 20:12:33,2022-07-02 20:12:33,0.037s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC001_Create Class Material (With valid input),,,,2022-07-02 20:12:33,2022-07-02 20:12:36,3.271s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size""))",,,,2022-07-02 20:12:33,2022-07-02 20:12:36,2.843s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:36,2022-07-02 20:12:36,0.006s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:12:36,2022-07-02 20:12:36,0.032s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token),,,,2022-07-02 20:12:36,2022-07-02 20:12:37,0.737s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)""))",,,,2022-07-02 20:12:37,2022-07-02 20:12:37,0.375s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:37,2022-07-02 20:12:37,0.012s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:12:37,2022-07-02 20:12:37,0.040s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id),,,,2022-07-02 20:12:37,2022-07-02 20:12:38,1.259s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id)""))",,,,2022-07-02 20:12:37,2022-07-02 20:12:38,0.865s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:38,2022-07-02 20:12:38,0.008s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-02 20:12:38,2022-07-02 20:12:38,0.024s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC001_Get Material By Id,,,,2022-07-02 20:12:38,2022-07-02 20:12:40,1.576s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC014_Get Material By Id/TC001_Get Material By Id""))",,,,2022-07-02 20:12:39,2022-07-02 20:12:40,1.084s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:40,2022-07-02 20:12:40,0.009s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:12:40,2022-07-02 20:12:40,0.035s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token),,,,2022-07-02 20:12:40,2022-07-02 20:12:41,0.723s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)""))",,,,2022-07-02 20:12:40,2022-07-02 20:12:41,0.385s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:41,2022-07-02 20:12:41,0.012s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:12:41,2022-07-02 20:12:41,0.033s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id),,,,2022-07-02 20:12:41,2022-07-02 20:12:42,1.353s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)""))",,,,2022-07-02 20:12:41,2022-07-02 20:12:42,0.884s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:42,2022-07-02 20:12:42,0.006s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-02 20:12:42,2022-07-02 20:12:42,0.023s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id,,,,2022-07-02 20:12:42,2022-07-02 20:12:43,1.347s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id""))",,,,2022-07-02 20:12:42,2022-07-02 20:12:43,0.995s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:12:43,2022-07-02 20:12:43,0.008s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:12:43,2022-07-02 20:12:43,0.017s,PASSED

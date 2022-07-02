@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2NzM1MTYwLCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY3MzE1NjB9.Z0Q7JAG1SaFWlyp6NaHdROQ0xy27SFjO2_lyULghPNY'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2NzcwNjM4LCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY3NjcwMzh9.rm9gAseBrzlZJsv9XjoEvZr-yoM4UVEEY6IeYJ-s4zc'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'archen@gmail.com'</initValue>
+      <initValue>'archen2@gmail.com'</initValue>
       <name>register_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,7 +96,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ok@gmail.com'</initValue>
+      <initValue>'archen1@gmail.com'</initValue>
       <name>registered_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,12 +111,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'18ed58ca16'</initValue>
+      <initValue>'65369db45e'</initValue>
       <name>code_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'492535a2-f2d4-42b4-b4ae-f6cc0b77d280'</initValue>
+      <initValue>'300828c3-4b1e-4e18-81bf-82d63c14fa2f'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'033b4cbb-1937-4a95-b3da-7a5924167faa'</initValue>
+      <initValue>'71e5473d-113a-45a0-bf67-a575f8415bdc'</initValue>
       <name>id_material</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -148,5 +148,15 @@
       <description></description>
       <initValue>'f4b1ef06-bf36-4101-9703-b018b5fd67ff'</initValue>
       <name>id_class_student</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://ec2-34-219-136-154.us-west-2.compute.amazonaws.com/gql/v1/graphql'</initValue>
+      <name>graphql_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'34b13524-0ac2-4844-8f20-4721073aabfc'</initValue>
+      <name>id_class_delete</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

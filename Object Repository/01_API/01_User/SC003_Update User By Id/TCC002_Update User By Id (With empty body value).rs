@@ -27,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>${bearertoken}</value>
+      <value>${GlobalVariable.bearertoken}</value>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

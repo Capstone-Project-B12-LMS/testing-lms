@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="04_Guidance" time="18.068" tests="7" failures="0" errors="0">
+   <testsuite name="04_Guidance" tests="7" failures="0" errors="0" time="18.068" skipped="0" timestamp="2022-07-02 18:44:37" hostname="salsa - SALSABILA" id="Test Suites/TS01_API/04_Guidance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220702_184432\\TS01_API\\04_Guidance\\20220702_184432"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220702_184432\\TS01_API\\04_Guidance\\20220702_184432\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.43.91"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)" time="5.849" classname="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:38 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId): Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)
+
+2022-07-02 18:44:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC016_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)")): Send request successfully
+
+2022-07-02 18:44:43 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\0.har
+
+2022-07-02 18:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "Class not found"): Verify element property value successfully
+
+2022-07-02 18:44:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)" time="1.851" classname="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:44 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId): Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)
+
+2022-07-02 18:44:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)")): Send request successfully
+
+2022-07-02 18:44:45 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\1.har
+
+2022-07-02 18:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "User not found"): Verify element property value successfully
+
+2022-07-02 18:44:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)" time="1.167" classname="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:45 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token): Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)
+
+2022-07-02 18:44:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC016_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)")): Send request successfully
+
+2022-07-02 18:44:47 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\2.har
+
+2022-07-02 18:44:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 18:44:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)" time="3.379" classname="Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:47 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input): Test Cases/01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)
+
+2022-07-02 18:44:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC016_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)")): Send request successfully
+
+2022-07-02 18:44:50 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\3.har
+
+2022-07-02 18:44:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 18:44:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token)" time="0.871" classname="Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:50 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token): Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token)
+
+2022-07-02 18:44:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC017_Get All Guidances of Class/TC003_Get All Guidances in Class (With invalid token)")): Send request successfully
+
+2022-07-02 18:44:51 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\4.har
+
+2022-07-02 18:44:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 18:44:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId)" time="2.716" classname="Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:51 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId): Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId)
+
+2022-07-02 18:44:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC017_Get All Guidances of Class/TC002_Get All Guidances in Class (With invalid classId)")): Send request successfully
+
+2022-07-02 18:44:54 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\5.har
+
+2022-07-02 18:44:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-02 18:44:54 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)" time="1.622" classname="Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 18:44:54 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input): Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)
+
+2022-07-02 18:44:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC017_Get All Guidances of Class/TC001_Get All Guidances in Class (With valid input)")): Send request successfully
+
+2022-07-02 18:44:55 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_184432\TS01_API\04_Guidance\20220702_184432\requests\main\6.har
+
+2022-07-02 18:44:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 18:44:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 18:44:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 18:44:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 18:44:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-02 18:44:37 - [TEST_SUITE][PASSED] - 04_Guidance: Test Cases/01_API/04_Guidance/SC017_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

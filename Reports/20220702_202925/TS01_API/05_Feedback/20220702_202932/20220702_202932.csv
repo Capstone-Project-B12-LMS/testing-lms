@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05_Feedback,,,,2022-07-02 20:31:06,2022-07-02 20:31:20,14.258s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token),,,,2022-07-02 20:31:06,2022-07-02 20:31:11,5.416s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token)""))",,,,2022-07-02 20:31:07,2022-07-02 20:31:11,4.417s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:11,2022-07-02 20:31:11,0.033s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:31:11,2022-07-02 20:31:11,0.077s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId),,,,2022-07-02 20:31:12,2022-07-02 20:31:13,1.680s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)""))",,,,2022-07-02 20:31:12,2022-07-02 20:31:13,1.219s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:13,2022-07-02 20:31:13,0.014s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""Class not found"")",,,,2022-07-02 20:31:13,2022-07-02 20:31:13,0.024s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId),,,,2022-07-02 20:31:13,2022-07-02 20:31:15,1.608s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId)""))",,,,2022-07-02 20:31:14,2022-07-02 20:31:15,1.229s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:15,2022-07-02 20:31:15,0.010s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", user_not_found)",,,,2022-07-02 20:31:15,2022-07-02 20:31:15,0.045s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input),,,,2022-07-02 20:31:15,2022-07-02 20:31:16,1.644s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)""))",,,,2022-07-02 20:31:15,2022-07-02 20:31:16,1.302s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:16,2022-07-02 20:31:16,0.008s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:31:16,2022-07-02 20:31:16,0.030s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token),,,,2022-07-02 20:31:16,2022-07-02 20:31:17,0.772s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC019_Get Feedbacks by ClassId/TC003_Get All Feedbacks by ClassId (With invalid token)""))",,,,2022-07-02 20:31:17,2022-07-02 20:31:17,0.428s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:17,2022-07-02 20:31:17,0.004s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-02 20:31:17,2022-07-02 20:31:17,0.018s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId),,,,2022-07-02 20:31:17,2022-07-02 20:31:18,1.199s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC019_Get Feedbacks by ClassId/TC002_Get All Feedbacks by ClassId (With invalid classId)""))",,,,2022-07-02 20:31:18,2022-07-02 20:31:18,0.881s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:18,2022-07-02 20:31:18,0.004s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-02 20:31:18,2022-07-02 20:31:18,0.027s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input),,,,2022-07-02 20:31:18,2022-07-02 20:31:20,1.392s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)""))",,,,2022-07-02 20:31:19,2022-07-02 20:31:20,0.982s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-02 20:31:20,2022-07-02 20:31:20,0.012s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-02 20:31:20,2022-07-02 20:31:20,0.036s,PASSED

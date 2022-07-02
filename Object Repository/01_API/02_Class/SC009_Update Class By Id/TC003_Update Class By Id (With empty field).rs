@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;\&quot;,\n  \&quot;room\&quot;: \&quot;\&quot;,\n  \&quot;status\&quot;: \&quot;\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;\&quot;,\n  \&quot;room\&quot;: \&quot;\&quot;,\n  \&quot;status\&quot;: \&quot;\&quot;,\n  \&quot;reportUrl\&quot;: \&quot;\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,6 +21,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>6203be69-71a8-4371-9ad7-dc6dd0605ff2</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>${GlobalVariable.bearertoken}</value>
+      <webElementGuid>d281da76-f6e3-45ba-9882-2120f611857f</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

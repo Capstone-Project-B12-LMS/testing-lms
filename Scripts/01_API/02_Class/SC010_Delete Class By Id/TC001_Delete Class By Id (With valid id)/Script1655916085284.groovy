@@ -21,9 +21,9 @@ response = WS.sendRequest(findTestObject('01_API/02_Class/SC010_Delete Class By 
 
 WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'status', 'true')
+WS.verifyElementPropertyValue(response, 'status', true)
 
-response2 = WS.sendRequest(findTestObject('01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id)'))
+response2 = WS.sendRequest(findTestObject('01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)'))
 
-WS.verifyElementPropertyValue(response, 'data.isDeleted', 'true')
+WS.verifyElementPropertyValue(response2, 'data.isDeleted', true)
 

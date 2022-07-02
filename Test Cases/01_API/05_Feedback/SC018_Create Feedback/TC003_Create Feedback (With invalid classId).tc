@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Create Feedback (With invalid classId)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea1368de-a9f2-475a-88fa-b6d4516f7759</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Get All Feedbacks by ClassId (With invalid classId)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeaaa9bf-da17-4012-b4fd-60270d2cea99</testCaseGuid>
+</TestCaseEntity>

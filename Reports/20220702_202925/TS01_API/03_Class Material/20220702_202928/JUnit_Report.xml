@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="03_Class Material" time="18.4" tests="10" failures="0" errors="0">
+   <testsuite name="03_Class Material" tests="10" failures="0" errors="0" time="18.4" skipped="0" timestamp="2022-07-02 20:30:23" hostname="salsa - SALSABILA" id="Test Suites/TS01_API/03_Class Material">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220702_202925\\TS01_API\\03_Class Material\\20220702_202928"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220702_202925\\TS01_API\\03_Class Material\\20220702_202928\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.43.91"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token)" time="4.229" classname="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:23 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token): Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token)
+
+2022-07-02 20:30:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC013_Create Class Material/TC004_Create Class Material (With invalid token)")): Send request successfully
+
+2022-07-02 20:30:27 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\0.har
+
+2022-07-02 20:30:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 20:30:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id)" time="1.405" classname="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:27 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id): Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id)
+
+2022-07-02 20:30:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC013_Create Class Material/TC003_Create Class Material (With invalid class id)")): Send request successfully
+
+2022-07-02 20:30:29 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\1.har
+
+2022-07-02 20:30:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-02 20:30:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC002_Create Class Material (With empty input)" time="1.442" classname="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC002_Create Class Material (With empty input)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:29 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC002_Create Class Material (With empty input): Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC002_Create Class Material (With empty input)
+
+2022-07-02 20:30:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC013_Create Class Material/TC002_Create Class Material (With empty input)")): Send request successfully
+
+2022-07-02 20:30:30 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\2.har
+
+2022-07-02 20:30:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-02 20:30:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC001_Create Class Material (With valid input)" time="3.367" classname="Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC001_Create Class Material (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:30 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC001_Create Class Material (With valid input): Test Cases/01_API/03_Class Material/SC013_Create Class Material/TC001_Create Class Material (With valid input)
+
+2022-07-02 20:30:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size")): Send request successfully
+
+2022-07-02 20:30:33 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\3.har
+
+2022-07-02 20:30:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 20:30:33 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)" time="0.675" classname="Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:33 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token): Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)
+
+2022-07-02 20:30:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)")): Send request successfully
+
+2022-07-02 20:30:34 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\4.har
+
+2022-07-02 20:30:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 20:30:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id)" time="1.262" classname="Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:34 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id): Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id)
+
+2022-07-02 20:30:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id)")): Send request successfully
+
+2022-07-02 20:30:35 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\5.har
+
+2022-07-02 20:30:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-02 20:30:35 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC001_Get Material By Id" time="1.594" classname="Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC001_Get Material By Id" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:35 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC001_Get Material By Id: Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC001_Get Material By Id
+
+2022-07-02 20:30:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC014_Get Material By Id/TC001_Get Material By Id")): Send request successfully
+
+2022-07-02 20:30:37 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\6.har
+
+2022-07-02 20:30:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 20:30:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)" time="0.729" classname="Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:37 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token): Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)
+
+2022-07-02 20:30:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC015_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)")): Send request successfully
+
+2022-07-02 20:30:38 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\7.har
+
+2022-07-02 20:30:38 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 20:30:38 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)" time="1.481" classname="Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:38 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id): Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)
+
+2022-07-02 20:30:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)")): Send request successfully
+
+2022-07-02 20:30:39 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\8.har
+
+2022-07-02 20:30:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-02 20:30:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id" time="1.712" classname="Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:30:39 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id: Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id
+
+2022-07-02 20:30:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id")): Send request successfully
+
+2022-07-02 20:30:41 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_202925\TS01_API\03_Class Material\20220702_202928\requests\main\9.har
+
+2022-07-02 20:30:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:30:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:30:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:30:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 20:30:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-02 20:30:23 - [TEST_SUITE][PASSED] - 03_Class Material: Test Cases/01_API/03_Class Material/SC015_Get All Material By Class Id/TC001_Get All Material By Class Id]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

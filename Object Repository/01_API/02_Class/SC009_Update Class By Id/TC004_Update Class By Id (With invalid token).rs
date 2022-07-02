@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Quality Engineer 1\&quot;,\n  \&quot;room\&quot;: \&quot;\&quot;,\n  \&quot;status\&quot;: \&quot;ACTIVE\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Quality Engineer 1\&quot;,\n  \&quot;room\&quot;: \&quot;\&quot;,\n  \&quot;status\&quot;: \&quot;ACTIVE\&quot;,\n  \&quot;reportUrl\&quot;: \&quot;string\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,6 +21,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>f82b7e9d-183d-44bd-8b13-9dca18d2e2f6</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU1NzI4NDU1LCJ1c2VySWQiOiIwOTEyMjkxMC1hZmY4LTQ5MzktYTQ5NS1iMmQ0MGNkNTgzODUiLCJpYXQiOjE2NTU3MjQ4NTV9.YAQ8lvbhLJ4tgMILFUglK5_7XTQtOl7Ep5oYk_gssw</value>
+      <webElementGuid>b6e9bd74-746b-418f-af35-9e692dd51f8a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

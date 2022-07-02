@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="05_Feedback" time="13.764" tests="7" failures="0" errors="0">
+   <testsuite name="05_Feedback" tests="7" failures="0" errors="0" time="13.764" skipped="0" timestamp="2022-07-02 20:08:39" hostname="salsa - SALSABILA" id="Test Suites/TS01_API/05_Feedback">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220702_200835\\TS01_API\\05_Feedback\\20220702_200835"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220702_200835\\TS01_API\\05_Feedback\\20220702_200835\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.43.91"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token)" time="4.515" classname="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:39 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token): Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token)
+
+2022-07-02 20:08:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token)")): Send request successfully
+
+2022-07-02 20:08:44 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\0.har
+
+2022-07-02 20:08:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 20:08:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)" time="1.66" classname="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:44 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId): Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)
+
+2022-07-02 20:08:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)")): Send request successfully
+
+2022-07-02 20:08:46 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\1.har
+
+2022-07-02 20:08:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "Class not found"): Verify element property value successfully
+
+2022-07-02 20:08:46 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId)" time="1.736" classname="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:46 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId): Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId)
+
+2022-07-02 20:08:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId)")): Send request successfully
+
+2022-07-02 20:08:47 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\2.har
+
+2022-07-02 20:08:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", user_not_found): Verify element property value successfully
+
+2022-07-02 20:08:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)" time="1.749" classname="Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:47 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input): Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)
+
+2022-07-02 20:08:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)")): Send request successfully
+
+2022-07-02 20:08:49 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\3.har
+
+2022-07-02 20:08:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 20:08:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)" time="0.821" classname="Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:49 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token): Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)
+
+2022-07-02 20:08:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC019_Get Feedbacks by ClassId/TC003_Get All Feedbacks by ClassId (With invalid token)")): Send request successfully
+
+2022-07-02 20:08:50 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\4.har
+
+2022-07-02 20:08:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-02 20:08:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)" time="1.256" classname="Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:50 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId): Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)
+
+2022-07-02 20:08:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC019_Get Feedbacks by ClassId/TC002_Get All Feedbacks by ClassId (With invalid classId)")): Send request successfully
+
+2022-07-02 20:08:51 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\5.har
+
+2022-07-02 20:08:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-02 20:08:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)" time="1.476" classname="Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-02 20:08:51 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input): Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)
+
+2022-07-02 20:08:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)")): Send request successfully
+
+2022-07-02 20:08:53 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220702_200835\TS01_API\05_Feedback\20220702_200835\requests\main\6.har
+
+2022-07-02 20:08:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-02 20:08:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-02 20:08:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-02 20:08:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-02 20:08:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-02 20:08:39 - [TEST_SUITE][PASSED] - 05_Feedback: Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

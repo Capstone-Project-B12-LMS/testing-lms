@@ -12,72 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>61331af6-dd60-4984-99d6-a586f9189941</testSuiteGuid>
    <testCaseLink>
-      <guid>c659c5dd-4c1d-40ff-b546-3d68ffc79659</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8007ef8f-b86f-4298-9217-54e554f3c1fe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b8c18886-29d7-4100-a6be-43b6b44f5076</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2c8cfa78-a300-4bc0-b84f-a6052c45883a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e6dd85e2-8def-4faa-9295-bef71aecc024</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5c050e7f-6c7e-4b02-ac5a-4c2d2406f649</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fc19c6b8-38ca-4114-8bb8-af36a35e4c35</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ef3aa2d4-10df-4c07-8297-e7e32885f4cc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8195afe7-cad3-4356-b476-245a6f12dccd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9cbf6c53-f543-4ef7-940c-4488b5d552fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>53b29f7f-2bf9-4c5a-9e1b-c0428c983c43</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bfc80d3f-3367-4d68-aa3e-793d9a0afc29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -160,5 +94,71 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC001_Get User Class by User Id (With valid id and active class)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c782d3c8-161a-43ba-bf9e-fd3568d47650</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5913b2d-4718-42cd-abc1-d60663ec2ca2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>36d47e1d-18fe-4ac7-9e45-e21023ff906c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dff19db0-04a7-41d5-a40d-cc4b1972de29</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a473bb2-b01f-4a7d-ace2-5c1c0c5ecd82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1127a598-73f3-4ce8-8304-1f76903693c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2eb89c1b-ba9f-4e01-8faf-b323897b79d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45bfa92d-a8bf-4ad4-a4fc-d56164dd4657</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12e8fc81-1917-4a9f-b65f-40b020f706ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3174a608-84b5-4ba6-a59f-53aaa2b6d365</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a637c0a0-6bf3-41fd-9195-9e39957a7343</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

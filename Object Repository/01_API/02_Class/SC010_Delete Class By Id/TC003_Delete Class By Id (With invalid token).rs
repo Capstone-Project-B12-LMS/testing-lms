@@ -29,7 +29,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.base_url_api}/${GlobalVariable.api_version}/class/${GlobalVariable.id_class}</restUrl>
+   <restUrl>${GlobalVariable.base_url_api}/${GlobalVariable.api_version}/class/${GlobalVariable.id_class_delete}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
