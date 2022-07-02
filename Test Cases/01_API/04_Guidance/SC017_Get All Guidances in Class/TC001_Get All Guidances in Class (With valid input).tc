@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Get All Guidances in Class (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e89bf69-4444-46f2-9b7a-3b72dcd5383b</testCaseGuid>
+</TestCaseEntity>

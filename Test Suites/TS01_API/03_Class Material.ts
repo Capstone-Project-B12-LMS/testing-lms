@@ -39,19 +39,19 @@
       <guid>21560651-98f1-4cce-be0a-08baf2cfe936</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/03_Class Material/SC014_Get All Material By Id/TC003_Get Material By Id (With invalid token)</testCaseId>
+      <testCaseId>Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC003_Get Material By Id (With invalid token)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e636d7ca-16d9-400a-bab7-e1cfdeaf5029</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/03_Class Material/SC014_Get All Material By Id/TC002_Get Material By Id (With invalid id)</testCaseId>
+      <testCaseId>Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC002_Get Material By Id (With invalid id)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a887c6b0-2765-4f90-9d53-b2718ed5bbca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/03_Class Material/SC014_Get All Material By Id/TC001_Get Material By Id</testCaseId>
+      <testCaseId>Test Cases/01_API/03_Class Material/SC014_Get Material By Id/TC001_Get Material By Id</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b16a10d5-b305-4194-8b9f-00dc05c3d34d</guid>

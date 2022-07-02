@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/03_Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)'))
+response = WS.sendRequest(findTestObject('01_API/04_Guidance/SC016_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, GlobalVariable.response_400, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'data', [])
+WS.verifyElementPropertyValue(response, 'errors.message', 'User not found')
 

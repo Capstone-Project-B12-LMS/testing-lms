@@ -17,9 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/03_Material/SC015_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)'))
+Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'data', [])
+Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/field_email'), 0)
+
+Mobile.setText(findTestObject('03_Mobile/SC002_Sign In/field_email'), GlobalVariable.email_user, 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/field_password'), 0)
+
+Mobile.setText(findTestObject('03_Mobile/SC002_Sign In/field_password'), GlobalVariable.password_user, 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/button_signin'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('03_Mobile/SC002_Sign In/profile_view'), 0)
 

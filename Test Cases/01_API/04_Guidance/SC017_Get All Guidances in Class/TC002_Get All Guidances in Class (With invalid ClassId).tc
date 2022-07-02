@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Get All Guidances in Class (With invalid ClassId)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>316efc08-22d1-418e-84b8-046c88a111ea</testCaseGuid>
+</TestCaseEntity>

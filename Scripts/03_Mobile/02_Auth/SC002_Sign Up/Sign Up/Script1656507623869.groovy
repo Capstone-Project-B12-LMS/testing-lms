@@ -34,12 +34,15 @@ for (int i = 1; i <= 8; i++) {
 
     Mobile.tap(findTestObject('03_Mobile/SC003_Sign Up/field_password'), 0)
 
+    Mobile.setText(findTestObject('03_Mobile/SC003_Sign Up/field_password'), findTestData('signup').getValue(5, i), 0)
+
     // Mobile.setText(findTestObject('03_Mobile/SC003_Sign Up/field_password'), findTestData('signup').getValue(5, 
     //        i), 0, FailureHandling.STOP_ON_FAILURE)
     Mobile.tap(findTestObject('03_Mobile/SC003_Sign Up/button_signup'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
     if (findTestData('signup').getValue(2, i) == 'negative') {
-        Mobile.verifyElementExist(findTestObject('03_Mobile/SC003_Sign Up/create_acc'), 0) // verify
+        Mobile.verifyElementExist(findTestObject('03_Mobile/SC003_Sign Up/create_acc'), 0 // verify
+            )
     } else {
         Mobile.verifyElementExist(findTestObject('03_Mobile/SC002_Sign In/welcome_back'), 0)
     }

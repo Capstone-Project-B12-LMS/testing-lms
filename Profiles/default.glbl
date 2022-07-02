@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2NTgzODE0LCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY1ODAyMTR9.GJK7C5ZmbIIQ8F05rF8Z3F15wE8P9W90eL8ZWXrDUTE'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2NzM1MTYwLCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY3MzE1NjB9.Z0Q7JAG1SaFWlyp6NaHdROQ0xy27SFjO2_lyULghPNY'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -143,5 +143,10 @@
       <description></description>
       <initValue>'https://demo-lms-capstone.netlify.app/'</initValue>
       <name>url_website</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'f4b1ef06-bf36-4101-9703-b018b5fd67ff'</initValue>
+      <name>id_class_student</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('03_Mobile/SC004_Logout/setting_menu'), 0)
+
+Mobile.tapAndHold(findTestObject('03_Mobile/SC004_Logout/android.view.View'), 0, 0)
+
+Mobile.verifyElementExist(findTestObject('03_Mobile/SC004_Logout/welcome_back'), 0)
+
+Mobile.closeApplication()
+
