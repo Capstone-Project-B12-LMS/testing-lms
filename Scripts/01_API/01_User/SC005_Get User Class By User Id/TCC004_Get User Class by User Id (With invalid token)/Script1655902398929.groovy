@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('01_API/01_User/SC005_Get User Class By User Id/TCC004_Get User Class by User Id (With invalid token)'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_403, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'error', 'Forbidden')
+WS.verifyElementPropertyValue(response, 'errors.message', 'access denied')
 

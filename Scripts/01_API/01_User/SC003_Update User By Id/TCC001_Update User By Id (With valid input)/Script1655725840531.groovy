@@ -21,5 +21,5 @@ response = WS.sendRequest(findTestObject('01_API/01_User/SC003_Update User By Id
 
 WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'status', 'true')
+WS.verifyElementPropertyValue(response, 'data.email', GlobalVariable.new_email)
 

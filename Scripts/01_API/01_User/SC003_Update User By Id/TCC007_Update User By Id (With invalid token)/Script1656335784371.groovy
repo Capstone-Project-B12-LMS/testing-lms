@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('01_API/01_User/SC003_Update User By Id/TCC007_Update User By Id (With invalid token)'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_401, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, '', '')
+WS.verifyElementPropertyValue(response, 'errors.message', 'access denied')
 

@@ -21,5 +21,5 @@ response = WS.sendRequest(findTestObject('01_API/01_User/SC001_Register/TCC001_R
 
 WS.verifyResponseStatusCode(response, GlobalVariable.response_200)
 
-WS.verifyElementPropertyValue(response, 'data.email', 'emailarchen@gmail.com')
+WS.verifyElementPropertyValue(response, 'data.email', GlobalVariable.register_email)
 
