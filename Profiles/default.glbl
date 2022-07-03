@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2Nzc1NTE5LCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY3NzE5MTl9.Hk12oYz2ZwIcUlzzI1Gbwh2Uy-8CosmciCMueTwrRRY'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2ODI1Mjk2LCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY4MjE2OTZ9.Pt2Jlhw_5q6Y8OER2NOUV0eupgzBVsuvoaHLQmmmXPQ'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'archen4@gmail.com'</initValue>
+      <initValue>'archen5@gmail.com'</initValue>
       <name>register_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -151,7 +151,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'e253a993-9c5a-4b3a-9746-06c9750a754a'</initValue>
+      <initValue>'71b92eb7-c515-4f82-b471-610fc0ee92f7'</initValue>
       <name>id_class_delete</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
