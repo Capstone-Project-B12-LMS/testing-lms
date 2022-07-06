@@ -21,15 +21,15 @@ Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.ST
 
 Mobile.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/field_email'), 0)
+Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign In/field_email'), 0)
 
-Mobile.setText(findTestObject('03_Mobile/SC002_Sign In/field_email'), GlobalVariable.email_user, 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('03_Mobile/02_Auth/SC002_Sign In/field_email'), 'sal@gmail.com', 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/field_password'), 0)
+Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign In/field_password'), 0)
 
-Mobile.setText(findTestObject('03_Mobile/SC002_Sign In/field_password'), GlobalVariable.password_user, 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('03_Mobile/02_Auth/SC002_Sign In/field_password'), 'Salsa123!', 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('03_Mobile/SC002_Sign In/button_signin'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign In/button_signin'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('03_Mobile/SC002_Sign In/profile_view'), 0)
+Mobile.verifyElementExist(findTestObject('03_Mobile/02_Auth/SC002_Sign In/profile_view'), 0)
 

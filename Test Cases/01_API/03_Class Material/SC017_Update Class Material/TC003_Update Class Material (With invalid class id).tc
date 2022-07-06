@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Update Class Material (With invalid class id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8c92407-b6ba-44d9-b3e9-ca10151719bc</testCaseGuid>
+</TestCaseEntity>

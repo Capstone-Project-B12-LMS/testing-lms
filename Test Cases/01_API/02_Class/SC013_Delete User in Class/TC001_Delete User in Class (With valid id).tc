@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Delete User in Class (With valid id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea8cf376-7a0e-400c-8074-1bf8b36cb316</testCaseGuid>
+</TestCaseEntity>

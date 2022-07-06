@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Delete Guidance in Class (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6058f26-6554-4b11-b159-69ba929a813d</testCaseGuid>
+</TestCaseEntity>

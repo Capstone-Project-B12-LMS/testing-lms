@@ -56,12 +56,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU2ODI1Mjk2LCJ1c2VySWQiOiI2OTczMTdkZC0wMWVjLTQwNTUtYWI1OC0yYTE3MTJjZDZmZDYiLCJpYXQiOjE2NTY4MjE2OTZ9.Pt2Jlhw_5q6Y8OER2NOUV0eupgzBVsuvoaHLQmmmXPQ'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU5NTc5MDgyLCJ1c2VySWQiOiJiZGFiZWU1MC0zMjllLTQ4NzUtYjk0MS1kOWNhMmRhYWM4ZTUiLCJpYXQiOjE2NTY5ODcwODJ9.3xIQHYQCVoKwp15pDDqbEd6Gk8bfO-xDgFSGA8Kbs5U'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'697317dd-01ec-4055-ab58-2a1712cd6fd6'</initValue>
+      <initValue>'bdabee50-329e-4875-b941-d9ca2daac8e5'</initValue>
       <name>id_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,17 +111,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'300828c3-4b1e-4e18-81bf-82d63c14fa2f'</initValue>
+      <initValue>'42b7ea98-6c8d-4c40-ba67-2ad4d058f6be'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2e5f0d107b'</initValue>
+      <initValue>'edfe061679'</initValue>
       <name>code_class_join</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'71e5473d-113a-45a0-bf67-a575f8415bdc'</initValue>
+      <initValue>'07a3c536-7463-4f72-a59b-87bf5eec38d7'</initValue>
       <name>id_material</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -141,7 +141,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'f4b1ef06-bf36-4101-9703-b018b5fd67ff'</initValue>
+      <initValue>'327c9ab9-70e7-4b4a-906d-5985a85122d3'</initValue>
       <name>id_class_student</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -153,5 +153,15 @@
       <description></description>
       <initValue>'71b92eb7-c515-4f82-b471-610fc0ee92f7'</initValue>
       <name>id_class_delete</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4fb793b8-e65f-4fae-ad86-9e784eb85bcb'</initValue>
+      <name>id_guidance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8505279e-a2c9-48a0-bf48-fe2a10482dd7'</initValue>
+      <name>id_user_delete</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

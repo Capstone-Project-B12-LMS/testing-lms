@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_Update Class Material (With invalid token)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5365efd-0daf-47d9-a9af-9169ff73398e</testCaseGuid>
+</TestCaseEntity>
