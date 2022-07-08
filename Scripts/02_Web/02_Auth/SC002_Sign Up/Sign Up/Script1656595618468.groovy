@@ -17,24 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://demo-lms-capstone.netlify.app/')
+WebUI.openBrowser(GlobalVariable.url_website)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/02_Web/SC002_Sign Up/Page_React App/button_Sign up'))
+WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/02_Web/SC002_Sign Up/Page_React App/input_username_username'), findTestData(
-        'signup').getValue(3, i))
+for (int i = 1; i <= 8; i++) {
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_username_username'), findTestData('signup').getValue(
+            3, i))
 
-WebUI.setText(findTestObject('Object Repository/02_Web/SC002_Sign Up/Page_React App/input_email_email'), findTestData('signup').getValue(
-        4, i))
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_email_email'), findTestData('signup').getValue(4, i))
 
-WebUI.setText(findTestObject('Object Repository/02_Web/SC002_Sign Up/Page_React App/input_password_password'), findTestData(
-        'signup').getValue(5, i))
+    WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/show_pw'))
 
-WebUI.click(findTestObject('Object Repository/02_Web/SC002_Sign Up/Page_React App/button_Daftar'))
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_password_password'), findTestData('signup').getValue(
+            5, i))
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+    WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Daftar'))
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+    if (findTestData('signup').getValue(2, i) == 'negative') {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Daftar'), 0)
+    } else {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_1'), 0)
+    }
+}
 

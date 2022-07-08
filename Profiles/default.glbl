@@ -136,7 +136,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://demo-lms-capstone.netlify.app/'</initValue>
+      <initValue>'https://live-demo-study-space.netlify.app/'</initValue>
       <name>url_website</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

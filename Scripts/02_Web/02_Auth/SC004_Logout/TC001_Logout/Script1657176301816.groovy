@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/05_Feedback/SC021_Create Feedback/TC001_Create Feedback (With valid input)'))
+WebUI.callTestCase(findTestCase('02_Web/signin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/account'))
 
-WS.verifyElementPropertyValue(response, 'status', 'true')
+WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/button_logout'))
+
+WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/button_oklogout'))
+
+WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC004_Logout/menu_login'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

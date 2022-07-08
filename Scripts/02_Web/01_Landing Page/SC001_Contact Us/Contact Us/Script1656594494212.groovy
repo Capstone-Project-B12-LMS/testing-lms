@@ -21,17 +21,22 @@ WebUI.openBrowser(GlobalVariable.url_website)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/02_Web/SC001_Landing Page/Page_React App/input_Your Name_name'), 'Arc')
+for (int i = 1; i <= 3; i++) {
+    WebUI.setText(findTestObject('02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'), findTestData('contact_us').getValue(
+            3, i))
 
-WebUI.setText(findTestObject('Object Repository/02_Web/SC001_Landing Page/Page_React App/input_Your Email_email'), 'archen@gmail.com')
+    WebUI.setText(findTestObject('02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'), findTestData('contact_us').getValue(
+            4, i))
 
-WebUI.setText(findTestObject('Object Repository/02_Web/SC001_Landing Page/Page_React App/textarea_Your Message_message'), 
-    'Hi, it\'s testing!')
+    WebUI.setText(findTestObject('02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'), findTestData(
+            'contact_us').getValue(5, i))
 
-WebUI.click(findTestObject('Object Repository/02_Web/SC001_Landing Page/Page_React App/button_Submit'))
+    WebUI.click(findTestObject('02_Web/01_Landing Page/SC001_Contact Us/button_Submit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/02_Web/SC001_Landing Page/Page_React App/input_Your Name_name'), 
-    '')
+    if (findTestData('signup').getValue(2, i) == 'positive') {
+        WebUI.verifyElementText(findTestObject('02_Web/01_Landing Page/SC001_Contact Us/success'), 'Pesan anda sudah terkirim !')
+    }
+}
 
 WebUI.closeBrowser()
 

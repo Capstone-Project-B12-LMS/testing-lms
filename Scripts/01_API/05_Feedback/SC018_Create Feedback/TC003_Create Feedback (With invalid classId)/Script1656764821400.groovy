@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)'))
+response = WS.sendRequest(findTestObject('01_API/05_Feedback/SC021_Create Feedback/TC003_Create Feedback (With invalid classId)'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.response_400, FailureHandling.CONTINUE_ON_FAILURE)
 

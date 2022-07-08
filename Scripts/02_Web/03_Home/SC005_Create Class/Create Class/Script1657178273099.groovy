@@ -17,9 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/05_Feedback/SC021_Create Feedback/TC001_Create Feedback (With valid input)'))
+WebUI.callTestCase(findTestCase('02_Web/signin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create Class'))
 
-WS.verifyElementPropertyValue(response, 'status', 'true')
+for(int i=1; i<=3; i++){
+	WebUI.setText(findTestObject('02_Web/03_Home/SC005_Create Class/input_class'), findTestData('create_class').getValue(3, 
+	        i))
+	
+	WebUI.setText(findTestObject('02_Web/03_Home/SC005_Create Class/input_room'), findTestData('create_class').getValue(4, i))
+	
+	WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create'))
+	
+	WebUI.verifyElementPresent(findTestObject('02_Web/03_Home/SC005_Create Class/a_description'), 0)
+}
 

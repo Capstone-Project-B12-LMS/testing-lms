@@ -17,3 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.url_website)
+
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login'))
+
+for (int i = 1; i <= 5; i++) {
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), findTestData('signin').getValue(3, i))
+
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), findTestData('signin').getValue(
+            4, i))
+
+    WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_1'))
+
+    if (findTestData('signup').getValue(2, i) == 'negative') {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_1'), 0)
+    } else {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_akun 1'), 0)
+    }
+}
+

@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/05_Feedback/SC021_Create Feedback/TC001_Create Feedback (With valid input)'))
+WebUI.openBrowser(GlobalVariable.url_website)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyElementPropertyValue(response, 'status', 'true')
+WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/menu_login'))
+
+WebUI.setText(findTestObject('02_Web/02_Auth/SC004_Logout/input_email_email'), 'sal@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('02_Web/02_Auth/SC004_Logout/input_password_password'), '6QeXpT+dc5NAB4QThbzGaQ==')
+
+WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/button_Login'))
 

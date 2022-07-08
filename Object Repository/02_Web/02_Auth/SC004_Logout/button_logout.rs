@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Sign up</name>
+   <name>button_logout</name>
    <tag></tag>
-   <elementGuidId>f85b7bf7-a2ca-4f5c-b1a0-122adf13e6df</elementGuidId>
+   <elementGuidId>14e246f3-529e-4e47-ad8a-e001b4b23991</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/nav/div[2]/div[2]/ul/li[2]/button</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/header/div/div/div/div[3]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,69 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-full h-[52px] w-[117px] ml-[30px] mt-[20px] rounded-[10px] text-xl leading-[30px] font-medium mb-5 bg-transparent outline outline-2 outline-[#415A80] text-[#415A80]  </value>
+      <value>w-full h-full flex items-center bg-light-blue hover:bg-dark-blue pl-4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign up</value>
+      <value>logout</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;bg-[url('/src/assets/img/Vector.png')] bg-no-repeat bg-[length:600px_584px]&quot;]/header[1]/div[1]/div[@class=&quot;relative&quot;]/div[@class=&quot;flex w-full bg-transparent grid grid-cols-3&quot;]/div[3]/button[@class=&quot;w-full h-[52px] w-[117px] ml-[30px] mt-[20px] rounded-[10px] text-xl leading-[30px] font-medium mb-5 bg-transparent outline outline-2 outline-[#415A80] text-[#415A80]&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/header[@class=&quot;w-full h-[120px] px-10 bg-light-blue sticky top-0 flex z-20&quot;]/nav[@class=&quot;w-full flex justify-between&quot;]/div[@class=&quot;flex ml-auto&quot;]/div[@class=&quot;relative flex items-center ml-12&quot;]/ul[@class=&quot;w-full bg-light-blue min-w-[200px] absolute top-[130px] right-0 visible&quot;]/li[@class=&quot;h-[64px] hover:bg-dark-blue&quot;]/button[@class=&quot;w-full h-full flex items-center bg-light-blue hover:bg-dark-blue pl-4&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/header/div/div/div/div[3]/button[2]</value>
+      <value>//div[@id='root']/div/header/nav/div[2]/div[2]/ul/li[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='my account'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome To'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='akun 1'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='The world of Learning'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sign up']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dashboard'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//div[2]/ul/li[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Sign up' or . = 'Sign up')]</value>
+      <value>//button[(text() = 'logout' or . = 'logout')]</value>
    </webElementXpaths>
 </WebElementEntity>
