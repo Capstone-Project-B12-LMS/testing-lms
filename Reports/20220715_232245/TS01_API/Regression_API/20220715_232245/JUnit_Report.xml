@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_API" time="195.578" tests="85" failures="6" errors="0">
+   <testsuite name="Regression_API" tests="85" failures="6" errors="0" time="195.578" skipped="0" timestamp="2022-07-15 23:22:49" hostname="salsa - SALSABILA" id="Test Suites/TS01_API/Regression_API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220715_232245\\TS01_API\\Regression_API\\20220715_232245"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220715_232245\\TS01_API\\Regression_API\\20220715_232245\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.147.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value)" time="5.293" classname="Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:22:49 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value): Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value)
+
+2022-07-15 23:22:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC001_Register/TC001_Register (With valid body value)")): Send request successfully
+
+2022-07-15 23:22:54 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\0.har
+
+2022-07-15 23:22:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:22:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200): Verify response status code successfully
+
+2022-07-15 23:22:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:22:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", register_email): Verify element property value successfully
+
+2022-07-15 23:22:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value)" time="1.011" classname="Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:22:55 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value): Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value)
+
+2022-07-15 23:22:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC001_Register/TC002_Register (With empty body value)")): Send request successfully
+
+2022-07-15 23:22:56 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\1.har
+
+2022-07-15 23:22:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:22:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:22:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:22:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:22:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method)" time="1.241" classname="Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:22:56 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method): Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method)
+
+2022-07-15 23:22:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC001_Register/TC003_Register (With invalid method)")): Send request successfully
+
+2022-07-15 23:22:57 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\2.har
+
+2022-07-15 23:22:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:22:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_405, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:22:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:22:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", method_now_allowed): Verify element property value successfully
+
+2022-07-15 23:22:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format)" time="0.972" classname="Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:22:57 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format): Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format)
+
+2022-07-15 23:22:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC001_Register/TC004_Register (With invalid email format)")): Send request successfully
+
+2022-07-15 23:22:58 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\3.har
+
+2022-07-15 23:22:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:22:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:22:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:22:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message.email", invalid_email_format): Verify element property value successfully
+
+2022-07-15 23:22:58 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email)" time="2.193" classname="Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TCC005_Register (With registered email).run(TCC005_Register (With registered email):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-15 23:22:58 - [TEST_CASE][FAILED] - Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email): Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TCC005_Register (With registered email).run(TCC005_Register (With registered email):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+
+
+2022-07-15 23:22:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC001_Register/TC005_Register (With registered email)")): Send request successfully
+
+2022-07-15 23:23:00 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\4.har
+
+2022-07-15 23:23:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:00 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, response_500, CONTINUE_ON_FAILURE): Expected status code is '500' but actual status code is '200'
+
+2022-07-15 23:23:00 - [MESSAGE][FAILED] - Expected status code is '500' but actual status code is '200'
+
+2022-07-15 23:23:00 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "error", internal_server_error): Expected element property value 'Internal Server Error' is not equal with actual property value 'null'
+
+2022-07-15 23:23:00 - [MESSAGE][FAILED] - Expected element property value 'Internal Server Error' is not equal with actual property value 'null']]></system-out>
+         <system-err><![CDATA[2022-07-15 23:22:58 - [TEST_CASE][FAILED] - Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email): Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TCC005_Register (With registered email).run(TCC005_Register (With registered email):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value)" time="1.827" classname="Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:00 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value): Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value)
+
+2022-07-15 23:23:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC002_Login/TC001_Login (With valid body value)")): Send request successfully
+
+2022-07-15 23:23:02 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\5.har
+
+2022-07-15 23:23:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:23:02 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value)" time="0.89" classname="Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:02 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value): Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value)
+
+2022-07-15 23:23:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC002_Login/TC002_Login (With empty body value)")): Send request successfully
+
+2022-07-15 23:23:03 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\6.har
+
+2022-07-15 23:23:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method)" time="1.115" classname="Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:03 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method): Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method)
+
+2022-07-15 23:23:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC002_Login/TC003_Login (With invalid method)")): Send request successfully
+
+2022-07-15 23:23:04 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\7.har
+
+2022-07-15 23:23:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_405, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", method_now_allowed): Verify element property value successfully
+
+2022-07-15 23:23:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format)" time="0.917" classname="Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:04 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format): Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format)
+
+2022-07-15 23:23:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC002_Login/TC004_Login (With invalid email format)")): Send request successfully
+
+2022-07-15 23:23:05 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\8.har
+
+2022-07-15 23:23:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, STOP_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", invalid_email_format): Verify element property value successfully
+
+2022-07-15 23:23:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email)" time="2.887" classname="Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:05 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email): Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email)
+
+2022-07-15 23:23:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC002_Login/TC005_Login (With unregistered email)")): Send request successfully
+
+2022-07-15 23:23:08 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\9.har
+
+2022-07-15 23:23:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", user_not_found): Verify element property value successfully
+
+2022-07-15 23:23:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password)" time="2.1" classname="Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:08 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password): Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password)
+
+2022-07-15 23:23:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC002_Login/TC006_Login (With invalid password)")): Send request successfully
+
+2022-07-15 23:23:10 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\10.har
+
+2022-07-15 23:23:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", password_doesnt_match): Verify element property value successfully
+
+2022-07-15 23:23:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC001_Update User By Id (With valid input)" time="2.187" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC001_Update User By Id (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:10 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC001_Update User By Id (With valid input): Test Cases/01_API/01_User/SC003_Update User By Id/TCC001_Update User By Id (With valid input)
+
+2022-07-15 23:23:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC001_Update User By Id (With valid input)")): Send request successfully
+
+2022-07-15 23:23:12 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\11.har
+
+2022-07-15 23:23:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", new_email): Verify element property value successfully
+
+2022-07-15 23:23:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC002_Update User By Id (With empty body value)" time="4.518" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC002_Update User By Id (With empty body value)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:12 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC002_Update User By Id (With empty body value): Test Cases/01_API/01_User/SC003_Update User By Id/TCC002_Update User By Id (With empty body value)
+
+2022-07-15 23:23:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC002_Update User By Id (With empty body value)")): Send request successfully
+
+2022-07-15 23:23:17 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\12.har
+
+2022-07-15 23:23:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:23:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC003_Update User By Id (With invalid method)" time="1.976" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC003_Update User By Id (With invalid method)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:17 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC003_Update User By Id (With invalid method): Test Cases/01_API/01_User/SC003_Update User By Id/TCC003_Update User By Id (With invalid method)
+
+2022-07-15 23:23:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC003_Update User By Id (With invalid method)")): Send request successfully
+
+2022-07-15 23:23:19 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\13.har
+
+2022-07-15 23:23:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_405, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", method_now_allowed): Verify element property value successfully
+
+2022-07-15 23:23:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC004_Update User By Id (With invalid id)" time="2.004" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC004_Update User By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:19 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC004_Update User By Id (With invalid id): Test Cases/01_API/01_User/SC003_Update User By Id/TCC004_Update User By Id (With invalid id)
+
+2022-07-15 23:23:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC004_Update User By Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:23:21 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\14.har
+
+2022-07-15 23:23:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message.message", user_not_found): Verify element property value successfully
+
+2022-07-15 23:23:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC005_Update User By Id (With invalid email format)" time="1.955" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC005_Update User By Id (With invalid email format)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:21 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC005_Update User By Id (With invalid email format): Test Cases/01_API/01_User/SC003_Update User By Id/TCC005_Update User By Id (With invalid email format)
+
+2022-07-15 23:23:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC005_Update User By Id (With invalid email format)")): Send request successfully
+
+2022-07-15 23:23:23 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\15.har
+
+2022-07-15 23:23:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message.email", invalid_email_format): Verify element property value successfully
+
+2022-07-15 23:23:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC006_Update User By Id (With registered email)" time="2.442" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC006_Update User By Id (With registered email)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:23 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC006_Update User By Id (With registered email): Test Cases/01_API/01_User/SC003_Update User By Id/TCC006_Update User By Id (With registered email)
+
+2022-07-15 23:23:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC006_Update User By Id (With registered email)")): Send request successfully
+
+2022-07-15 23:23:25 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\16.har
+
+2022-07-15 23:23:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_500, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", internal_server_error): Verify element property value successfully
+
+2022-07-15 23:23:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC003_Update User By Id/TCC007_Update User By Id (With invalid token)" time="1.826" classname="Test Cases/01_API/01_User/SC003_Update User By Id/TCC007_Update User By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:25 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC003_Update User By Id/TCC007_Update User By Id (With invalid token): Test Cases/01_API/01_User/SC003_Update User By Id/TCC007_Update User By Id (With invalid token)
+
+2022-07-15 23:23:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC003_Update User By Id/TC007_Update User By Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:23:27 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\17.har
+
+2022-07-15 23:23:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:23:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC004_Get User By Id/TCC001_Get User By Id (With valid id and token)" time="1.879" classname="Test Cases/01_API/01_User/SC004_Get User By Id/TCC001_Get User By Id (With valid id and token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:27 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC004_Get User By Id/TCC001_Get User By Id (With valid id and token): Test Cases/01_API/01_User/SC004_Get User By Id/TCC001_Get User By Id (With valid id and token)
+
+2022-07-15 23:23:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC004_Get User By Id/TC001_Get User By Id (With valid id and token)")): Send request successfully
+
+2022-07-15 23:23:29 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\18.har
+
+2022-07-15 23:23:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:23:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC004_Get User By Id/TCC002_Get User By Id (Invalid id)" time="2.505" classname="Test Cases/01_API/01_User/SC004_Get User By Id/TCC002_Get User By Id (Invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:29 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC004_Get User By Id/TCC002_Get User By Id (Invalid id): Test Cases/01_API/01_User/SC004_Get User By Id/TCC002_Get User By Id (Invalid id)
+
+2022-07-15 23:23:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC004_Get User By Id/TC002_Get User By Id (Invalid id)")): Send request successfully
+
+2022-07-15 23:23:31 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\19.har
+
+2022-07-15 23:23:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message.message", "Data not found"): Verify element property value successfully
+
+2022-07-15 23:23:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC004_Get User By Id/TCC003_Get User By Id (Invalid token)" time="0.992" classname="Test Cases/01_API/01_User/SC004_Get User By Id/TCC003_Get User By Id (Invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:32 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC004_Get User By Id/TCC003_Get User By Id (Invalid token): Test Cases/01_API/01_User/SC004_Get User By Id/TCC003_Get User By Id (Invalid token)
+
+2022-07-15 23:23:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC004_Get User By Id/TC003_Get User By Id (Invalid token)")): Send request successfully
+
+2022-07-15 23:23:32 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\20.har
+
+2022-07-15 23:23:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:23:33 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC001_Get User Class by User Id (With valid id and active class)" time="5.996" classname="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC001_Get User Class by User Id (With valid id and active class)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:33 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC001_Get User Class by User Id (With valid id and active class): Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC001_Get User Class by User Id (With valid id and active class)
+
+2022-07-15 23:23:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC005_Get User Class By User Id/TC001_Get User Class by User Id (With valid id and active class)")): Send request successfully
+
+2022-07-15 23:23:38 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\21.har
+
+2022-07-15 23:23:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:23:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC002_Get User Class by User Id (With valid id and inactive class)" time="2.072" classname="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC002_Get User Class by User Id (With valid id and inactive class)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:39 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC002_Get User Class by User Id (With valid id and inactive class): Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC002_Get User Class by User Id (With valid id and inactive class)
+
+2022-07-15 23:23:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC005_Get User Class By User Id/TC002_Get User Class by User Id (With valid id and inactive class)")): Send request successfully
+
+2022-07-15 23:23:41 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\22.har
+
+2022-07-15 23:23:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:23:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC003_Get User Class by User Id (With valid id and will_end class)" time="2.195" classname="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC003_Get User Class by User Id (With valid id and will_end class)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:41 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC003_Get User Class by User Id (With valid id and will_end class): Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC003_Get User Class by User Id (With valid id and will_end class)
+
+2022-07-15 23:23:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC005_Get User Class By User Id/TC003_Get User Class by User Id (With valid id and will_end class)")): Send request successfully
+
+2022-07-15 23:23:43 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\23.har
+
+2022-07-15 23:23:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:23:43 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC004_Get User Class by User Id (With invalid token)" time="0.728" classname="Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC004_Get User Class by User Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:43 - [TEST_CASE][PASSED] - Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC004_Get User Class by User Id (With invalid token): Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC004_Get User Class by User Id (With invalid token)
+
+2022-07-15 23:23:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/01_User/SC005_Get User Class By User Id/TC004_Get User Class by User Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:23:44 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\24.har
+
+2022-07-15 23:23:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:23:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:23:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:23:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:23:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input)" time="16.67" classname="Test Cases/01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:23:44 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input): Test Cases/01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input)
+
+2022-07-15 23:23:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input)")): Send request successfully
+
+2022-07-15 23:24:00 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\25.har
+
+2022-07-15 23:24:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:00 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token)" time="0.808" classname="Test Cases/01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:00 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token): Test Cases/01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token)
+
+2022-07-15 23:24:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token)")): Send request successfully
+
+2022-07-15 23:24:01 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\26.har
+
+2022-07-15 23:24:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:01 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input)" time="2.528" classname="Test Cases/01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:01 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input): Test Cases/01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input)
+
+2022-07-15 23:24:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input)")): Send request successfully
+
+2022-07-15 23:24:04 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\27.har
+
+2022-07-15 23:24:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field)" time="1.558" classname="Test Cases/01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:04 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field): Test Cases/01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field)
+
+2022-07-15 23:24:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field)")): Send request successfully
+
+2022-07-15 23:24:05 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\28.har
+
+2022-07-15 23:24:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:24:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token)" time="1.217" classname="Test Cases/01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:05 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token): Test Cases/01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token)
+
+2022-07-15 23:24:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:06 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\29.har
+
+2022-07-15 23:24:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id)" time="2.817" classname="Test Cases/01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:06 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id): Test Cases/01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id)
+
+2022-07-15 23:24:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id)")): Send request successfully
+
+2022-07-15 23:24:09 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\30.har
+
+2022-07-15 23:24:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id)" time="2.104" classname="Test Cases/01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:09 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id): Test Cases/01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id)
+
+2022-07-15 23:24:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:24:11 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\31.har
+
+2022-07-15 23:24:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:24:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token)" time="1.028" classname="Test Cases/01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:11 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token): Test Cases/01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token)
+
+2022-07-15 23:24:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:12 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\32.har
+
+2022-07-15 23:24:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input)" time="2.184" classname="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:12 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input): Test Cases/01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input)
+
+2022-07-15 23:24:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input)")): Send request successfully
+
+2022-07-15 23:24:15 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\33.har
+
+2022-07-15 23:24:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id)" time="1.977" classname="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:15 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id): Test Cases/01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id)
+
+2022-07-15 23:24:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:24:17 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\34.har
+
+2022-07-15 23:24:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:24:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field)" time="2.124" classname="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:17 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field): Test Cases/01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field)
+
+2022-07-15 23:24:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field)")): Send request successfully
+
+2022-07-15 23:24:19 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\35.har
+
+2022-07-15 23:24:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Bad Request"): Verify element property value successfully
+
+2022-07-15 23:24:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token)" time="1.952" classname="Test Cases/01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:19 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token): Test Cases/01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token)
+
+2022-07-15 23:24:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:21 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\36.har
+
+2022-07-15 23:24:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)" time="4.151" classname="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'true' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC001_Delete Class By Id (With valid id).run(TC001_Delete Class By Id (With valid id):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-15 23:24:21 - [TEST_CASE][FAILED] - Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id): Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'true' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC001_Delete Class By Id (With valid id).run(TC001_Delete Class By Id (With valid id):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+
+
+2022-07-15 23:24:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)")): Send request successfully
+
+2022-07-15 23:24:23 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\37.har
+
+2022-07-15 23:24:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", true): Verify element property value successfully
+
+2022-07-15 23:24:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-15 23:24:23 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)")): Send request successfully
+
+2022-07-15 23:24:25 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\38.har
+
+2022-07-15 23:24:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:25 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response2, "data.isDeleted", true): Expected element property value 'true' is not equal with actual property value 'null'
+
+2022-07-15 23:24:25 - [MESSAGE][FAILED] - Expected element property value 'true' is not equal with actual property value 'null']]></system-out>
+         <system-err><![CDATA[2022-07-15 23:24:21 - [TEST_CASE][FAILED] - Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id): Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'true' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC001_Delete Class By Id (With valid id).run(TC001_Delete Class By Id (With valid id):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)" time="1.834" classname="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:25 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id): Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)
+
+2022-07-15 23:24:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:24:27 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\39.har
+
+2022-07-15 23:24:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:24:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)" time="1.032" classname="Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:27 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token): Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)
+
+2022-07-15 23:24:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:28 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\40.har
+
+2022-07-15 23:24:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input)" time="4.469" classname="Test Cases/01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:28 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input): Test Cases/01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input)
+
+2022-07-15 23:24:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input)")): Send request successfully
+
+2022-07-15 23:24:32 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\41.har
+
+2022-07-15 23:24:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code)" time="1.914" classname="Test Cases/01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:32 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code): Test Cases/01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code)
+
+2022-07-15 23:24:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code)")): Send request successfully
+
+2022-07-15 23:24:34 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\42.har
+
+2022-07-15 23:24:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "Class not found"): Verify element property value successfully
+
+2022-07-15 23:24:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id)" time="3.461" classname="Test Cases/01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:34 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id): Test Cases/01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id)
+
+2022-07-15 23:24:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id)")): Send request successfully
+
+2022-07-15 23:24:38 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\43.har
+
+2022-07-15 23:24:38 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "User not found"): Verify element property value successfully
+
+2022-07-15 23:24:38 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token)" time="0.979" classname="Test Cases/01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:38 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token): Test Cases/01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token)
+
+2022-07-15 23:24:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:39 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\44.har
+
+2022-07-15 23:24:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size" time="5.622" classname="Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:39 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size: Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size
+
+2022-07-15 23:24:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size")): Send request successfully
+
+2022-07-15 23:24:44 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\45.har
+
+2022-07-15 23:24:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token)" time="0.942" classname="Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:44 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token): Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token)
+
+2022-07-15 23:24:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:45 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\46.har
+
+2022-07-15 23:24:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)" time="3.639" classname="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Delete User in Class (With valid id).run(TC001_Delete User in Class (With valid id):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-15 23:24:45 - [TEST_CASE][FAILED] - Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id): Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Delete User in Class (With valid id).run(TC001_Delete User in Class (With valid id):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+
+
+2022-07-15 23:24:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)")): Send request successfully
+
+2022-07-15 23:24:47 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\47.har
+
+2022-07-15 23:24:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:47 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Expected status code is '200' but actual status code is '400'
+
+2022-07-15 23:24:47 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-15 23:24:47 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "status", true): Expected element property value 'true' is not equal with actual property value 'false'
+
+2022-07-15 23:24:47 - [MESSAGE][FAILED] - Expected element property value 'true' is not equal with actual property value 'false'
+
+2022-07-15 23:24:47 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)")): Send request successfully
+
+2022-07-15 23:24:49 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\48.har
+
+2022-07-15 23:24:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "errors.message", "user not found"): Verify element property value successfully
+
+2022-07-15 23:24:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2022-07-15 23:24:45 - [TEST_CASE][FAILED] - Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id): Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Delete User in Class (With valid id).run(TC001_Delete User in Class (With valid id):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)" time="2.032" classname="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:49 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id): Test Cases/01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)
+
+2022-07-15 23:24:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)")): Send request successfully
+
+2022-07-15 23:24:51 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\49.har
+
+2022-07-15 23:24:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:24:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)" time="1.179" classname="Test Cases/01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:51 - [TEST_CASE][PASSED] - Test Cases/01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token): Test Cases/01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)
+
+2022-07-15 23:24:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)")): Send request successfully
+
+2022-07-15 23:24:52 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\50.har
+
+2022-07-15 23:24:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:24:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC001_Create Class Material (With valid input)" time="5.636" classname="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC001_Create Class Material (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:52 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC001_Create Class Material (With valid input): Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC001_Create Class Material (With valid input)
+
+2022-07-15 23:24:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size")): Send request successfully
+
+2022-07-15 23:24:58 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\51.har
+
+2022-07-15 23:24:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:24:58 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)" time="1.605" classname="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:58 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input): Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)
+
+2022-07-15 23:24:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)")): Send request successfully
+
+2022-07-15 23:24:59 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\52.har
+
+2022-07-15 23:24:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:24:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:24:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:24:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:24:59 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)" time="2.279" classname="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:24:59 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id): Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)
+
+2022-07-15 23:25:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)")): Send request successfully
+
+2022-07-15 23:25:02 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\53.har
+
+2022-07-15 23:25:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:25:02 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)" time="2.138" classname="Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:02 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token): Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)
+
+2022-07-15 23:25:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:04 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\54.har
+
+2022-07-15 23:25:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id" time="1.825" classname="Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:04 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id: Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id
+
+2022-07-15 23:25:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id")): Send request successfully
+
+2022-07-15 23:25:06 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\55.har
+
+2022-07-15 23:25:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:25:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id)" time="1.929" classname="Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:06 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id): Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id)
+
+2022-07-15 23:25:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:25:08 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\56.har
+
+2022-07-15 23:25:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:25:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token)" time="1.085" classname="Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:08 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token): Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token)
+
+2022-07-15 23:25:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:09 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\57.har
+
+2022-07-15 23:25:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id" time="1.883" classname="Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:09 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id: Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id
+
+2022-07-15 23:25:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id")): Send request successfully
+
+2022-07-15 23:25:11 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\58.har
+
+2022-07-15 23:25:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:25:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)" time="1.925" classname="Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:11 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id): Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)
+
+2022-07-15 23:25:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:25:13 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\59.har
+
+2022-07-15 23:25:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-15 23:25:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)" time="0.733" classname="Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:13 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token): Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)
+
+2022-07-15 23:25:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:13 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\60.har
+
+2022-07-15 23:25:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input)" time="2.556" classname="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:13 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input): Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input)
+
+2022-07-15 23:25:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input)")): Send request successfully
+
+2022-07-15 23:25:16 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\61.har
+
+2022-07-15 23:25:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:25:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC002_Update Class Material (With empty input)" time="1.501" classname="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC002_Update Class Material (With empty input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:16 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC002_Update Class Material (With empty input): Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC002_Update Class Material (With empty input)
+
+2022-07-15 23:25:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)")): Send request successfully
+
+2022-07-15 23:25:17 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\62.har
+
+2022-07-15 23:25:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:25:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC003_Update Class Material (With invalid class id)" time="2.009" classname="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC003_Update Class Material (With invalid class id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:17 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC003_Update Class Material (With invalid class id): Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC003_Update Class Material (With invalid class id)
+
+2022-07-15 23:25:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)")): Send request successfully
+
+2022-07-15 23:25:19 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\63.har
+
+2022-07-15 23:25:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:25:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC004_Update Class Material (With invalid token)" time="1.048" classname="Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC004_Update Class Material (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:19 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC004_Update Class Material (With invalid token): Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC004_Update Class Material (With invalid token)
+
+2022-07-15 23:25:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:20 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\64.har
+
+2022-07-15 23:25:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)" time="3.938" classname="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'true' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC001_Delete Material By Id (With valid id).run(TC001_Delete Material By Id (With valid id):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-15 23:25:21 - [TEST_CASE][FAILED] - Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id): Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'true' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC001_Delete Material By Id (With valid id).run(TC001_Delete Material By Id (With valid id):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+
+
+2022-07-15 23:25:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)")): Send request successfully
+
+2022-07-15 23:25:23 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\65.har
+
+2022-07-15 23:25:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", true): Verify element property value successfully
+
+2022-07-15 23:25:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-15 23:25:23 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)")): Send request successfully
+
+2022-07-15 23:25:24 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\66.har
+
+2022-07-15 23:25:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:24 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response2, "data.isDeleted", true): Expected element property value 'true' is not equal with actual property value 'null'
+
+2022-07-15 23:25:24 - [MESSAGE][FAILED] - Expected element property value 'true' is not equal with actual property value 'null']]></system-out>
+         <system-err><![CDATA[2022-07-15 23:25:21 - [TEST_CASE][FAILED] - Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id): Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'true' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC001_Delete Material By Id (With valid id).run(TC001_Delete Material By Id (With valid id):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC002_Delete Class By Id (With invalid id)" time="1.974" classname="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC002_Delete Class By Id (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:24 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC002_Delete Class By Id (With invalid id): Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC002_Delete Class By Id (With invalid id)
+
+2022-07-15 23:25:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)")): Send request successfully
+
+2022-07-15 23:25:26 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\67.har
+
+2022-07-15 23:25:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:25:26 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC003_Delete Class By Id (With invalid token)" time="0.971" classname="Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC003_Delete Class By Id (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:26 - [TEST_CASE][PASSED] - Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC003_Delete Class By Id (With invalid token): Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC003_Delete Class By Id (With invalid token)
+
+2022-07-15 23:25:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:27 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\68.har
+
+2022-07-15 23:25:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)" time="1.946" classname="Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:27 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input): Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input)
+
+2022-07-15 23:25:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC020_Get All Guidances of Class/TC001_Get All Guidances in Class (With valid input)")): Send request successfully
+
+2022-07-15 23:25:29 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\69.har
+
+2022-07-15 23:25:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:25:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId)" time="1.845" classname="Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:29 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId): Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId)
+
+2022-07-15 23:25:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC020_Get All Guidances of Class/TC002_Get All Guidances in Class (With invalid classId)")): Send request successfully
+
+2022-07-15 23:25:31 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\70.har
+
+2022-07-15 23:25:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-15 23:25:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token)" time="0.9" classname="Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:31 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token): Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token)
+
+2022-07-15 23:25:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC020_Get All Guidances of Class/TC003_Get All Guidances in Class (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:32 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\71.har
+
+2022-07-15 23:25:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)" time="3.825" classname="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:32 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input): Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)
+
+2022-07-15 23:25:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC019_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)")): Send request successfully
+
+2022-07-15 23:25:36 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\72.har
+
+2022-07-15 23:25:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:25:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)" time="0.963" classname="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:36 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token): Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)
+
+2022-07-15 23:25:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC019_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:37 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\73.har
+
+2022-07-15 23:25:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)" time="1.858" classname="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:37 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId): Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)
+
+2022-07-15 23:25:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC019_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)")): Send request successfully
+
+2022-07-15 23:25:39 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\74.har
+
+2022-07-15 23:25:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "User not found"): Verify element property value successfully
+
+2022-07-15 23:25:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)" time="2.422" classname="Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:39 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId): Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)
+
+2022-07-15 23:25:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC019_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)")): Send request successfully
+
+2022-07-15 23:25:41 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\75.har
+
+2022-07-15 23:25:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "Class not found"): Verify element property value successfully
+
+2022-07-15 23:25:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC001_Delete Guidance in Class (With valid input)" time="4.172" classname="Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC001_Delete Guidance in Class (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:41 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC001_Delete Guidance in Class (With valid input): Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC001_Delete Guidance in Class (With valid input)
+
+2022-07-15 23:25:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/04_Guidance/SC021_Delete Guidance By Id/TC001_Delete Guidance By Id (With valid input)")): Send request successfully
+
+2022-07-15 23:25:44 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\76.har
+
+2022-07-15 23:25:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", true): Verify element property value successfully
+
+2022-07-15 23:25:44 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-15 23:25:44 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("01_API/04_Guidance/SC021_Delete Guidance By Id/TC001_Delete Guidance By Id (With valid input)")): Send request successfully
+
+2022-07-15 23:25:45 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\77.har
+
+2022-07-15 23:25:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "data.isDeleted", "true"): Verify element property value successfully
+
+2022-07-15 23:25:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC002_Delete Guidance in Class (With invalid id)" time="1.794" classname="Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC002_Delete Guidance in Class (With invalid id)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:45 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC002_Delete Guidance in Class (With invalid id): Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC002_Delete Guidance in Class (With invalid id)
+
+2022-07-15 23:25:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)")): Send request successfully
+
+2022-07-15 23:25:47 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\78.har
+
+2022-07-15 23:25:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-07-15 23:25:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC003_Delete Guidance in Class (With invalid token)" time="1.008" classname="Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC003_Delete Guidance in Class (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:47 - [TEST_CASE][PASSED] - Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC003_Delete Guidance in Class (With invalid token): Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC003_Delete Guidance in Class (With invalid token)
+
+2022-07-15 23:25:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:48 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\79.har
+
+2022-07-15 23:25:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:48 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:48 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)" time="1.808" classname="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Create Feedback (With valid input).run(TC001_Create Feedback (With valid input):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-15 23:25:48 - [TEST_CASE][FAILED] - Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input): Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Create Feedback (With valid input).run(TC001_Create Feedback (With valid input):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+
+
+2022-07-15 23:25:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)")): Send request successfully
+
+2022-07-15 23:25:50 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\80.har
+
+2022-07-15 23:25:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:50 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Expected status code is '200' but actual status code is '400'
+
+2022-07-15 23:25:50 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-15 23:25:50 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "status", "true"): Expected element property value 'true' is not equal with actual property value 'false'
+
+2022-07-15 23:25:50 - [MESSAGE][FAILED] - Expected element property value 'true' is not equal with actual property value 'false']]></system-out>
+         <system-err><![CDATA[2022-07-15 23:25:48 - [TEST_CASE][FAILED] - Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input): Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Create Feedback (With valid input).run(TC001_Create Feedback (With valid input):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId)" time="2.347" classname="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:50 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId): Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId)
+
+2022-07-15 23:25:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId)")): Send request successfully
+
+2022-07-15 23:25:52 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\81.har
+
+2022-07-15 23:25:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "Class not found"): Verify element property value successfully
+
+2022-07-15 23:25:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token)" time="0.936" classname="Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:52 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token): Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token)
+
+2022-07-15 23:25:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:53 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\82.har
+
+2022-07-15 23:25:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)" time="1.883" classname="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Get All Feedbacks by ClassId (With valid input).run(TC001_Get All Feedbacks by ClassId (With valid input):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-15 23:25:53 - [TEST_CASE][FAILED] - Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input): Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Get All Feedbacks by ClassId (With valid input).run(TC001_Get All Feedbacks by ClassId (With valid input):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)
+
+
+2022-07-15 23:25:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)")): Send request successfully
+
+2022-07-15 23:25:55 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\83.har
+
+2022-07-15 23:25:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:55 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Expected status code is '200' but actual status code is '400'
+
+2022-07-15 23:25:55 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-15 23:25:55 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "status", "true"): Expected element property value 'true' is not equal with actual property value 'false'
+
+2022-07-15 23:25:55 - [MESSAGE][FAILED] - Expected element property value 'true' is not equal with actual property value 'false']]></system-out>
+         <system-err><![CDATA[2022-07-15 23:25:53 - [TEST_CASE][FAILED] - Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input): Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TC001_Get All Feedbacks by ClassId (With valid input).run(TC001_Get All Feedbacks by ClassId (With valid input):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)" time="2.055" classname="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:55 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId): Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)
+
+2022-07-15 23:25:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC023_Get Feedbacks by ClassId/TC002_Get All Feedbacks by ClassId (With invalid classId)")): Send request successfully
+
+2022-07-15 23:25:57 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\84.har
+
+2022-07-15 23:25:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-15 23:25:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)" time="1.47" classname="Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:57 - [TEST_CASE][PASSED] - Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token): Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)
+
+2022-07-15 23:25:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/05_Feedback/SC023_Get Feedbacks by ClassId/TC003_Get All Feedbacks by ClassId (With invalid token)")): Send request successfully
+
+2022-07-15 23:25:59 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\85.har
+
+2022-07-15 23:25:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:25:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:25:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:25:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:25:59 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC001_Get All History by UserId (With valid input)" time="2.588" classname="Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC001_Get All History by UserId (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:25:59 - [TEST_CASE][PASSED] - Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC001_Get All History by UserId (With valid input): Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC001_Get All History by UserId (With valid input)
+
+2022-07-15 23:25:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/06_Activity History/SC024_Get All History by UserId/TC001_Get All History by UserId (With valid input)")): Send request successfully
+
+2022-07-15 23:26:01 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\86.har
+
+2022-07-15 23:26:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:26:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:26:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:26:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "true"): Verify element property value successfully
+
+2022-07-15 23:26:01 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC002_Get All History by UserId (With invalid userId)" time="1.646" classname="Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC002_Get All History by UserId (With invalid userId)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:26:01 - [TEST_CASE][PASSED] - Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC002_Get All History by UserId (With invalid userId): Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC002_Get All History by UserId (With invalid userId)
+
+2022-07-15 23:26:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/06_Activity History/SC024_Get All History by UserId/TC002_Get All History by UserId (With invalid userId)")): Send request successfully
+
+2022-07-15 23:26:03 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\87.har
+
+2022-07-15 23:26:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:26:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:26:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:26:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data", []): Verify element property value successfully
+
+2022-07-15 23:26:03 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC003_Get All History by UserId (With invalid token)" time="1.415" classname="Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC003_Get All History by UserId (With invalid token)" status="PASSED">
+         <system-out><![CDATA[2022-07-15 23:26:03 - [TEST_CASE][PASSED] - Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC003_Get All History by UserId (With invalid token): Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC003_Get All History by UserId (With invalid token)
+
+2022-07-15 23:26:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("01_API/06_Activity History/SC024_Get All History by UserId/TC003_Get All History by UserId (With invalid token)")): Send request successfully
+
+2022-07-15 23:26:04 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\CAPSTONE PROJECT\testing-lms\Reports\20220715_232245\TS01_API\Regression_API\20220715_232245\requests\main\88.har
+
+2022-07-15 23:26:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-15 23:26:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE): Verify response status code successfully
+
+2022-07-15 23:26:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-15 23:26:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errors.message", "access denied"): Verify element property value successfully
+
+2022-07-15 23:26:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-15 23:22:49 - [TEST_SUITE][FAILED] - Regression_API: Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TCC005_Register (With registered email).run(TCC005_Register (With registered email):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-15 23:22:49 - [TEST_SUITE][FAILED] - Regression_API: Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:330)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$2.call(Unknown Source)
+	at TCC005_Register (With registered email).run(TCC005_Register (With registered email):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657902165266.run(TempTestSuite1657902165266.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -48,12 +48,6 @@
       <testCaseId>Test Cases/03_Mobile/04_My Class/SC010_Class Members/TC001_View Number of Members in A Class</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b014ae3-a4c5-4a2b-9e8e-ca2f0d15d1de</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/03_Mobile/04_My Class/SC011_Request Counselling/Request Counselling</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4b72896b-ae48-4ce4-afa5-d0b704ff30e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -69,13 +63,13 @@
       <guid>22bdf4d6-ba92-4bac-b32d-3a89f5ad4a4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History</testCaseId>
+      <testCaseId>Test Cases/03_Mobile/05_History/SC024_View History/TC001_View List of History</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>62bb250c-6796-4e8b-b083-1179fef1854c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile</testCaseId>
+      <testCaseId>Test Cases/03_Mobile/06_Settings/SC025_Edit Profile/Edit Profile</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8af337be-d27b-4795-9daf-69f4f9290fec</guid>

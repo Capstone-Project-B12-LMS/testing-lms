@@ -1,29 +1,29 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 56294
-[35m[Appium][39m   tmpDir: C:\Users\salsa\AppData\Local\Temp\\Katalon\Appium\Temp1657882318753
-[35m[Appium][39m   chromedriverPort: 56295
+[35m[Appium][39m   port: 61188
+[35m[Appium][39m   tmpDir: C:\Users\salsa\AppData\Local\Temp\\Katalon\Appium\Temp1657893247388
+[35m[Appium][39m   chromedriverPort: 61189
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 56295
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56294
+[35m[Appium][39m   chromedriverPort: 61189
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:61188
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m14 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"aeebca410407","deviceName":"Xiaomi M2003J15SC (Android 11)","platform":"ANDROID","systemPort":8230},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8230,"appium:udid":"aeebca410407"}]}}[39m
-[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"aeebca410407","deviceName":"Xiaomi M2003J15SC (Android 11)","platform":"ANDROID","systemPort":8230},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8230,"appium:udid":"aeebca410407"}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1657882320584 (17:52:00 GMT+0700 (Western Indonesia Time))
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"aeebca410407","deviceName":"Xiaomi M2003J15SC (Android 11)","platform":"ANDROID","systemPort":8236},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8236,"appium:udid":"aeebca410407"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"aeebca410407","deviceName":"Xiaomi M2003J15SC (Android 11)","platform":"ANDROID","systemPort":8236},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8236,"appium:udid":"aeebca410407"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1657893249899 (20:54:09 GMT+0700 (Western Indonesia Time))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
@@ -33,7 +33,7 @@
 [debug] [35m[BaseDriver][39m   "alwaysMatch": {
 [debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
 [debug] [35m[BaseDriver][39m     "platformName": "android",
-[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 56295,
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 61189,
 [debug] [35m[BaseDriver][39m     "appium:appActivity": ".Settings",
 [debug] [35m[BaseDriver][39m     "appium:appPackage": "com.android.settings",
 [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
@@ -41,7 +41,7 @@
 [debug] [35m[BaseDriver][39m     "appium:deviceName": "Xiaomi M2003J15SC (Android 11)",
 [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
 [debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
-[debug] [35m[BaseDriver][39m     "appium:systemPort": 8230,
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 8236,
 [debug] [35m[BaseDriver][39m     "appium:udid": "aeebca410407"
 [debug] [35m[BaseDriver][39m   },
 [debug] [35m[BaseDriver][39m   "firstMatch": [
@@ -50,7 +50,7 @@
 [debug] [35m[BaseDriver][39m }
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 8101585a-2d8c-473c-b0e4-accdf93fcc1e
+[35m[BaseDriver][39m Session created with session id: 0694c019-fa33-401d-b14a-d3c89a500857
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\salsa\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/salsa/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -89,9 +89,9 @@
 [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell appops set io.appium.settings android:mock_location allow'
 [debug] [35m[Logcat][39m Starting logs capture with command: C:\\Users\\salsa\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s aeebca410407 logcat -v threadtime
-[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8230
-[debug] [35m[ADB][39m Forwarding system: 8230 to device: 6790
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 forward tcp:8230 tcp:6790'
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8236
+[debug] [35m[ADB][39m Forwarding system: 8236 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 forward tcp:8236 tcp:6790'
 [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell dumpsys package io.appium.uiautomator2.server'
 [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
@@ -144,7 +144,7 @@
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell pm grant com.android.settings android.globallauncher.permission.READ_SETTINGS ; pm grant com.android.settings android.globallauncher.permission.WRITE_SETTINGS ;'
 [debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.android.settings' application (stop and clear)
 [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
-[debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["2a7b2342-3556-492b-af47-89385908a8ca"]
+[debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["fa27ae34-1753-489b-9f57-9f4bbac2ca47"]
 [debug] [35m[UiAutomator2][39m Cleaning up 1 obsolete session
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell am force-stop io.appium.uiautomator2.server.test'
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
@@ -152,105 +152,105 @@
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","aeebca410407","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8230/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8236/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8230/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8236/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8230/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8236/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8230/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8236/wd/hub/status] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3200ms
+[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3170ms
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8230/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407","deviceUDID":"aeebca410407"}],"alwaysMatch":{}}}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407","deviceUDID":"aeebca410407"}],"alwaysMatch":{}},"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea"}}
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8236/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407","deviceUDID":"aeebca410407"}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407","deviceUDID":"aeebca410407"}],"alwaysMatch":{}},"sessionId":"db58a509-e514-431c-af0e-da7e4941e413"}}
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/appium/device/info] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"androidId":"ddf71c4a2a5ee463","apiVersion":"30","bluetooth":{"state":"OFF"},"brand":"Redmi","carrierName":"XL","displayDensity":352,"locale":"en_US","manufacturer":"Xiaomi","model":"M2003J15SC","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_SUPL,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"3gprs","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"}],"platformVersion":"11","realDisplaySize":"1080x2340","timeZone":"Asia/Jakarta"}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/appium/device/info] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"androidId":"ddf71c4a2a5ee463","apiVersion":"30","bluetooth":{"state":"OFF"},"brand":"Redmi","carrierName":"3","displayDensity":352,"locale":"en_US","manufacturer":"Xiaomi","model":"M2003J15SC","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_SUPL,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"3gprs","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"UNKNOWN","type":0,"typeName":"MOBILE"}],"platformVersion":"11","realDisplaySize":"1080x2340","timeZone":"Asia/Jakarta"}}
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/appium/device/pixel_ratio] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":2.2}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/appium/device/pixel_ratio] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":2.2}
 [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/appium/device/system_bars] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"statusBar":100}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/appium/device/system_bars] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"statusBar":100}}
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"height":2136,"width":1080}}
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 8101585a-2d8c-473c-b0e4-accdf93fcc1e added to master session list
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1657882332304 (17:52:12 GMT+0700 (Western Indonesia Time))
-[debug] [35m[W3C (8101585a)][39m Cached the protocol value 'W3C' for the new session 8101585a-2d8c-473c-b0e4-accdf93fcc1e
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407","deviceUDID":"aeebca410407","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":352,"deviceModel":"M2003J15SC","deviceManufacturer":"Xiaomi","pixelRatio":2.2,"s...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11727 ms - 1164[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"height":2136,"width":1080}}
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 0694c019-fa33-401d-b14a-d3c89a500857 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1657893261650 (20:54:21 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C (0694c019)][39m Cached the protocol value 'W3C' for the new session 0694c019-fa33-401d-b14a-d3c89a500857
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407","deviceUDID":"aeebca410407","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":352,"deviceModel":"M2003J15SC","deviceManufacturer":"Xiaomi","pixelRatio":2.2,"s...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11754 ms - 1164[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getSession() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.getSession() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
-[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"lastScrollData":null}}
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407","deviceUDID":"aeebca410407","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":352,"deviceModel":"M2003J15SC","deviceManufacturer":"Xiaomi","pixelRatio":2.2,"statBarHeight":10...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e [39m[32m200[39m [90m17 ms - 1118[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"lastScrollData":null}}
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407","deviceUDID":"aeebca410407","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":352,"deviceModel":"M2003J15SC","deviceManufacturer":"Xiaomi","pixelRatio":2.2,"statBarHeight":10...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857 [39m[32m200[39m [90m15 ms - 1118[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getSession() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.getSession() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
-[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"lastScrollData":null}}
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":56295,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8230,"udid":"aeebca410407","deviceUDID":"aeebca410407","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":352,"deviceModel":"M2003J15SC","deviceManufacturer":"Xiaomi","pixelRatio":2.2,"statBarHeight":10...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e [39m[32m200[39m [90m19 ms - 1118[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"lastScrollData":null}}
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi M2003J15SC (Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407"},"platformName":"android","chromedriverPort":61189,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"aeebca410407","newCommandTimeout":1800,"platformVersion":"11","systemPort":8236,"udid":"aeebca410407","deviceUDID":"aeebca410407","deviceApiLevel":30,"deviceScreenSize":"1080x2340","deviceScreenDensity":352,"deviceModel":"M2003J15SC","deviceManufacturer":"Xiaomi","pixelRatio":2.2,"statBarHeight":10...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857 [39m[32m200[39m [90m14 ms - 1118[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
 [debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.timeouts() result: null
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/timeouts [39m[32m200[39m [90m6 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getScreenshot() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.getScreenshot() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L15fFvVmf//lizJkixZtuR9jx07eyAsISQQSEtohgYoWzeWUkoXpkO/\n7Xy/nWmnTKe00M5vaGdaoE0okwAFQhgIBJJASCAJZA/Z98TxFu+rZEu2pKvl/v4w92DFu+OYmDnv\n1yuvRNLVOeeeeyPpfM7zfB6dqqoqEolEIpFIJBKJRCKRSCTjGP1nPQCJRCKRSCQSiUQikUgkkvNF\nChwSiUQikUgkEolEIpFIxj1S4JBIJBKJRCKRSCQSiUQy7pECh0QikUgkEolEIpFIJJJxjxQ4JBKJ\nRCKRSCQSiUQikYx7pMAhkUgkEolEIpFIJBKJZNwjBQ6JRCKRSCQSiUQikUgk4x4pcEgkEolEIpFI\nJBKJRCIZ90iBQyKRSCQSiUQikUgkEsm4RwocEolEIpFIJBKJRCKRSMY9UuCQSCQSiUQikUgkEolE\nMu6RAodEIpFIJBKJRCKRSCSScY8UOCQSiUQikUgkEolEIpGMe6TAIZFIJBKJRCKRSCQSiWTcY/is\nByCRSCQSiWR8oKpqv6/pdLoxHIlkqPR3zeT1kkgkEsnnESlwSCQSiWRcoigK7e3tYgHncrkA0Ov1\nw1q8ae8faPE+ErQxjPZC8nzHO9xxRSIRWltbaWhowO/3EwwGMRqNWCwWUlNTSU1NFXOu1+uH1faF\nZLTuj4utr6HQ1dVFXV0dPp+Pzs5OACwWC8nJyWRlZREXF3fRXS+JRCKRSEYDKXBIJBKJZNxRV1fH\n8uXLOX36NNFoFKvVyhNPPEFcXBxms1ks4AbjP//zP6mtrSUajQKjJ3I8+uijxMfHYzQaR22Re+jQ\nIV588UWi0Siqqo5orL/5zW8w...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L15fFvVmf//lizJkixZtuR9jx07eyAsISQQSEtohgYoWzeWUkoXpkO/\n7Xy/nWmnTKe00M5vaGdaoE0okwAFQhgIBJJASCAJZA/Z98TxFu+rZEu2pKvl/v4w92DFu+OYmDnv\n1yuvRNLVOeeeeyPpfM7zfB6dqqoqEolEIpFIJBKJRCKRSCTjGP1nPQCJRCKRSCQSiUQikUgkkvNF\nChwSiUQikUgkEolEIpFIxj1S4JBIJBKJRCKRSCQSiUQy7pECh0QikUgkEolEIpFIJJJxjxQ4JBKJ\nRCKRSCQSiUQikYx7pMAhkUgkEolEIpFIJBKJZNwjBQ6JRCKRSCQSiUQikUgk4x4pcEgkEolEIpFI\nJBKJRCIZ90iBQyKRSCQSiUQikUgkEsm4RwocEolEIpFIJBKJRCKRSMY9UuCQSCQSiUQikUgkEolE\nMu6RAodEIpFIJBKJRCKRSCSScY8UOCQSiUQikUgkEolEIpGMe6TAIZFIJBKJRCKRSCQSiWTcY/is\nByCRSCQSiWR8oKpqv6/pdLoxHIlkqPR3zeT1kkgkEsnnESlwSCQSiWRcoigK7e3tYgHncrkA0Ov1\nw1q8ae8faPE+ErQxjPZC8nzHO9xxRSIRWltbaWhowO/3EwwGMRqNWCwWUlNTSU1NFXOu1+uH1faF\nZLTuj4utr6HQ1dVFXV0dPp+Pzs5OACwWC8nJyWRlZREXF3fRXS+JRCKRSEYDKXBIJBKJZNxRV1fH\n8uXLOX36NNFoFKvVyhNPPEFcXBxms1ks4AbjP//zP6mtrSUajQKjJ3I8+uijxMfHYzQaR22Re+jQ\nIV588UWi0Siqqo5orL/5zW8wGo1DGlddXR07duxg27ZttLa2oqoqkUhE9K2qKjqdDpfLxTXXXMO8\nefNIT0...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/screenshot [39m[32m200[39m [90m572 ms - 210942[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13eFRl3v/xz6QCSSAhtFBClV4FaSqIFEHABcQCSNVVWbco+6xr4ec+\ntsdndfVZcRV33cUo0hawAIYiUiRKlaIkIQESSAghQEggCZBJMuf3xzCHmfSECXjW9+u6uC5m5syZ\nOyHhnPM53/t72wzDMAQAAAAAAGBhPjd6AAAAAAAAANeKgAMAAAAAAFgeAQcAAAAAALA8Ag4AAAAA\nAGB5BBwAAAAAAMDyCDgAAAAAAIDlEXAAAAAAAADLI+AAAAAAAACWR8ABAAAAAAAsj4ADAAAAAABY\nHgEHAAAAAACwPAIOAAAAAABgeQQcAAAAAADA8gg4AAAAAACA5RFwAAAAAAAAyyPgAAAAAAAAlkfA\nAQAAAAAALI+AAwAAAAAAWB4BBwAAAAAAsDwCDgAAAAAAYHkEHAAAAAAAwPIIOAAAAAAAgOURcAAA\nAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFgeAQcAAAAAALA8Ag4AAAAAAGB5BBwAAAAA\nAMDyCDgAAAAAAIDlEXAAAAAAAADLI+AAAAAAAACWR8ABAAAAAAAsj4ADAAAAAABYHgEHAAAAAACw\nPAIOAAAAAABgeQQcAAAAAADA8gg4AAAAAACA5RFwAAAAAAAAyyPgAAAAAAAAlkfAAQAAAAAALI+A\nAwAAAAAAWB4BBwAAAAAAsDwCDgAAAAAAYHkEHAAAAAAAwPIIOAAAAAB4VX5+vhISEpSfn39D9wHg\n58XvRg8AAAAAwLU7efKkkpKSdOnSJR09elRt27bV8OHDr/s4kpOTtWXLFh06dEi33HKLJk6cWK39\nrFy5UgcOHFDHjh11xx13qHXr...
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13eFRl3v/xz6QCSSAhtFBClV4FaSqIFEHABcQCSNVVWbco+6xr4ec+\ntsdndfVZcRV33cUo0hawAIYiUiRKlaIkIQESSAghQEggCZBJMuf3xzCHmfSECXjW9+u6uC5m5syZ\nOyHhnPM53/t72wzDMAQAAAAAAGBhPjd6AAAAAAAAANeKgAMAAAAAAFgeAQcAAAAAALA8Ag4AAAAA\nAGB5BBwAAAAAAMDyCDgAAAAAAIDlEXAAAAAAAADLI+AAAAAAAACWR8ABAAAAAAAsj4ADAAAAAABY\nHgEHAAAAAACwPAIOAAAAAABgeQQcAAAAAADA8gg4AAAAAACA5RFwAAAAAAAAyyPgAAAAAAAAlkfA\nAQAAAAAALI+AAwAAAAAAWB4BBwAAAAAAsDwCDgAAAAAAYHkEHAAAAAAAwPIIOAAAAAAAgOURcAAA\nAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFgeAQcAAAAAALA8Ag4AAAAAAGB5BBwAAAAA\nAMDyCDgAAAAAAIDlEXAAAAAAAADLI+AAAAAAAACWR8ABAAAAAAAsj4ADAAAAAABYHgEHAAAAAACw\nPAIOAAAAAABgeQQcAAAAAADA8gg4AAAAAACA5RFwAAAAAAAAyyPgAAAAAAAAlkfAAQAAAAAALI+A\nAwAAAAAAWB4BBwAAAAAAsDwCDgAAAAAAYHkEHAAAAAAAwPIIOAAAAAB4VX5+vhISEpSfn39D9wHg\n58XvRg8AAAAAwLU7efKkkpKSdOnSJR09elRt27bV8OHDr/s4kpOTtWXLFh06dEi33HKLJk6cWK39\nrFy5UgcOHFDHjh11xx13qHXr1l4e6VXHjh1TRkaGbrnlFvn4eN4DzsrK0sGDB3X+/HnVr19fHTp0\nUHh4eI...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/screenshot [39m[32m200[39m [90m524 ms - 195744[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getWindowRect() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.getWindowRect() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":{"height":2136,"width":1080}}
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2136,"x":0,"y":0}
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/window/rect [39m[32m200[39m [90m43 ms - 50[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":{"height":2136,"width":1080}}
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2136,"x":0,"y":0}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/window/rect [39m[32m200[39m [90m30 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getSystemBars() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.getSystemBars() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell dumpsys window windows'
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getSystemBars() result: {"statusBar":{"visible":true,"x":0,"y":0,"width":1080,"height":100},"navigationBar":{"visible":true,"x":0,"y":0,"width":1080,"height":104}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/appium/device/system_bars [39m[32m200[39m [90m196 ms - 149[39m
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.getSystemBars() result: {"statusBar":{"visible":true,"x":0,"y":0,"width":1080,"height":100},"navigationBar":{"visible":true,"x":0,"y":0,"width":1080,"height":104}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/appium/device/system_bars [39m[32m200[39m [90m102 ms - 149[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.example.capstone_project_lms"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.activateApp() with args: ["com.example.capstone_project_lms",null,null,null,"8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.activateApp() with args: ["com.example.capstone_project_lms",null,null,null,"0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[AndroidDriver][39m Activating 'com.example.capstone_project_lms' with 'adb shell monkey -p com.example.capstone_project_lms -c android.intent.category.LAUNCHER 1' command
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell monkey -p com.example.capstone_project_lms -c android.intent.category.LAUNCHER 1'
 [debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
@@ -260,1147 +260,72 @@
 [debug] [35m[AndroidDriver][39m   bash arg: 1
 [debug] [35m[AndroidDriver][39m Events injected: 1
 [debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=42ms (0ms mobile, 0ms wifi, 42ms not connected)
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.activateApp() result: null
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/appium/device/activate_app [39m[32m200[39m [90m589 ms - 14[39m
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.activateApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/appium/device/activate_app [39m[32m200[39m [90m412 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (8101585a)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2136\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.example.capstone_project_lms\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2136]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.example.capstone_project_lms\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2136]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index...
-[35m[WD Proxy][39m Replacing sessionId eb20487d-978b-401d-976d-4f576d2fa7ea with 8101585a-2d8c-473c-b0e4-accdf93fcc1e
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source [39m[32m200[39m [90m1018 ms - 3635[39m
+[35m[W3C (0694c019)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/source] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2136\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.example.capstone_project_lms\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2136]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.example.capstone_project_lms\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2136]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index...
+[35m[WD Proxy][39m Replacing sessionId db58a509-e514-431c-af0e-da7e4941e413 with 0694c019-fa33-401d-b14a-d3c89a500857
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/source [39m[32m200[39m [90m1312 ms - 13274[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getScreenshot() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.getScreenshot() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L15lGTVfef5fS/2iBf7npERkVlZWSsUiwXCAwbLjSWNjaW2vAzdHlkj\nHVtue2Y8ds/xjNc5LWvc7m5Pq6dtLCRhaSQZLPkgBKgByQIDoiiKQkBR1F6VVVmZWbnHmrG+ff7I\nurciMiP3yKxM+H106oiMeHHffTduvHd/3/tbhOeff94EQRAEQWwR999//43uAkEQW8ALL7xwo7tA\nEARBvM8Qb3QHCIIgCIIgCIIgCIIgNgoJHARBEARBEARBEARB7HhI4CAIgiAIgiAIgiAIYsdDAgdB\nEARBEARBEARBEDseEjgIgiAIgiAIgiAIgtjxkMBBEARBEARBEARBEMSOhwQOgiAIgiAIgiAIgiB2\nPCRwEARBEARBEARBEASx4yGBgyAIgiAIgiAIgiCIHQ8JHARBEARBEARBEARB7HhI4CAIgiAIgiAI\ngiAIYsdDAgdBEARBEARBEARBEDseEjgIgiAIgiAIgiAIgtjxkMBBEARBEARBEARBEMSOx3qjO0AQ\nBEEQxM7ANM0l3xMEYQt7QhAEQRAEsRgSOAiCIIgdiaIoKJfL3OgOh8MAAFEU12Rss88vZ7yvB9aH\nbhv+G+3vWvul6zry+TympqbQaDQgyzJsNhtcLhei0Sii0Sgfc1EU19T2ZtKt+bEeOn1HmzUfljvn\nWtjs/hEEQRDEVkACB0EQBLHjmJiYwNe+9jVcuHABhmHA7Xbjr/7qr2CxWOB0OmGxWFZlqH3hC1/A\n+Pg4DMMA0D2R43Of+xwcDgdsNlvXDOoTJ07g7//+72EYBkzTXFdfP//5z8Nms62qXxMTE3jttdfw\n6quvIp/PwzRN6LrOz22aJgRB...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L15lGTVfef5fS/2iBf7npERkVlZWSsUiwXCAwbLjSWNjaW2vAzdHlkj\nHVtue2Y8ds/xjNc5LWvc7m5Pq6dtLCRhaSQZLPkgBKgByQIDoiiKQkBR1F6VVVmZWbnHmrG+ff7I\nurciMiP3yKxM+H106oiMeHHffTduvHd/3/tbhOeff94EQRAEQWwR999//43uAkEQW8ALL7xwo7tA\nEARBvM8Qb3QHCIIgCIIgCIIgCIIgNgoJHARBEARBEARBEARB7HhI4CAIgiAIgiAIgiAIYsdDAgdB\nEARBEARBEARBEDseEjgIgiAIgiAIgiAIgtjxkMBBEARBEARBEARBEMSOhwQOgiAIgiAIgiAIgiB2\nPCRwEARBEARBEARBEASx4yGBgyAIgiAIgiAIgiCIHQ8JHARBEARBEARBEARB7HhI4CAIgiAIgiAI\ngiAIYsdDAgdBEARBEARBEARBEDseEjgIgiAIgiAIgiAIgtjxkMBBEARBEARBEARBEMSOx3qjO0AQ\nBEEQxM7ANM0l3xMEYQt7QhAEQRAEsRgSOAiCIIgdiaIoKJfL3OgOh8MAAFEU12Rss88vZ7yvB9aH\nbhv+G+3vWvul6zry+TympqbQaDQgyzJsNhtcLhei0Sii0Sgfc1EU19T2ZtKt+bEeOn1HmzUfljvn\nWtjs/hEEQRDEVkACB0EQBLHjmJiYwNe+9jVcuHABhmHA7Xbjr/7qr2CxWOB0OmGxWFZlqH3hC1/A\n+Pg4DMMA0D2R43Of+xwcDgdsNlvXDOoTJ07g7//+72EYBkzTXFdfP//5z8Nms62qXxMTE3jttdfw\n6quvIp/PwzRN6LrOz22aJgRBQDgcxj333IO7774b8XgcVquVt32jjOVuzY+1cvbsWXzhC19oG6OP\nfOQj+N...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/screenshot [39m[32m200[39m [90m577 ms - 54478[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fFT1vTfwz5klG9nIvhISQhbCFghIkE0IEBBwQ0WsWhV7bfVabWuX\nx97b2tb23np7e69Pxccq1WItigKCCmHfCYQtIUAIW1Yy2bdJJsss5/ljmMPMJLMkmSQMfN6vF68X\nmTlz5pf1nPM539/3J+zfv18EEREREREREZEbkw33AIiIiIiIiIiIBooBBxERERERERG5PQYcRERE\nREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERER\nERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFERERE\nREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERER\nERG5PQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcRERERERE\nROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERER\nkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFERERERERE\nbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5\nPQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2\nGHAQERERERERkdtjwEFERERE...
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fFT1vTfwz5klG9nIvhISQhbCFghIkE0IEBBwQ0WsWhV7bfVabWuX\nx97b2tb23np7e69Pxccq1WItigKCCmHfCYQtIUAIW1Yy2bdJJsss5/ljmMPMJLMkmSQMfN6vF68X\nmTlz5pf1nPM539/3J+zfv18EEREREREREZEbkw33AIiIiIiIiIiIBooBBxERERERERG5PQYcRERE\nREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERER\nERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFERERE\nREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERER\nERG5PQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcRERERERE\nROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERER\nkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFERERERERE\nbo8BBxERERERERG5PQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5\nPQYcREREREREROT2GHAQERERERERkdtjwEFEREREREREbo8BBxERERERERG5PQYcREREREREROT2\nGHAQERERERERkdtjwEFEREREREREbo8BBxERERERuZRWq0VFRQW0Wu2w7oOI7i6K4R4AEREREREN\nXENDA6...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/screenshot [39m[32m200[39m [90m651 ms - 593642[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (8101585a)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2136\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.example.capstone_project_lms\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2136]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.example.capstone_project_lms\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2136]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index...
-[35m[WD Proxy][39m Replacing sessionId eb20487d-978b-401d-976d-4f576d2fa7ea with 8101585a-2d8c-473c-b0e4-accdf93fcc1e
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/source [39m[32m200[39m [90m1268 ms - 11036[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.getScreenshot() with args: ["8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L13dBznee//2Ybtu8ACWHSABAiABEiKlChKpCiKlimJVrOjuCj2leVE\nSrFz7eucc+3r/OzkuCTOvXFu7rGsWM2KJUu2FMuyiimJFiX23nsDCAIEiN53sXV25vcHOK920YhG\nkLDfzzk45O7OvvPMO7uz83zfpxg2b96sIZFIJBLJDLFmzZprbYJEIpkBtmzZcq1NkEgkEskfGcZr\nbYBEIpFIJBKJRCKRSCQSyVSRAodEIpFIJBKJRCKRSCSSWY8UOCQSiUQikUgkEolEIpHMeqTAIZFI\nJBKJRCKRSCQSiWTWIwUOiUQikUgkEolEIpFIJLMeKXBIJBKJRCKRSCQSiUQimfVIgUMikUgkEolE\nIpFIJBLJrEcKHBKJRCKRSCQSiUQikUhmPVLgkEgkEolEIpFIJBKJRDLrkQKHRCKRSCQSiUQikUgk\nklmPFDgkEolEIpFIJBKJRCKRzHqkwCGRSCQSiUQikUgkEolk1iMFDolEIpFIJBKJRCKRSCSzHilw\nSCQSiUQikUgkEolEIpn1mK+1ARKJRCKRSGYHmqaN+prBYJhBS0Znpm0cbX/Xej5mw7mSSCQSiWS6\nkQKHRCKRSGYlsViMvr4+4chlZmYCYDQaJ+TA6e8fyyGcDLoN0+1MTtXeidqVSCTo6uqitbWVcDhM\nNBrFYrFgt9vJzs4mOztbzLnRaJzQ2NPFtbCxtbWV7u5u+vv7AXC5XGRkZJCTk4PBYEj5mylmw7mS\nSCQSieRqIgUOiUQikcw6mpub+c///E/OnTuHqqo4HA5+9KMfYTKZsNlsmEymcTlu//7v/86lS5dQ\nVRWYPpHje9/7HlarFYvFMmHB...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L13dBznee//2Ybtu8ACWHSABAiABEiKlChKpCiKlimJVrOjuCj2leVE\nSrFz7eucc+3r/OzkuCTOvXFu7rGsWM2KJUu2FMuyiimJFiX23nsDCAIEiN53sXV25vcHOK920YhG\nkLDfzzk45O7OvvPMO7uz83zfpxg2b96sIZFIJBLJDLFmzZprbYJEIpkBtmzZcq1NkEgkEskfGcZr\nbYBEIpFIJBKJRCKRSCQSyVSRAodEIpFIJBKJRCKRSCSSWY8UOCQSiUQikUgkEolEIpHMeqTAIZFI\nJBKJRCKRSCQSiWTWIwUOiUQikUgkEolEIpFIJLMeKXBIJBKJRCKRSCQSiUQimfVIgUMikUgkEolE\nIpFIJBLJrEcKHBKJRCKRSCQSiUQikUhmPVLgkEgkEolEIpFIJBKJRDLrkQKHRCKRSCQSiUQikUgk\nklmPFDgkEolEIpFIJBKJRCKRzHqkwCGRSCQSiUQikUgkEolk1iMFDolEIpFIJBKJRCKRSCSzHilw\nSCQSiUQikUgkEolEIpn1mK+1ARKJRCKRSGYHmqaN+prBYJhBS0Znpm0cbX/Xej5mw7mSSCQSiWS6\nkQKHRCKRSGYlsViMvr4+4chlZmYCYDQaJ+TA6e8fyyGcDLoN0+1MTtXeidqVSCTo6uqitbWVcDhM\nNBrFYrFgt9vJzs4mOztbzLnRaJzQ2NPFtbCxtbWV7u5u+vv7AXC5XGRkZJCTk4PBYEj5mylmw7mS\nSCQSieRqIgUOiUQikcw6mpub+c///E/OnTuHqqo4HA5+9KMfYTKZsNlsmEymcTlu//7v/86lS5dQ\nVRWYPpHje9/7HlarFYvFMmHBZTSOHj3KSy+9hKqqaJo2KVt/8IMfYLFYxmVXc3Mzu3btYseOHXR1\ndaFpGo...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/screenshot [39m[32m200[39m [90m653 ms - 437996[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
 [debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
 [debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m690 ms - 2315[39m
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":[{"ELEMENT":"00000000-0000-00fd-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-000000000003"},{"ELEMENT":"00000000-0000-00fd-0000-00cb00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cb00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00cc00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cc00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00cd00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cd00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00de00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00de00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00e000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00e000000003"},{"ELEMENT":"00000000-0000-00fd-0000-00ce00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00ce00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00e100000003","element-6066-...
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-000000000003","ELEMENT":"00000000-0000-00fd-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cb00000003","ELEMENT":"00000000-0000-00fd-0000-00cb00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cc00000003","ELEMENT":"00000000-0000-00fd-0000-00cc00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cd00000003","ELEMENT":"00000000-0000-00fd-0000-00cd00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00de00000003","ELEMENT":"00000000-0000-00fd-0000-00de00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00e000000003","ELEMENT":"00000000-0000-00fd-0000-00e000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00ce00000003","ELEMENT":"00000000-0000-00fd-0000-00ce00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00e100000003","ELEMENT":"00000000-0000-00fd-0000-00e10000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/elements [39m[32m200[39m [90m415 ms - 2443[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/elements[39m
 [35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"\")"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.view.View\").resourceId(\"\")","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.view.View\").resourceId(\"\")","0694c019-fa33-401d-b14a-d3c89a500857"]
 [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
 [debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
 [debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").resourceId(\"\")","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m330 ms - 2315[39m
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8236/wd/hub/session/db58a509-e514-431c-af0e-da7e4941e413/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").resourceId(\"\")","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"db58a509-e514-431c-af0e-da7e4941e413","value":[{"ELEMENT":"00000000-0000-00fd-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-000000000003"},{"ELEMENT":"00000000-0000-00fd-0000-00cb00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cb00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00cc00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cc00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00cd00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cd00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00de00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00de00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00e000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00e000000003"},{"ELEMENT":"00000000-0000-00fd-0000-00ce00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00ce00000003"},{"ELEMENT":"00000000-0000-00fd-0000-00e100000003","element-6066-...
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-000000000003","ELEMENT":"00000000-0000-00fd-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cb00000003","ELEMENT":"00000000-0000-00fd-0000-00cb00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cc00000003","ELEMENT":"00000000-0000-00fd-0000-00cc00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00cd00000003","ELEMENT":"00000000-0000-00fd-0000-00cd00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00de00000003","ELEMENT":"00000000-0000-00fd-0000-00de00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00e000000003","ELEMENT":"00000000-0000-00fd-0000-00e000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00ce00000003","ELEMENT":"00000000-0000-00fd-0000-00ce00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00fd-0000-00e100000003","ELEMENT":"00000000-0000-00fd-0000-00e10000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857/elements [39m[32m200[39m [90m393 ms - 2443[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m264 ms - 2315[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"Joong\nuser\nInteresting class, thanks!"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["accessibility id","Joong\nuser\nInteresting class, thanks!","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"accessibility id","selector":"Joong\nuser\nInteresting class, thanks!","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-004100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-004100000003"}]}
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-004100000003","ELEMENT":"00000000-0000-0886-0000-004100000003"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m61 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m207 ms - 2315[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"\")"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.view.View\").resourceId(\"\")","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").resourceId(\"\")","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m359 ms - 2315[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m176 ms - 2315[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"\")"}[39m
-[debug] [35m[W3C (8101585a)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.view.View\").resourceId(\"\")","8101585a-2d8c-473c-b0e4-accdf93fcc1e"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8230/wd/hub/session/eb20487d-978b-401d-976d-4f576d2fa7ea/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").resourceId(\"\")","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"eb20487d-978b-401d-976d-4f576d2fa7ea","value":[{"ELEMENT":"00000000-0000-0886-0000-000000000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003"},{"ELEMENT":"00000000-0000-0886-0000-000100000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003"},{"ELEMENT":"00000000-0000-0886-0000-002700000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003"},{"ELEMENT":"00000000-0000-0886-0000-002800000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003"},{"ELEMENT":"00000000-0000-0886-0000-003a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003"},{"ELEMENT":"00000000-0000-0886-0000-003c00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003"},{"ELEMENT":"00000000-0000-0886-0000-002a00000003","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003"},{"ELEMENT":"00000000-0000-0886-0000-002b00000003","element-6066-...
-[debug] [35m[W3C (8101585a)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000000000003","ELEMENT":"00000000-0000-0886-0000-000000000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-000100000003","ELEMENT":"00000000-0000-0886-0000-000100000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002700000003","ELEMENT":"00000000-0000-0886-0000-002700000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002800000003","ELEMENT":"00000000-0000-0886-0000-002800000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003a00000003","ELEMENT":"00000000-0000-0886-0000-003a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-003c00000003","ELEMENT":"00000000-0000-0886-0000-003c00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002a00000003","ELEMENT":"00000000-0000-0886-0000-002a00000003"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0886-0000-002b00000003","ELEMENT":"00000000-0000-0886-0000-002b0000000...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8101585a-2d8c-473c-b0e4-accdf93fcc1e/elements [39m[32m200[39m [90m371 ms - 2315[39m
-[35m[HTTP][39m [90m[39m
+[debug] [35m[Instrumentation][39m .
+[debug] [35m[Instrumentation][39m Time: 73.073
+[debug] [35m[Instrumentation][39m 
+[debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[Instrumentation][39m The process has exited with code 0
-[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
-[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session '8101585a-2d8c-473c-b0e4-accdf93fcc1e' from our master session list
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (0694c019)][39m Calling AppiumDriver.deleteSession() with args: ["0694c019-fa33-401d-b14a-d3c89a500857"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1657893399065 (20:56:39 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Removing session 0694c019-fa33-401d-b14a-d3c89a500857 from our master session list
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
 [35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell am force-stop com.android.settings'
-[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.android.settings
-[debug] [35m[ADB][39m Trying to find a connected android device
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[35m[UiAutomator2][39m Unable to force stop app: Could not find a connected Android device in 20234ms.
 [debug] [35m[Logcat][39m Stopping logcat capture
 [debug] [35m[Logcat][39m Logcat already stopped
-[debug] [35m[ADB][39m Removing forwarded port socket connection: 8230 
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 forward --remove tcp:8230'
-[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:8230
-[debug] [35m[ADB][39m Trying to find a connected android device
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20219ms.
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8236 
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 forward --remove tcp:8236'
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
 [debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
-[debug] [35m[ADB][39m Trying to find a connected android device
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
-[debug] [35m[ADB][39m Getting connected devices
-[debug] [35m[ADB][39m No connected devices have been detected
-[debug] [35m[ADB][39m Could not find online devices
-[debug] [35m[ADB][39m Reconnecting adb (target offline)
-[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1657893399403 (20:56:39 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C (0694c019)][39m Received response: null
+[debug] [35m[W3C (0694c019)][39m But deleting session, so not returning
+[debug] [35m[W3C (0694c019)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/0694c019-fa33-401d-b14a-d3c89a500857 [39m[32m200[39m [90m341 ms - 14[39m
+[35m[HTTP][39m [90m[39m

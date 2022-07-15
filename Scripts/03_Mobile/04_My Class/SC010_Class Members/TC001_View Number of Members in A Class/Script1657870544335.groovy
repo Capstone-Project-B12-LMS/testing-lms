@@ -26,10 +26,6 @@ Mobile.tapAndHold(findTestObject('Object Repository/03_Mobile/04_My Class/SC010_
 Mobile.verifyElementExist(findTestObject('Object Repository/03_Mobile/04_My Class/SC010_Class Members/number_members'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tapAndHold(findTestObject('Object Repository/03_Mobile/04_My Class/SC010_Class Members/members_ico'), 0, 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/03_Mobile/04_My Class/SC010_Class Members/title'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
 AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 
 driver.terminateApp('com.example.capstone_project_lms')

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import io.appium.java_client.AppiumDriver as AppiumDriver
 
-Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.startExistingApplication('com.example.capstone_project_lms', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -1,0 +1,434 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_API,,,,2022-07-15 23:22:49,2022-07-15 23:26:05,3m - 15.578s,FAILED
+,,,,,,,
+Test Cases/01_API/01_User/SC001_Register/TCC001_Register (With valid body value),,,,2022-07-15 23:22:49,2022-07-15 23:22:55,5.293s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC001_Register/TC001_Register (With valid body value)""))",,,,2022-07-15 23:22:50,2022-07-15 23:22:55,4.470s,PASSED
+"verifyResponseStatusCode(response, response_200)",,,,2022-07-15 23:22:55,2022-07-15 23:22:55,0.059s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", register_email)",,,,2022-07-15 23:22:55,2022-07-15 23:22:55,0.137s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC001_Register/TCC002_Register (With empty body value),,,,2022-07-15 23:22:55,2022-07-15 23:22:56,1.011s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC001_Register/TC002_Register (With empty body value)""))",,,,2022-07-15 23:22:55,2022-07-15 23:22:56,0.451s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:22:56,2022-07-15 23:22:56,0.023s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:22:56,2022-07-15 23:22:56,0.033s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC001_Register/TCC003_Register (With invalid method),,,,2022-07-15 23:22:56,2022-07-15 23:22:57,1.241s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC001_Register/TC003_Register (With invalid method)""))",,,,2022-07-15 23:22:56,2022-07-15 23:22:57,0.770s,PASSED
+"verifyResponseStatusCode(response, response_405, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:22:57,2022-07-15 23:22:57,0.008s,PASSED
+"verifyElementPropertyValue(response, ""error"", method_now_allowed)",,,,2022-07-15 23:22:57,2022-07-15 23:22:57,0.045s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC001_Register/TCC004_Register (With invalid email format),,,,2022-07-15 23:22:57,2022-07-15 23:22:58,0.972s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC001_Register/TC004_Register (With invalid email format)""))",,,,2022-07-15 23:22:58,2022-07-15 23:22:58,0.460s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:22:58,2022-07-15 23:22:58,0.004s,PASSED
+"verifyElementPropertyValue(response, ""errors.message.email"", invalid_email_format)",,,,2022-07-15 23:22:58,2022-07-15 23:22:58,0.041s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC001_Register/TCC005_Register (With registered email),,,,2022-07-15 23:22:58,2022-07-15 23:23:00,2.193s,FAILED
+"response = sendRequest(findTestObject(""01_API/01_User/SC001_Register/TC005_Register (With registered email)""))",,,,2022-07-15 23:22:59,2022-07-15 23:23:00,1.625s,PASSED
+"verifyResponseStatusCode(response, response_500, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:00,2022-07-15 23:23:00,0.021s,FAILED
+"verifyElementPropertyValue(response, ""error"", internal_server_error)",,,,2022-07-15 23:23:00,2022-07-15 23:23:00,0.042s,FAILED
+,,,,,,,
+Test Cases/01_API/01_User/SC002_Login/TCC001_Login (With valid body value),,,,2022-07-15 23:23:00,2022-07-15 23:23:02,1.827s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC002_Login/TC001_Login (With valid body value)""))",,,,2022-07-15 23:23:01,2022-07-15 23:23:02,1.409s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:02,2022-07-15 23:23:02,0.007s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:23:02,2022-07-15 23:23:02,0.040s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC002_Login/TCC002_Login (With empty body value),,,,2022-07-15 23:23:02,2022-07-15 23:23:03,0.890s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC002_Login/TC002_Login (With empty body value)""))",,,,2022-07-15 23:23:03,2022-07-15 23:23:03,0.452s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:03,2022-07-15 23:23:03,0.002s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC002_Login/TCC003_Login (With invalid method),,,,2022-07-15 23:23:03,2022-07-15 23:23:04,1.115s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC002_Login/TC003_Login (With invalid method)""))",,,,2022-07-15 23:23:03,2022-07-15 23:23:04,0.725s,PASSED
+"verifyResponseStatusCode(response, response_405, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:04,2022-07-15 23:23:04,0.005s,PASSED
+"verifyElementPropertyValue(response, ""error"", method_now_allowed)",,,,2022-07-15 23:23:04,2022-07-15 23:23:04,0.032s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC002_Login/TCC004_Login (With invalid email format),,,,2022-07-15 23:23:04,2022-07-15 23:23:05,0.917s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC002_Login/TC004_Login (With invalid email format)""))",,,,2022-07-15 23:23:05,2022-07-15 23:23:05,0.411s,PASSED
+"verifyResponseStatusCode(response, response_400, STOP_ON_FAILURE)",,,,2022-07-15 23:23:05,2022-07-15 23:23:05,0.007s,PASSED
+"verifyElementPropertyValue(response, ""email"", invalid_email_format)",,,,2022-07-15 23:23:05,2022-07-15 23:23:05,0.039s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC002_Login/TCC005_Login (With unregistered email),,,,2022-07-15 23:23:05,2022-07-15 23:23:08,2.887s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC002_Login/TC005_Login (With unregistered email)""))",,,,2022-07-15 23:23:05,2022-07-15 23:23:08,2.505s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:08,2022-07-15 23:23:08,0.004s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", user_not_found)",,,,2022-07-15 23:23:08,2022-07-15 23:23:08,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC002_Login/TCC006_Login (With invalid password),,,,2022-07-15 23:23:08,2022-07-15 23:23:10,2.100s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC002_Login/TC006_Login (With invalid password)""))",,,,2022-07-15 23:23:08,2022-07-15 23:23:10,1.574s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:10,2022-07-15 23:23:10,0.005s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", password_doesnt_match)",,,,2022-07-15 23:23:10,2022-07-15 23:23:10,0.035s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC001_Update User By Id (With valid input),,,,2022-07-15 23:23:10,2022-07-15 23:23:12,2.187s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC001_Update User By Id (With valid input)""))",,,,2022-07-15 23:23:10,2022-07-15 23:23:12,1.816s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:12,2022-07-15 23:23:12,0.003s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", new_email)",,,,2022-07-15 23:23:12,2022-07-15 23:23:12,0.020s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC002_Update User By Id (With empty body value),,,,2022-07-15 23:23:12,2022-07-15 23:23:17,4.518s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC002_Update User By Id (With empty body value)""))",,,,2022-07-15 23:23:13,2022-07-15 23:23:17,4.138s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:17,2022-07-15 23:23:17,0.005s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:23:17,2022-07-15 23:23:17,0.041s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC003_Update User By Id (With invalid method),,,,2022-07-15 23:23:17,2022-07-15 23:23:19,1.976s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC003_Update User By Id (With invalid method)""))",,,,2022-07-15 23:23:17,2022-07-15 23:23:19,1.559s,PASSED
+"verifyResponseStatusCode(response, response_405, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:19,2022-07-15 23:23:19,0.004s,PASSED
+"verifyElementPropertyValue(response, ""error"", method_now_allowed)",,,,2022-07-15 23:23:19,2022-07-15 23:23:19,0.027s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC004_Update User By Id (With invalid id),,,,2022-07-15 23:23:19,2022-07-15 23:23:21,2.004s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC004_Update User By Id (With invalid id)""))",,,,2022-07-15 23:23:19,2022-07-15 23:23:21,1.592s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:21,2022-07-15 23:23:21,0.007s,PASSED
+"verifyElementPropertyValue(response, ""errors.message.message"", user_not_found)",,,,2022-07-15 23:23:21,2022-07-15 23:23:21,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC005_Update User By Id (With invalid email format),,,,2022-07-15 23:23:21,2022-07-15 23:23:23,1.955s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC005_Update User By Id (With invalid email format)""))",,,,2022-07-15 23:23:21,2022-07-15 23:23:23,1.608s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:23,2022-07-15 23:23:23,0.005s,PASSED
+"verifyElementPropertyValue(response, ""errors.message.email"", invalid_email_format)",,,,2022-07-15 23:23:23,2022-07-15 23:23:23,0.023s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC006_Update User By Id (With registered email),,,,2022-07-15 23:23:23,2022-07-15 23:23:25,2.442s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC006_Update User By Id (With registered email)""))",,,,2022-07-15 23:23:23,2022-07-15 23:23:25,2.045s,PASSED
+"verifyResponseStatusCode(response, response_500, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:25,2022-07-15 23:23:25,0.006s,PASSED
+"verifyElementPropertyValue(response, ""error"", internal_server_error)",,,,2022-07-15 23:23:25,2022-07-15 23:23:25,0.042s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC003_Update User By Id/TCC007_Update User By Id (With invalid token),,,,2022-07-15 23:23:25,2022-07-15 23:23:27,1.826s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC003_Update User By Id/TC007_Update User By Id (With invalid token)""))",,,,2022-07-15 23:23:26,2022-07-15 23:23:27,1.343s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:27,2022-07-15 23:23:27,0.005s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:23:27,2022-07-15 23:23:27,0.030s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC004_Get User By Id/TCC001_Get User By Id (With valid id and token),,,,2022-07-15 23:23:27,2022-07-15 23:23:29,1.879s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC004_Get User By Id/TC001_Get User By Id (With valid id and token)""))",,,,2022-07-15 23:23:27,2022-07-15 23:23:29,1.510s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:29,2022-07-15 23:23:29,0.004s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:23:29,2022-07-15 23:23:29,0.035s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC004_Get User By Id/TCC002_Get User By Id (Invalid id),,,,2022-07-15 23:23:29,2022-07-15 23:23:32,2.505s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC004_Get User By Id/TC002_Get User By Id (Invalid id)""))",,,,2022-07-15 23:23:29,2022-07-15 23:23:31,2.141s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:31,2022-07-15 23:23:31,0.006s,PASSED
+"verifyElementPropertyValue(response, ""errors.message.message"", ""Data not found"")",,,,2022-07-15 23:23:31,2022-07-15 23:23:32,0.046s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC004_Get User By Id/TCC003_Get User By Id (Invalid token),,,,2022-07-15 23:23:32,2022-07-15 23:23:33,0.992s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC004_Get User By Id/TC003_Get User By Id (Invalid token)""))",,,,2022-07-15 23:23:32,2022-07-15 23:23:32,0.624s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:32,2022-07-15 23:23:32,0.008s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:23:32,2022-07-15 23:23:33,0.051s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC001_Get User Class by User Id (With valid id and active class),,,,2022-07-15 23:23:33,2022-07-15 23:23:39,5.996s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC005_Get User Class By User Id/TC001_Get User Class by User Id (With valid id and active class)""))",,,,2022-07-15 23:23:33,2022-07-15 23:23:39,5.607s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:39,2022-07-15 23:23:39,0.003s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:23:39,2022-07-15 23:23:39,0.027s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC002_Get User Class by User Id (With valid id and inactive class),,,,2022-07-15 23:23:39,2022-07-15 23:23:41,2.072s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC005_Get User Class By User Id/TC002_Get User Class by User Id (With valid id and inactive class)""))",,,,2022-07-15 23:23:39,2022-07-15 23:23:41,1.712s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:41,2022-07-15 23:23:41,0.005s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:23:41,2022-07-15 23:23:41,0.036s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC003_Get User Class by User Id (With valid id and will_end class),,,,2022-07-15 23:23:41,2022-07-15 23:23:43,2.195s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC005_Get User Class By User Id/TC003_Get User Class by User Id (With valid id and will_end class)""))",,,,2022-07-15 23:23:41,2022-07-15 23:23:43,1.818s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:43,2022-07-15 23:23:43,0.009s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:23:43,2022-07-15 23:23:43,0.024s,PASSED
+,,,,,,,
+Test Cases/01_API/01_User/SC005_Get User Class By User Id/TCC004_Get User Class by User Id (With invalid token),,,,2022-07-15 23:23:43,2022-07-15 23:23:44,0.728s,PASSED
+"response = sendRequest(findTestObject(""01_API/01_User/SC005_Get User Class By User Id/TC004_Get User Class by User Id (With invalid token)""))",,,,2022-07-15 23:23:43,2022-07-15 23:23:44,0.401s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:23:44,2022-07-15 23:23:44,0.002s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:23:44,2022-07-15 23:23:44,0.020s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input),,,,2022-07-15 23:23:44,2022-07-15 23:24:00,16.670s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC006_Get All Class/TC001_Get All Class (With valid input)""))",,,,2022-07-15 23:23:44,2022-07-15 23:24:00,15.996s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:00,2022-07-15 23:24:00,0.003s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:00,2022-07-15 23:24:00,0.025s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token),,,,2022-07-15 23:24:00,2022-07-15 23:24:01,0.808s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC006_Get All Class/TC002_Get All Class (invalid token)""))",,,,2022-07-15 23:24:01,2022-07-15 23:24:01,0.418s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:01,2022-07-15 23:24:01,0.009s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:01,2022-07-15 23:24:01,0.038s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input),,,,2022-07-15 23:24:01,2022-07-15 23:24:04,2.528s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC007_Create A Class/TC001_Create A Class (With valid input)""))",,,,2022-07-15 23:24:01,2022-07-15 23:24:04,2.171s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:04,2022-07-15 23:24:04,0.009s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:04,2022-07-15 23:24:04,0.023s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field),,,,2022-07-15 23:24:04,2022-07-15 23:24:05,1.558s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC007_Create A Class/TC002_Create A Class (With empty field)""))",,,,2022-07-15 23:24:04,2022-07-15 23:24:05,1.195s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:05,2022-07-15 23:24:05,0.005s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:24:05,2022-07-15 23:24:05,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token),,,,2022-07-15 23:24:05,2022-07-15 23:24:06,1.217s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC007_Create A Class/TC003_Create A Class (With invalid token)""))",,,,2022-07-15 23:24:05,2022-07-15 23:24:06,0.878s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:06,2022-07-15 23:24:06,0.005s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:06,2022-07-15 23:24:06,0.033s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id),,,,2022-07-15 23:24:06,2022-07-15 23:24:09,2.817s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC008_Get Class By Id/TC001_Get Class By Id (With valid id)""))",,,,2022-07-15 23:24:07,2022-07-15 23:24:09,2.455s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:09,2022-07-15 23:24:09,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:09,2022-07-15 23:24:09,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id),,,,2022-07-15 23:24:09,2022-07-15 23:24:11,2.104s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC008_Get Class By Id/TC002_Get Class By Id (With invalid id)""))",,,,2022-07-15 23:24:10,2022-07-15 23:24:11,1.755s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:11,2022-07-15 23:24:11,0.001s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:24:11,2022-07-15 23:24:11,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token),,,,2022-07-15 23:24:11,2022-07-15 23:24:12,1.028s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC008_Get Class By Id/TC003_Get Class By Id (With invalid token)""))",,,,2022-07-15 23:24:12,2022-07-15 23:24:12,0.693s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:12,2022-07-15 23:24:12,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:12,2022-07-15 23:24:12,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input),,,,2022-07-15 23:24:12,2022-07-15 23:24:15,2.184s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC009_Update Class By Id/TC001_Update Class By Id (With valid input)""))",,,,2022-07-15 23:24:13,2022-07-15 23:24:15,1.866s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:15,2022-07-15 23:24:15,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:15,2022-07-15 23:24:15,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id),,,,2022-07-15 23:24:15,2022-07-15 23:24:17,1.977s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC009_Update Class By Id/TC002_Update Class By Id (With invalid id)""))",,,,2022-07-15 23:24:15,2022-07-15 23:24:17,1.672s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:17,2022-07-15 23:24:17,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:24:17,2022-07-15 23:24:17,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field),,,,2022-07-15 23:24:17,2022-07-15 23:24:19,2.124s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC009_Update Class By Id/TC003_Update Class By Id (With empty field)""))",,,,2022-07-15 23:24:17,2022-07-15 23:24:19,1.782s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:19,2022-07-15 23:24:19,0.000s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Bad Request"")",,,,2022-07-15 23:24:19,2022-07-15 23:24:19,0.032s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token),,,,2022-07-15 23:24:19,2022-07-15 23:24:21,1.952s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC009_Update Class By Id/TC004_Update Class By Id (With invalid token)""))",,,,2022-07-15 23:24:19,2022-07-15 23:24:21,1.626s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:21,2022-07-15 23:24:21,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:21,2022-07-15 23:24:21,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id),,,,2022-07-15 23:24:21,2022-07-15 23:24:25,4.151s,FAILED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)""))",,,,2022-07-15 23:24:21,2022-07-15 23:24:23,2.001s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:23,2022-07-15 23:24:23,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", true)",,,,2022-07-15 23:24:23,2022-07-15 23:24:23,0.031s,PASSED
+"response2 = sendRequest(findTestObject(""01_API/02_Class/SC010_Delete Class By Id/TC001_Delete Class By Id (With valid id)""))",,,,2022-07-15 23:24:23,2022-07-15 23:24:25,1.803s,PASSED
+"verifyElementPropertyValue(response2, ""data.isDeleted"", true)",,,,2022-07-15 23:24:25,2022-07-15 23:24:25,0.022s,FAILED
+,,,,,,,
+Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id),,,,2022-07-15 23:24:25,2022-07-15 23:24:27,1.834s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)""))",,,,2022-07-15 23:24:25,2022-07-15 23:24:27,1.510s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:27,2022-07-15 23:24:27,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:24:27,2022-07-15 23:24:27,0.032s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token),,,,2022-07-15 23:24:27,2022-07-15 23:24:28,1.032s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)""))",,,,2022-07-15 23:24:27,2022-07-15 23:24:28,0.706s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:28,2022-07-15 23:24:28,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:28,2022-07-15 23:24:28,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input),,,,2022-07-15 23:24:28,2022-07-15 23:24:32,4.469s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC011_Join A Class/TC001_Join A Class (With valid input)""))",,,,2022-07-15 23:24:28,2022-07-15 23:24:32,4.089s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:32,2022-07-15 23:24:32,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:32,2022-07-15 23:24:32,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code),,,,2022-07-15 23:24:32,2022-07-15 23:24:34,1.914s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC011_Join A Class/TC002_Join A Class (With invalid class code)""))",,,,2022-07-15 23:24:33,2022-07-15 23:24:34,1.553s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:34,2022-07-15 23:24:34,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""Class not found"")",,,,2022-07-15 23:24:34,2022-07-15 23:24:34,0.032s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id),,,,2022-07-15 23:24:34,2022-07-15 23:24:38,3.461s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC011_Join A Class/TC003_Join A Class (With invalid user id)""))",,,,2022-07-15 23:24:34,2022-07-15 23:24:38,3.132s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:38,2022-07-15 23:24:38,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""User not found"")",,,,2022-07-15 23:24:38,2022-07-15 23:24:38,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token),,,,2022-07-15 23:24:38,2022-07-15 23:24:39,0.979s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC011_Join A Class/TC004_Join A Class (With invalid token)""))",,,,2022-07-15 23:24:38,2022-07-15 23:24:39,0.648s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:39,2022-07-15 23:24:39,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:39,2022-07-15 23:24:39,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size,,,,2022-07-15 23:24:39,2022-07-15 23:24:44,5.622s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size""))",,,,2022-07-15 23:24:39,2022-07-15 23:24:44,5.289s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:44,2022-07-15 23:24:44,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:44,2022-07-15 23:24:44,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token),,,,2022-07-15 23:24:44,2022-07-15 23:24:45,0.942s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC012_Get All Class by Page and Size/TC002_Get All Class by Page and Size (With invalid token)""))",,,,2022-07-15 23:24:45,2022-07-15 23:24:45,0.489s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:45,2022-07-15 23:24:45,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:45,2022-07-15 23:24:45,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id),,,,2022-07-15 23:24:45,2022-07-15 23:24:49,3.639s,FAILED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)""))",,,,2022-07-15 23:24:46,2022-07-15 23:24:47,1.550s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:47,2022-07-15 23:24:47,0.010s,FAILED
+"verifyElementPropertyValue(response, ""status"", true)",,,,2022-07-15 23:24:47,2022-07-15 23:24:47,0.031s,FAILED
+"response2 = sendRequest(findTestObject(""01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)""))",,,,2022-07-15 23:24:47,2022-07-15 23:24:49,1.720s,PASSED
+"verifyElementPropertyValue(response2, ""errors.message"", ""user not found"")",,,,2022-07-15 23:24:49,2022-07-15 23:24:49,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id),,,,2022-07-15 23:24:49,2022-07-15 23:24:51,2.032s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)""))",,,,2022-07-15 23:24:49,2022-07-15 23:24:51,1.723s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:51,2022-07-15 23:24:51,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:24:51,2022-07-15 23:24:51,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token),,,,2022-07-15 23:24:51,2022-07-15 23:24:52,1.179s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)""))",,,,2022-07-15 23:24:51,2022-07-15 23:24:52,0.789s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:52,2022-07-15 23:24:52,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:24:52,2022-07-15 23:24:52,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC001_Create Class Material (With valid input),,,,2022-07-15 23:24:52,2022-07-15 23:24:58,5.636s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC012_Get All Class by Page and Size/TC001_Get All Class by Page and Size""))",,,,2022-07-15 23:24:52,2022-07-15 23:24:58,5.303s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:58,2022-07-15 23:24:58,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:24:58,2022-07-15 23:24:58,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input),,,,2022-07-15 23:24:58,2022-07-15 23:24:59,1.605s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)""))",,,,2022-07-15 23:24:58,2022-07-15 23:24:59,1.286s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:24:59,2022-07-15 23:24:59,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:24:59,2022-07-15 23:24:59,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id),,,,2022-07-15 23:24:59,2022-07-15 23:25:02,2.279s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)""))",,,,2022-07-15 23:25:00,2022-07-15 23:25:02,1.879s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:02,2022-07-15 23:25:02,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:25:02,2022-07-15 23:25:02,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token),,,,2022-07-15 23:25:02,2022-07-15 23:25:04,2.138s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)""))",,,,2022-07-15 23:25:02,2022-07-15 23:25:04,1.772s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:04,2022-07-15 23:25:04,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:04,2022-07-15 23:25:04,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id,,,,2022-07-15 23:25:04,2022-07-15 23:25:06,1.825s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC015_Get Material By Id/TC001_Get Material By Id""))",,,,2022-07-15 23:25:04,2022-07-15 23:25:06,1.500s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:06,2022-07-15 23:25:06,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:06,2022-07-15 23:25:06,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id),,,,2022-07-15 23:25:06,2022-07-15 23:25:08,1.929s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC015_Get Material By Id/TC002_Get Material By Id (With invalid id)""))",,,,2022-07-15 23:25:06,2022-07-15 23:25:08,1.564s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:08,2022-07-15 23:25:08,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:25:08,2022-07-15 23:25:08,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token),,,,2022-07-15 23:25:08,2022-07-15 23:25:09,1.085s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC015_Get Material By Id/TC003_Get Material By Id (With invalid token)""))",,,,2022-07-15 23:25:08,2022-07-15 23:25:09,0.659s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:09,2022-07-15 23:25:09,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:09,2022-07-15 23:25:09,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id,,,,2022-07-15 23:25:09,2022-07-15 23:25:11,1.883s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC016_Get All Material By Class Id/TC001_Get All Material By Class Id""))",,,,2022-07-15 23:25:09,2022-07-15 23:25:11,1.542s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:11,2022-07-15 23:25:11,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:11,2022-07-15 23:25:11,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id),,,,2022-07-15 23:25:11,2022-07-15 23:25:13,1.925s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC016_Get All Material By Class Id/TC002_Get All Material By Class Id (With invalid id)""))",,,,2022-07-15 23:25:11,2022-07-15 23:25:13,1.632s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:13,2022-07-15 23:25:13,0.000s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-15 23:25:13,2022-07-15 23:25:13,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token),,,,2022-07-15 23:25:13,2022-07-15 23:25:13,0.733s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC016_Get All Material By Class Id/TC003_Get All Material By Class Id (With invalid token)""))",,,,2022-07-15 23:25:13,2022-07-15 23:25:13,0.419s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:13,2022-07-15 23:25:13,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:13,2022-07-15 23:25:13,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input),,,,2022-07-15 23:25:13,2022-07-15 23:25:16,2.556s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC017_Update Class Material/TC001_Update Class Material (With valid input)""))",,,,2022-07-15 23:25:14,2022-07-15 23:25:16,2.221s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:16,2022-07-15 23:25:16,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:16,2022-07-15 23:25:16,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC002_Update Class Material (With empty input),,,,2022-07-15 23:25:16,2022-07-15 23:25:17,1.501s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC014_Create Class Material/TC002_Create Class Material (With empty input)""))",,,,2022-07-15 23:25:16,2022-07-15 23:25:17,1.187s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:17,2022-07-15 23:25:17,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:25:17,2022-07-15 23:25:17,0.046s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC003_Update Class Material (With invalid class id),,,,2022-07-15 23:25:17,2022-07-15 23:25:19,2.009s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC014_Create Class Material/TC003_Create Class Material (With invalid class id)""))",,,,2022-07-15 23:25:18,2022-07-15 23:25:19,1.711s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:19,2022-07-15 23:25:19,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:25:19,2022-07-15 23:25:19,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC017_Update Class Material/TC004_Update Class Material (With invalid token),,,,2022-07-15 23:25:19,2022-07-15 23:25:21,1.048s,PASSED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC014_Create Class Material/TC004_Create Class Material (With invalid token)""))",,,,2022-07-15 23:25:20,2022-07-15 23:25:20,0.744s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:20,2022-07-15 23:25:20,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:20,2022-07-15 23:25:21,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id),,,,2022-07-15 23:25:21,2022-07-15 23:25:24,3.938s,FAILED
+"response = sendRequest(findTestObject(""01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)""))",,,,2022-07-15 23:25:21,2022-07-15 23:25:23,1.873s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:23,2022-07-15 23:25:23,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", true)",,,,2022-07-15 23:25:23,2022-07-15 23:25:23,0.016s,PASSED
+"response2 = sendRequest(findTestObject(""01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)""))",,,,2022-07-15 23:25:23,2022-07-15 23:25:24,1.706s,PASSED
+"verifyElementPropertyValue(response2, ""data.isDeleted"", true)",,,,2022-07-15 23:25:24,2022-07-15 23:25:24,0.039s,FAILED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC002_Delete Class By Id (With invalid id),,,,2022-07-15 23:25:24,2022-07-15 23:25:26,1.974s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC010_Delete Class By Id/TC002_Delete Class By Id (With invalid id)""))",,,,2022-07-15 23:25:25,2022-07-15 23:25:26,1.601s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:26,2022-07-15 23:25:26,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:25:26,2022-07-15 23:25:26,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/03_Class Material/SC018_Delete Material By Id/TC003_Delete Class By Id (With invalid token),,,,2022-07-15 23:25:26,2022-07-15 23:25:27,0.971s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC010_Delete Class By Id/TC003_Delete Class By Id (With invalid token)""))",,,,2022-07-15 23:25:27,2022-07-15 23:25:27,0.611s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:27,2022-07-15 23:25:27,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:27,2022-07-15 23:25:27,0.063s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC001_Get All Guidances in Class (With valid input),,,,2022-07-15 23:25:27,2022-07-15 23:25:29,1.946s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC020_Get All Guidances of Class/TC001_Get All Guidances in Class (With valid input)""))",,,,2022-07-15 23:25:28,2022-07-15 23:25:29,1.652s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:29,2022-07-15 23:25:29,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:29,2022-07-15 23:25:29,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC002_Get All Guidances in Class (With invalid ClassId),,,,2022-07-15 23:25:29,2022-07-15 23:25:31,1.845s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC020_Get All Guidances of Class/TC002_Get All Guidances in Class (With invalid classId)""))",,,,2022-07-15 23:25:30,2022-07-15 23:25:31,1.509s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:31,2022-07-15 23:25:31,0.000s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-15 23:25:31,2022-07-15 23:25:31,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC019_Get All Guidances in Class/TC003_Get All Guidances in Class (With invalid token),,,,2022-07-15 23:25:31,2022-07-15 23:25:32,0.900s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC020_Get All Guidances of Class/TC003_Get All Guidances in Class (With invalid token)""))",,,,2022-07-15 23:25:32,2022-07-15 23:25:32,0.586s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:32,2022-07-15 23:25:32,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:32,2022-07-15 23:25:32,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input),,,,2022-07-15 23:25:32,2022-07-15 23:25:36,3.825s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC019_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)""))",,,,2022-07-15 23:25:32,2022-07-15 23:25:36,3.539s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:36,2022-07-15 23:25:36,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:36,2022-07-15 23:25:36,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token),,,,2022-07-15 23:25:36,2022-07-15 23:25:37,0.963s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC019_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)""))",,,,2022-07-15 23:25:36,2022-07-15 23:25:37,0.649s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:37,2022-07-15 23:25:37,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:37,2022-07-15 23:25:37,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId),,,,2022-07-15 23:25:37,2022-07-15 23:25:39,1.858s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC019_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)""))",,,,2022-07-15 23:25:37,2022-07-15 23:25:39,1.549s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:39,2022-07-15 23:25:39,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""User not found"")",,,,2022-07-15 23:25:39,2022-07-15 23:25:39,0.032s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId),,,,2022-07-15 23:25:39,2022-07-15 23:25:41,2.422s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC019_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)""))",,,,2022-07-15 23:25:39,2022-07-15 23:25:41,1.986s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:41,2022-07-15 23:25:41,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""Class not found"")",,,,2022-07-15 23:25:41,2022-07-15 23:25:41,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC001_Delete Guidance in Class (With valid input),,,,2022-07-15 23:25:41,2022-07-15 23:25:45,4.172s,PASSED
+"response = sendRequest(findTestObject(""01_API/04_Guidance/SC021_Delete Guidance By Id/TC001_Delete Guidance By Id (With valid input)""))",,,,2022-07-15 23:25:42,2022-07-15 23:25:44,2.139s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:44,2022-07-15 23:25:44,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", true)",,,,2022-07-15 23:25:44,2022-07-15 23:25:44,0.031s,PASSED
+"response2 = sendRequest(findTestObject(""01_API/04_Guidance/SC021_Delete Guidance By Id/TC001_Delete Guidance By Id (With valid input)""))",,,,2022-07-15 23:25:44,2022-07-15 23:25:45,1.660s,PASSED
+"verifyElementPropertyValue(response2, ""data.isDeleted"", ""true"")",,,,2022-07-15 23:25:45,2022-07-15 23:25:45,0.046s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC002_Delete Guidance in Class (With invalid id),,,,2022-07-15 23:25:45,2022-07-15 23:25:47,1.794s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC013_Delete User in Class/TC002_Delete User in Class (With invalid id)""))",,,,2022-07-15 23:25:46,2022-07-15 23:25:47,1.507s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:47,2022-07-15 23:25:47,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-07-15 23:25:47,2022-07-15 23:25:47,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/04_Guidance/SC021_Delete Guidance in Class/TC003_Delete Guidance in Class (With invalid token),,,,2022-07-15 23:25:47,2022-07-15 23:25:48,1.008s,PASSED
+"response = sendRequest(findTestObject(""01_API/02_Class/SC013_Delete User in Class/TC003_Delete User in Class (With invalid token)""))",,,,2022-07-15 23:25:48,2022-07-15 23:25:48,0.667s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:48,2022-07-15 23:25:48,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:48,2022-07-15 23:25:48,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input),,,,2022-07-15 23:25:48,2022-07-15 23:25:50,1.808s,FAILED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)""))",,,,2022-07-15 23:25:49,2022-07-15 23:25:50,1.509s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:50,2022-07-15 23:25:50,0.003s,FAILED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:50,2022-07-15 23:25:50,0.016s,FAILED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId),,,,2022-07-15 23:25:50,2022-07-15 23:25:52,2.347s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId)""))",,,,2022-07-15 23:25:50,2022-07-15 23:25:52,1.901s,PASSED
+"verifyResponseStatusCode(response, response_400, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:52,2022-07-15 23:25:52,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""Class not found"")",,,,2022-07-15 23:25:52,2022-07-15 23:25:52,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token),,,,2022-07-15 23:25:52,2022-07-15 23:25:53,0.936s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token)""))",,,,2022-07-15 23:25:53,2022-07-15 23:25:53,0.626s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:53,2022-07-15 23:25:53,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:53,2022-07-15 23:25:53,0.047s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input),,,,2022-07-15 23:25:53,2022-07-15 23:25:55,1.883s,FAILED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)""))",,,,2022-07-15 23:25:54,2022-07-15 23:25:55,1.505s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:55,2022-07-15 23:25:55,0.012s,FAILED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:25:55,2022-07-15 23:25:55,0.031s,FAILED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId),,,,2022-07-15 23:25:55,2022-07-15 23:25:57,2.055s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC023_Get Feedbacks by ClassId/TC002_Get All Feedbacks by ClassId (With invalid classId)""))",,,,2022-07-15 23:25:56,2022-07-15 23:25:57,1.716s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:57,2022-07-15 23:25:57,0.000s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-15 23:25:57,2022-07-15 23:25:57,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token),,,,2022-07-15 23:25:57,2022-07-15 23:25:59,1.470s,PASSED
+"response = sendRequest(findTestObject(""01_API/05_Feedback/SC023_Get Feedbacks by ClassId/TC003_Get All Feedbacks by ClassId (With invalid token)""))",,,,2022-07-15 23:25:58,2022-07-15 23:25:59,1.144s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:25:59,2022-07-15 23:25:59,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:25:59,2022-07-15 23:25:59,0.015s,PASSED
+,,,,,,,
+Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC001_Get All History by UserId (With valid input),,,,2022-07-15 23:25:59,2022-07-15 23:26:01,2.588s,PASSED
+"response = sendRequest(findTestObject(""01_API/06_Activity History/SC024_Get All History by UserId/TC001_Get All History by UserId (With valid input)""))",,,,2022-07-15 23:25:59,2022-07-15 23:26:01,2.296s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:26:01,2022-07-15 23:26:01,0.000s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""true"")",,,,2022-07-15 23:26:01,2022-07-15 23:26:01,0.031s,PASSED
+,,,,,,,
+Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC002_Get All History by UserId (With invalid userId),,,,2022-07-15 23:26:01,2022-07-15 23:26:03,1.646s,PASSED
+"response = sendRequest(findTestObject(""01_API/06_Activity History/SC024_Get All History by UserId/TC002_Get All History by UserId (With invalid userId)""))",,,,2022-07-15 23:26:02,2022-07-15 23:26:03,1.348s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:26:03,2022-07-15 23:26:03,0.000s,PASSED
+"verifyElementPropertyValue(response, ""data"", [])",,,,2022-07-15 23:26:03,2022-07-15 23:26:03,0.016s,PASSED
+,,,,,,,
+Test Cases/01_API/06_Activity History/SC024_Get All History By UserId/TC003_Get All History by UserId (With invalid token),,,,2022-07-15 23:26:03,2022-07-15 23:26:05,1.415s,PASSED
+"response = sendRequest(findTestObject(""01_API/06_Activity History/SC024_Get All History by UserId/TC003_Get All History by UserId (With invalid token)""))",,,,2022-07-15 23:26:03,2022-07-15 23:26:04,1.098s,PASSED
+"verifyResponseStatusCode(response, response_200, CONTINUE_ON_FAILURE)",,,,2022-07-15 23:26:04,2022-07-15 23:26:04,0.000s,PASSED
+"verifyElementPropertyValue(response, ""errors.message"", ""access denied"")",,,,2022-07-15 23:26:04,2022-07-15 23:26:05,0.031s,PASSED

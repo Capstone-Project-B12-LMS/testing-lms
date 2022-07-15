@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message",
+      "brokenLocator": "//*[@class \u003d \u0027swal2-popup swal2-modal swal2-icon-error swal2-show\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message_XPATH.png"
     }
   ]
 }

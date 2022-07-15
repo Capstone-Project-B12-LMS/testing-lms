@@ -37,9 +37,9 @@ for (int i = 1; i <= 9; i++) {
 
     if ((findTestData('signup_web').getValue(2, i) == 'negative') && (findTestData('signup_web').getValue(4, i) == '')) {
         WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Daftar'), 0)
-    } else if ((findTestData('signup_web').getValue(6, i) == 'Register Success') || (findTestData('signup_web').getValue(
-        6, i) == 'Register Failed')) {
-        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC002_Sign Up/register_message'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+    } else if (i == 8 || i == 9) {
+        WebUI.verifyElementText(findTestObject('02_Web/02_Auth/SC002_Sign Up/register_message'), findTestData('signup_web').getValue(
+                6, i), FailureHandling.CONTINUE_ON_FAILURE)
 
         WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/btn_popup_message'))
     } else {

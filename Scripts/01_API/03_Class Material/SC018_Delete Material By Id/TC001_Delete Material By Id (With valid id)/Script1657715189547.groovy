@@ -23,7 +23,3 @@ WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandli
 
 WS.verifyElementPropertyValue(response, 'status', true)
 
-response2 = WS.sendRequest(findTestObject('01_API/03_Class Material/SC018_Delete Material By Id/TC001_Delete Material By Id (With valid id)'))
-
-WS.verifyElementPropertyValue(response2, 'data.isDeleted', true)
-

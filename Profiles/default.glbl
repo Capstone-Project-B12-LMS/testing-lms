@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwMzEwMjgzLCJ1c2VySWQiOiJiZGFiZWU1MC0zMjllLTQ4NzUtYjk0MS1kOWNhMmRhYWM4ZTUiLCJpYXQiOjE2NTc3MTgyODN9.3d-lj_GR7K8aFRtNV35mJ3MLDrvkMxaKebSjoyp1YYo'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwNDkwNTUwLCJ1c2VySWQiOiJiZGFiZWU1MC0zMjllLTQ4NzUtYjk0MS1kOWNhMmRhYWM4ZTUiLCJpYXQiOjE2NTc4OTg1NTB9.m8xm5ZhPzV3MdxeAw8SS4CAB4htAweTIW6pGpYH56jc'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,8 +75,8 @@
       <name>base_url_api</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'archen5@gmail.com'</initValue>
+      <description>Email baru untuk sign up</description>
+      <initValue>'archen8@gmail.com'</initValue>
       <name>register_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,7 +111,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'cb2f7209-e85d-4b80-a2b6-77ef9d6a1d5a'</initValue>
+      <initValue>'19ab7ae2-9335-4e91-b176-ec31c1f41c56'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -136,7 +136,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://live-demo-study-space.netlify.app/'</initValue>
+      <initValue>'https://capstone-study-space.netlify.app/'</initValue>
       <name>url_website</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -160,13 +160,18 @@
       <name>id_guidance</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>id user (student) yang akan dihapus dari kelas</description>
       <initValue>'ab1993fe-3b5f-4313-9a54-d4820332fad2'</initValue>
       <name>id_user_delete</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'c0f53a85-ca7a-43ba-b91b-59549315d7a7'</initValue>
+      <description>id class student yang digunakan untuk diberikan feedback</description>
+      <initValue>'562add46-904d-4ed0-923a-0c15da57d7dd'</initValue>
       <name>id_class_student_feedback</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Code class sebagai teacher untuk test dalam menghapus student</description>
+      <initValue>'2ee6612c49'</initValue>
+      <name>code_class_teacher</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

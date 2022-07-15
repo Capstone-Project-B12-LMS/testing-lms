@@ -23,7 +23,3 @@ WS.verifyResponseStatusCode(response, GlobalVariable.response_200, FailureHandli
 
 WS.verifyElementPropertyValue(response, 'status', true)
 
-response2 = WS.sendRequest(findTestObject('01_API/02_Class/SC013_Delete User in Class/TC001_Delete User in Class (With valid id)'))
-
-WS.verifyElementPropertyValue(response2, 'errors.message', 'user not found')
-
