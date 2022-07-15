@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_Mobile,,,,2022-07-15 12:49:17,2022-07-15 12:50:37,1m - 20.247s,FAILED
+,,,,,,,
+Test Cases/03_Mobile/03_Home/SC008_Active Class/TC001_View Detail Active Class,,,,2022-07-15 12:49:18,2022-07-15 12:49:53,34.935s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"")",,,,2022-07-15 12:49:19,2022-07-15 12:49:40,21.350s,PASSED
+"tapAndHold(findTestObject(""03_Mobile/03_Home/SC008_Active Class/class""), 0, 0)",,,,2022-07-15 12:49:40,2022-07-15 12:49:49,9.430s,PASSED
+"verifyElementExist(findTestObject(""03_Mobile/03_Home/SC008_Active Class/class_title""), 0)",,,,2022-07-15 12:49:49,2022-07-15 12:49:52,2.548s,PASSED
+closeApplication(),,,,2022-07-15 12:49:52,2022-07-15 12:49:53,0.865s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/04_My Class/SC009_Class List/TC001_View Detail Class in My Class,,,,2022-07-15 12:49:53,2022-07-15 12:50:37,44.685s,FAILED
+"startExistingApplication(""com.example.capstone_project_lms"")",,,,2022-07-15 12:49:53,2022-07-15 12:50:09,16.151s,PASSED
+"tap(findTestObject(""03_Mobile/04_My Class/SC009_Class List/myclass""), 0)",,,,2022-07-15 12:50:09,2022-07-15 12:50:37,27.960s,FAILED

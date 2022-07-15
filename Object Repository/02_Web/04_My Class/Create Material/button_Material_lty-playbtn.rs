@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Material_lty-playbtn</name>
+   <tag></tag>
+   <elementGuidId>972c44ab-c41d-4a60-bbd2-e67105dee534</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.lty-playbtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='parent']/div[3]/div[2]/div/div/div[2]/div[2]/article/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lty-playbtn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Watch yt-embed</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parent&quot;)/div[@class=&quot;flex my-[2rem]&quot;]/div[@class=&quot;w-[75%]&quot;]/div[1]/div[@class=&quot;bg-white px-4&quot;]/div[@class=&quot;p-8 mt-8 border border-solid border-[#A8A8A8] rounded-[20px]&quot;]/div[@class=&quot;w-full mt-8 rounded-[15px] overflow-hidden&quot;]/article[@class=&quot;yt-lite&quot;]/button[@class=&quot;lty-playbtn&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='parent']/div[3]/div[2]/div/div/div[2]/div[2]/article/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/button</value>
+   </webElementXpaths>
+</WebElementEntity>

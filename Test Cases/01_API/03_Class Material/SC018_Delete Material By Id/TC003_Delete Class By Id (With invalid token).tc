@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Delete Class By Id (With invalid token)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86bc90fb-080c-4da9-b51d-55fc8309bbb6</testCaseGuid>
+</TestCaseEntity>

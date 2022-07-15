@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Create Material (With invalid link ppt)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fdc5ba7-6e76-4a6f-9934-da42836d2a3b</testCaseGuid>
+</TestCaseEntity>

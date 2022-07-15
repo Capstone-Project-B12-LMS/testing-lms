@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Add Link Video</name>
+   <tag></tag>
+   <elementGuidId>7fb643f5-8817-482c-a70c-56c63ac9f24e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value> Input Link Video</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-2 w-[340px] h-[28px] rounded-md</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parent&quot;)/div[@class=&quot;flex my-[2rem]&quot;]/div[@class=&quot;w-[75%]&quot;]/div[1]/div[@class=&quot;mx-[0.5rem]&quot;]/div[1]/div[@class=&quot;fixed inset-0 w-screen height-screen bg-[rgba(0,0,0,0.5)] inset-y-0 z-30 opacity-100 visible&quot;]/div[@class=&quot;flex flex-col items-center absolute bg-white inset-2/4 translate-y-[-50%] translate-x-[-50%] rounded-[30px] w-[500px] max-h-min&quot;]/div[@class=&quot;flex items-center justify-center&quot;]/form[1]/div[@class=&quot;w-[500px]  h-[200px] flex flex-col items-center justify-center rounded-[20px] box-border border-4&quot;]/input[@class=&quot;border-2 w-[340px] h-[28px] rounded-md&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='parent']/div[3]/div[2]/div/div/div/div[2]/div/div/form/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = ' Input Link Video']</value>
+   </webElementXpaths>
+</WebElementEntity>
