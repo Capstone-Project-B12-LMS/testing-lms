@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Quality Engineer 1\&quot;,\n  \&quot;room\&quot;: \&quot;\&quot;,\n  \&quot;status\&quot;: \&quot;ACTIVE\&quot;,\n  \&quot;reportUrl\&quot;: \&quot;string\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Quality Engineer 1\&quot;,\n  \&quot;room\&quot;: \&quot;Class A\&quot;,\n  \&quot;status\&quot;: \&quot;ACTIVE\&quot;,\n  \&quot;reportUrl\&quot;: \&quot;https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA/edit?usp\u003dsharing\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,7 +21,6 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>29f5501a-d92d-4954-9e03-944f38e799c2</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -29,7 +28,6 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>${GlobalVariable.bearertoken}</value>
-      <webElementGuid>5caf759d-e439-4270-b4cf-73a441435afa</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

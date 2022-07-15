@@ -24,17 +24,29 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login'))
 
 for (int i = 1; i <= 5; i++) {
-    WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), findTestData('signin').getValue(3, i))
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), findTestData('signin_web').getValue(
+            3, i))
 
-    WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), findTestData('signin').getValue(
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), findTestData('signin_web').getValue(
             4, i))
 
-    WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_1'))
+    WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_submit'))
 
-    if (findTestData('signup').getValue(2, i) == 'negative') {
-        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_1'), 0)
+    if (((findTestData('signin_web').getValue(2, i) == 'negative') && (findTestData('signin_web').getValue(3, i) != '')) && 
+    (findTestData('signin_web').getValue(5, i) == '')) {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/failed_login'), 0)
+
+        WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/close_failed_msg'))
+    } else if ((findTestData('signin_web').getValue(2, i) == 'negative') && (findTestData('signin_web').getValue(3, i) == 
+    '')) {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_submit'), 0)
+    } else if ((findTestData('signin_web').getValue(2, i) == 'negative') && (findTestData('signin_web').getValue(5, i) != 
+    '')) {
+        WebUI.verifyElementPresent(findTestObject(findTestData('signin_web').getValue(5, i)), 0)
     } else {
-        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_akun 1'), 0)
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_profile icon'), 0)
     }
 }
+
+WebUI.closeBrowser()
 

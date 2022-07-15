@@ -21,11 +21,11 @@ WebUI.openBrowser(GlobalVariable.url_website)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/menu_login'))
+WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login'))
 
-WebUI.setText(findTestObject('02_Web/02_Auth/SC004_Logout/input_email_email'), 'sal@gmail.com')
+WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), 'sal@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('02_Web/02_Auth/SC004_Logout/input_password_password'), '6QeXpT+dc5NAB4QThbzGaQ==')
+WebUI.setEncryptedText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), '6QeXpT+dc5NAB4QThbzGaQ==')
 
-WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/button_Login'))
+WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_submit'))
 

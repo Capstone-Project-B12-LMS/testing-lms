@@ -23,23 +23,29 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Sign up'))
 
-for (int i = 1; i <= 8; i++) {
-    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_username_username'), findTestData('signup').getValue(
+for (int i = 1; i <= 9; i++) {
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'), findTestData('signup_web').getValue(
             3, i))
 
-    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_email_email'), findTestData('signup').getValue(4, i))
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_email_email'), findTestData('signup_web').getValue(
+            4, i))
 
-    WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/show_pw'))
-
-    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_password_password'), findTestData('signup').getValue(
+    WebUI.setText(findTestObject('02_Web/02_Auth/SC002_Sign Up/input_password_password'), findTestData('signup_web').getValue(
             5, i))
 
     WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Daftar'))
 
-    if (findTestData('signup').getValue(2, i) == 'negative') {
+    if ((findTestData('signup_web').getValue(2, i) == 'negative') && (findTestData('signup_web').getValue(4, i) == '')) {
         WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC002_Sign Up/button_Daftar'), 0)
+    } else if ((findTestData('signup_web').getValue(6, i) == 'Register Success') || (findTestData('signup_web').getValue(
+        6, i) == 'Register Failed')) {
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC002_Sign Up/register_message'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+        WebUI.click(findTestObject('02_Web/02_Auth/SC002_Sign Up/btn_popup_message'))
     } else {
-        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_1'), 0)
+        WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require'), 0)
     }
 }
+
+WebUI.closeBrowser()
 

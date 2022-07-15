@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_Get All History by UserId (With invalid userId)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ac4b134a-d402-4861-926d-c3172ed8dfe9</testCaseGuid>
-</TestCaseEntity>

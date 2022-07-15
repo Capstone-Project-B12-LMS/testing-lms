@@ -27,3 +27,5 @@ WebUI.click(findTestObject('02_Web/02_Auth/SC004_Logout/button_oklogout'))
 
 WebUI.verifyElementPresent(findTestObject('02_Web/02_Auth/SC004_Logout/menu_login'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.closeBrowser()
+

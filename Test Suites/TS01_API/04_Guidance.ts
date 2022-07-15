@@ -15,25 +15,25 @@
       <guid>8cd3903e-7a86-4131-b210-6f4ca016cbe8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3862721f-362e-4bb6-a548-aa7f10ccdba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5b1ae0e6-ffa6-456d-b33f-a410c0530748</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>043649f2-ba08-456c-af93-0fd6270d1952</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>10b0ea59-166f-4709-b3cb-b6451bf1e245</guid>

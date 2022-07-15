@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjU5NTc5MDgyLCJ1c2VySWQiOiJiZGFiZWU1MC0zMjllLTQ4NzUtYjk0MS1kOWNhMmRhYWM4ZTUiLCJpYXQiOjE2NTY5ODcwODJ9.3xIQHYQCVoKwp15pDDqbEd6Gk8bfO-xDgFSGA8Kbs5U'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwMzEwMjgzLCJ1c2VySWQiOiJiZGFiZWU1MC0zMjllLTQ4NzUtYjk0MS1kOWNhMmRhYWM4ZTUiLCJpYXQiOjE2NTc3MTgyODN9.3d-lj_GR7K8aFRtNV35mJ3MLDrvkMxaKebSjoyp1YYo'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,7 +111,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'42b7ea98-6c8d-4c40-ba67-2ad4d058f6be'</initValue>
+      <initValue>'cb2f7209-e85d-4b80-a2b6-77ef9d6a1d5a'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -121,7 +121,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'07a3c536-7463-4f72-a59b-87bf5eec38d7'</initValue>
+      <initValue>'38877caa-6379-43db-9443-04742b94f4e4'</initValue>
       <name>id_material</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -141,7 +141,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'327c9ab9-70e7-4b4a-906d-5985a85122d3'</initValue>
+      <initValue>'562add46-904d-4ed0-923a-0c15da57d7dd'</initValue>
       <name>id_class_student</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -151,17 +151,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'71b92eb7-c515-4f82-b471-610fc0ee92f7'</initValue>
+      <initValue>'327c9ab9-70e7-4b4a-906d-5985a85122d3'</initValue>
       <name>id_class_delete</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'4fb793b8-e65f-4fae-ad86-9e784eb85bcb'</initValue>
+      <initValue>'214ca80f-6092-4e1e-b2e3-0b8960e8eff3'</initValue>
       <name>id_guidance</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'8505279e-a2c9-48a0-bf48-fe2a10482dd7'</initValue>
+      <initValue>'ab1993fe-3b5f-4313-9a54-d4820332fad2'</initValue>
       <name>id_user_delete</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'c0f53a85-ca7a-43ba-b91b-59549315d7a7'</initValue>
+      <name>id_class_student_feedback</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

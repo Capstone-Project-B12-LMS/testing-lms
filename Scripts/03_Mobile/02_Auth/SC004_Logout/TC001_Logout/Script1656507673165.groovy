@@ -16,14 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
 
-Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('03_Mobile/02_Auth/SC004_Logout/setting_menu'), 0)
+Mobile.tap(findTestObject('03_Mobile/06_Settings/menu_settings'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tapAndHold(findTestObject('03_Mobile/02_Auth/SC004_Logout/android.view.View'), 0, 0)
+Mobile.tapAndHold(findTestObject('03_Mobile/02_Auth/SC004_Logout/signout'), 0, 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('03_Mobile/02_Auth/SC004_Logout/welcome_back'), 0)
+Mobile.tap(findTestObject('03_Mobile/02_Auth/SC004_Logout/signout_ok'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.closeApplication()
+Mobile.verifyElementExist(findTestObject('03_Mobile/02_Auth/SC004_Logout/welcome_back'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+
+driver.terminateApp('com.example.capstone_project_lms')
 

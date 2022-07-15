@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('01_API/01_User/SC001_Register/TCC003_Register (With invalid method)'))
+response = WS.sendRequest(findTestObject('01_API/01_User/SC001_Register/TC003_Register (With invalid method)'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.response_405, FailureHandling.CONTINUE_ON_FAILURE)
 

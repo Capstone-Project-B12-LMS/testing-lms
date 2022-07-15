@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_Delete Guidance in Class (With invalid id)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1607018f-8a17-422e-ae74-5f5fc21f4801</testCaseGuid>
-</TestCaseEntity>

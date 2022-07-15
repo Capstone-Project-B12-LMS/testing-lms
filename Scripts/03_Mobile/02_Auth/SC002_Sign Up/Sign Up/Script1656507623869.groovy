@@ -16,35 +16,45 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
 
-Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.id_mobile_apk, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/a_signup'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/a_signup'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-for (int i = 1; i <= 8; i++) {
-    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_fullname'), 0)
+for (int i = 1; i <= 9; i++) {
+    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_fullname'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.setText(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_fullname'), findTestData('signup').getValue(3, i), 0, FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.setText(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_fullname'), findTestData('signup').getValue(3, 
+            i), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_email'), 0)
+    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_email'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.setText(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_email'), findTestData('signup').getValue(4, i), 0, FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.setText(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_email'), findTestData('signup').getValue(4, i), 
+        0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_password'), 0)
+    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_password'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.setText(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_password'), findTestData('signup').getValue(5, i), 0)
+    Mobile.setText(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_password'), findTestData('signup').getValue(5, 
+            i), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    // Mobile.setText(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/field_password'), findTestData('signup').getValue(5, 
+    Mobile.pressBack(FailureHandling.CONTINUE_ON_FAILURE)
+
+    // Mobile.setText(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/field_password'), findTestData('signup').getValue(5, 
     //        i), 0, FailureHandling.STOP_ON_FAILURE)
-    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/button_signup'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.tap(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/button_signup'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    if (findTestData('signup').getValue(2, i) == 'negative') {
-        Mobile.verifyElementExist(findTestObject('03_Mobile/02_Auth/SC003_Sign Up/create_acc'), 0 // verify
-            )
+    if ((findTestData('signup').getValue(2, i) == 'negative') && (findTestData('signup').getValue(6, i) == '')) {
+        Mobile.verifyElementExist(findTestObject('03_Mobile/02_Auth/SC002_Sign Up/create_acc'), 0)
     } else {
-        Mobile.verifyElementExist(findTestObject('03_Mobile/02_Auth/SC002_Sign In/welcome_back'), 0)
+        Mobile.verifyElementExist(findTestObject(findTestData('signup').getValue(6, i)), 0)
     }
 }
+
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+
+driver.terminateApp('com.example.capstone_project_lms')
 

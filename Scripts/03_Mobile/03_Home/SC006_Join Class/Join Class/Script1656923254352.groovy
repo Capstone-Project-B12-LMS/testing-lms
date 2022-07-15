@@ -16,18 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
 
-Mobile.startExistingApplication('com.example.capstone_project_lms')
+Mobile.startExistingApplication('com.example.capstone_project_lms', FailureHandling.CONTINUE_ON_FAILURE)
 
 for (int i = 1; i <= 3; i++) {
-    Mobile.tap(findTestObject('03_Mobile/03_Home/SC006_Join Class/btn_joinclass'), 0)
+    Mobile.tap(findTestObject('Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'), 0)
 
-    Mobile.tapAndHold(findTestObject('03_Mobile/03_Home/SC006_Join Class/txt_codeclass'), 0, 0)
+    Mobile.tapAndHold(findTestObject('03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'), 0, 0)
 
-    Mobile.setText(findTestObject('03_Mobile/03_Home/SC006_Join Class/txt_codeclass'), findTestData('join_class').getValue(
-            3, i), 0)
+    Mobile.setText(findTestObject('Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'), findTestData(
+            'join_class').getValue(3, i), 0)
 
-    Mobile.tap(findTestObject('03_Mobile/03_Home/SC006_Join Class/btn_join'), 0)
+    Mobile.tap(findTestObject('Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'), 0)
 
     if (findTestData('join_class').getValue(2, i) == 'negative') {
         Mobile.verifyElementExist(findTestObject('03_Mobile/03_Home/SC006_Join Class/failed_message'), 0, FailureHandling.CONTINUE_ON_FAILURE)
@@ -36,5 +38,7 @@ for (int i = 1; i <= 3; i++) {
     }
 }
 
-Mobile.closeApplication()
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+
+driver.terminateApp('com.example.capstone_project_lms')
 

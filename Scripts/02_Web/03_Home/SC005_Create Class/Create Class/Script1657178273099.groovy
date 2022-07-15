@@ -21,14 +21,21 @@ WebUI.callTestCase(findTestCase('02_Web/signin'), [:], FailureHandling.STOP_ON_F
 
 WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create Class'))
 
-for(int i=1; i<=3; i++){
-	WebUI.setText(findTestObject('02_Web/03_Home/SC005_Create Class/input_class'), findTestData('create_class').getValue(3, 
-	        i))
-	
-	WebUI.setText(findTestObject('02_Web/03_Home/SC005_Create Class/input_room'), findTestData('create_class').getValue(4, i))
-	
-	WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create'))
-	
-	WebUI.verifyElementPresent(findTestObject('02_Web/03_Home/SC005_Create Class/a_description'), 0)
+for (int i = 1; i <= 3; i++) {
+    WebUI.setText(findTestObject('02_Web/03_Home/SC005_Create Class/input_class'), findTestData('create_class').getValue(
+            3, i))
+
+    WebUI.setText(findTestObject('02_Web/03_Home/SC005_Create Class/input_room'), findTestData('create_class').getValue(
+            4, i))
+
+    WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create'))
+
+    if (findTestData('create_class').getValue(2, i) == 'negative') {
+        WebUI.verifyElementPresent(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create'), 0)
+    } else {
+        WebUI.verifyElementPresent(findTestObject('02_Web/03_Home/SC005_Create Class/a_description'), 0)
+    }
 }
+
+WebUI.closeBrowser()
 

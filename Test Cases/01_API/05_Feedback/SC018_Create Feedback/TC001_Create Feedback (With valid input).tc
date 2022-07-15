@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_Create Feedback (With valid input)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5df0595e-6c52-49f9-82de-c75b64621506</testCaseGuid>
-</TestCaseEntity>

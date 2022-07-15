@@ -351,25 +351,25 @@
       <guid>acc1c5d1-21d7-4cb6-af0a-d44a72428165</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC001_Request Guidance in Class (With valid input)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3d6eb1de-ab57-4bc6-9e65-9d720bdbc544</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC002_Request Guidance in Class (With invalid token)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7c2182cf-c387-48fe-ae9a-39c55322f80a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC003_Request Guidance in Class (With invalid userId)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d9da0828-52b0-4870-a4b4-a502aa8c2ff0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/04_Guidance/SC018_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)</testCaseId>
+      <testCaseId>Test Cases/01_API/04_Guidance/SC020_Request Guidance in Class/TC004_Request Guidance in Class (With invalid classId)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>89ab6aab-5519-456e-ae1c-c988abd9cf17</guid>
@@ -393,42 +393,36 @@
       <guid>2e24b222-7421-4c69-8350-bddfc8aad196</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC001_Create Feedback (With valid input)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>73a01b69-d480-44e6-81a4-1e31bdc2ede2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC002_Create Feedback (With invalid userId)</testCaseId>
+      <testCaseId>Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC001_Create Feedback (With valid input)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f5be31e8-809c-4815-b4a2-4ffc4c25fdaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC003_Create Feedback (With invalid classId)</testCaseId>
+      <testCaseId>Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC002_Create Feedback (With invalid classId)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>faa5dc6f-eacc-4f12-aa87-b6a223bbf004</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC018_Create Feedback/TC004_Create Feedback (With invalid token)</testCaseId>
+      <testCaseId>Test Cases/01_API/05_Feedback/SC022_Create Feedback/TC003_Create Feedback (With invalid token)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>410f6111-ba1f-423c-ab6b-5f000332f742</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)</testCaseId>
+      <testCaseId>Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC001_Get All Feedbacks by ClassId (With valid input)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>81ddc2e0-944b-4de8-90f5-29568e9aaf8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)</testCaseId>
+      <testCaseId>Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC002_Get All Feedbacks by ClassId (With invalid classId)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b7627fd1-d723-4481-a68e-1a1d8a29cd3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_API/05_Feedback/SC019_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)</testCaseId>
+      <testCaseId>Test Cases/01_API/05_Feedback/SC023_Get All Feedbacks of Class/TC003_Get All Feedbacks by ClassId (With invalid token)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
