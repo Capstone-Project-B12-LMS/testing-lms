@@ -23,9 +23,9 @@ WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), 'archen@gmail.com', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), 'salsabilarhdsy@gmail.com', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), 'Archen123!', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), 'Salsa123!', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_submit'), FailureHandling.CONTINUE_ON_FAILURE)
 
