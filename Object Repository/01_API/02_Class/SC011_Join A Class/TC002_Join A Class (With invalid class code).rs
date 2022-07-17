@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;classCode\&quot;: \&quot;1vftdg\&quot;,\n  \&quot;userId\&quot;: \&quot;${GlobalVariable.id_user}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;classCode\&quot;: \&quot;abc3efg\&quot;,\n  \&quot;userId\&quot;: \&quot;${GlobalVariable.id_user}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

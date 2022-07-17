@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.url_website)
+WebUI.openBrowser(GlobalVariable.url_website, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login'))
+WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), 'sal@gmail.com')
+WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_email_email'), 'archen@gmail.com', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), '6QeXpT+dc5NAB4QThbzGaQ==')
+WebUI.setText(findTestObject('02_Web/02_Auth/SC003_Sign In/input_password_password'), 'Archen123!', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_submit'))
+WebUI.click(findTestObject('02_Web/02_Auth/SC003_Sign In/button_Login_submit'), FailureHandling.CONTINUE_ON_FAILURE)
 

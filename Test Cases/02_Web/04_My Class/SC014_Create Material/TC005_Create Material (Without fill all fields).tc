@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005_Create Material (Without fill all fields)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1d79034c-3f83-4608-af4e-663110d59908</testCaseGuid>
-</TestCaseEntity>

@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;classId\&quot;: \&quot;abcde12\&quot;,\n  \&quot;content\&quot;: \&quot;Good\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;classId\&quot;: \&quot;11223\&quot;,\n  \&quot;content\&quot;: \&quot;Interesting class, thanks\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

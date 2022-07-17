@@ -39,6 +39,96 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC022_Settings Profile Class/Page_Study Space - Improve your skills with_5842f6/input_profile_text-2xl border-1px p-3 pr-16_186e9e",
+      "brokenLocator": "//input[@value\u003d\u0027Hallo\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div[2]/div/div/div/div[2]/div/div/div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC022_Settings Profile Class/Page_Study Space - Improve your skills with_5842f6/input_profile_text-2xl border-1px p-3 pr-16_186e9e_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/Create Material/input_Add Link PPT",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div[2]/div/div/div/div/div/div/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/Create Material/input_Add Link PPT_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC013_Switch Class/class_name_choose",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div[2]/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Choose\u0027])[1]/following::td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC013_Switch Class/class_name_choose_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC013_Switch Class/btn_choose_class",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div[2]/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Choose\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC013_Switch Class/btn_choose_class_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div/div[2]/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Class code\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div/div[2]/div[3]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Notification\u0027])[2]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/06_Settings/input_name_name",
+      "brokenLocator": "//input[@name\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/06_Settings/input_name_name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/06_Settings/button_Change",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027email\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/06_Settings/button_Change_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div/div[2]/div[3]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add Link\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs_neighbor.png"
     }
   ]
 }

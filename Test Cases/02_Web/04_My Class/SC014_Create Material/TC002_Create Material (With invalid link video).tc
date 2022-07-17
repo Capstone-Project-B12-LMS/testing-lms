@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_Create Material (With invalid link video)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3a64140b-b492-429e-b28c-9ceb064e9185</testCaseGuid>
-</TestCaseEntity>

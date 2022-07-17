@@ -3,7 +3,7 @@
    <description></description>
    <name>class_object</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>992ff79e-629a-48b3-87ea-3f6a2bb744ca</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

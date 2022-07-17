@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_Mobile,,,,2022-07-17 00:34:22,2022-07-17 00:41:45,7m - 23.265s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/02_Auth/SC002_Sign Up/Sign Up,,,,2022-07-17 00:34:22,2022-07-17 00:36:17,1m - 54.753s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", STOP_ON_FAILURE)",,,,2022-07-17 00:34:23,2022-07-17 00:34:40,17.290s,PASSED
+"delay(8, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:34:40,2022-07-17 00:34:49,8.070s,PASSED
+"tap(findTestObject(""03_Mobile/02_Auth/SC002_Sign Up/a_signup""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:34:49,2022-07-17 00:34:49,0.634s,PASSED
+"for ([i = 1, i <= 9, (i++)])",,,,2022-07-17 00:34:49,2022-07-17 00:36:17,1m - 27.331s,PASSED
+driver = getDriver(),,,,2022-07-17 00:36:17,2022-07-17 00:36:17,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:36:17,2022-07-17 00:36:17,0.466s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/02_Auth/SC003_Sign In/Sign In,,,,2022-07-17 00:36:17,2022-07-17 00:37:16,59.082s,PASSED
+"startExistingApplication(id_mobile_apk, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:36:17,2022-07-17 00:36:28,10.508s,PASSED
+"delay(8, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:36:28,2022-07-17 00:36:36,8.012s,PASSED
+"for ([i = 1, i <= 5, (i++)])",,,,2022-07-17 00:36:36,2022-07-17 00:37:16,39.586s,PASSED
+driver = getDriver(),,,,2022-07-17 00:37:16,2022-07-17 00:37:16,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:37:16,2022-07-17 00:37:16,0.548s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/03_Home/SC006_Join Class/Join Class,,,,2022-07-17 00:37:16,2022-07-17 00:37:57,41.010s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:37:17,2022-07-17 00:37:26,9.298s,PASSED
+"for ([i = 1, i <= 3, (i++)])",,,,2022-07-17 00:37:26,2022-07-17 00:37:57,30.849s,PASSED
+driver = getDriver(),,,,2022-07-17 00:37:57,2022-07-17 00:37:57,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:37:57,2022-07-17 00:37:57,0.411s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/03_Home/SC008_Active Class/TC001_View Detail Active Class,,,,2022-07-17 00:37:57,2022-07-17 00:38:17,19.987s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:37:58,2022-07-17 00:38:06,8.308s,PASSED
+"tapAndHold(findTestObject(""03_Mobile/03_Home/SC008_Active Class/class""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:06,2022-07-17 00:38:13,7.508s,PASSED
+"verifyElementExist(findTestObject(""03_Mobile/03_Home/SC008_Active Class/class_title""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:13,2022-07-17 00:38:17,3.175s,PASSED
+driver = getDriver(),,,,2022-07-17 00:38:17,2022-07-17 00:38:17,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:38:17,2022-07-17 00:38:17,0.423s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/04_My Class/SC009_Class List/TC001_View Detail Class in My Class,,,,2022-07-17 00:38:17,2022-07-17 00:38:40,22.848s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:18,2022-07-17 00:38:27,9.337s,PASSED
+"tap(findTestObject(""03_Mobile/04_My Class/SC009_Class List/myclass""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:27,2022-07-17 00:38:34,6.651s,PASSED
+"tapAndHold(findTestObject(""03_Mobile/04_My Class/SC009_Class List/class_object""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:34,2022-07-17 00:38:36,2.707s,PASSED
+"verifyElementExist(findTestObject(""03_Mobile/04_My Class/SC009_Class List/class_title""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:36,2022-07-17 00:38:40,3.322s,PASSED
+driver = getDriver(),,,,2022-07-17 00:38:40,2022-07-17 00:38:40,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:38:40,2022-07-17 00:38:40,0.416s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/04_My Class/SC010_Class Members/TC001_View Number of Members in A Class,,,,2022-07-17 00:38:40,2022-07-17 00:39:00,20.177s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:40,2022-07-17 00:38:50,9.394s,PASSED
+"tapAndHold(findTestObject(""Object Repository/03_Mobile/04_My Class/SC010_Class Members/class_object""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:50,2022-07-17 00:38:57,7.374s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/03_Mobile/04_My Class/SC010_Class Members/number_members""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:38:57,2022-07-17 00:39:00,2.552s,PASSED
+driver = getDriver(),,,,2022-07-17 00:39:00,2022-07-17 00:39:00,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:39:00,2022-07-17 00:39:00,0.473s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/04_My Class/SC016_View Detail Content Material/TC001_View Detail Content Material,,,,2022-07-17 00:39:00,2022-07-17 00:39:41,40.545s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:01,2022-07-17 00:39:10,9.029s,PASSED
+"tapAndHold(findTestObject(""Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/class_object""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:10,2022-07-17 00:39:17,7.363s,PASSED
+"tap(findTestObject(""03_Mobile/04_My Class/SC016_View Detail Content Material/menu_contents""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:17,2022-07-17 00:39:27,9.610s,PASSED
+"tapAndHold(findTestObject(""Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/choose_materi1""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:27,2022-07-17 00:39:33,6.656s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/title_materi1""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:33,2022-07-17 00:39:35,2.080s,PASSED
+"tap(findTestObject(""Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/menu_desc""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:35,2022-07-17 00:39:40,4.691s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/desc_materi1""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:40,2022-07-17 00:39:40,0.165s,PASSED
+driver = getDriver(),,,,2022-07-17 00:39:40,2022-07-17 00:39:40,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:39:40,2022-07-17 00:39:41,0.473s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks,,,,2022-07-17 00:39:41,2022-07-17 00:40:07,25.925s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:41,2022-07-17 00:39:50,9.150s,PASSED
+"tapAndHold(findTestObject(""Object Repository/03_Mobile/04_My Class/SC017_View Feedback/class_object""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:50,2022-07-17 00:39:58,7.575s,PASSED
+"tap(findTestObject(""Object Repository/03_Mobile/04_My Class/SC017_View Feedback/menu_feedback""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:39:58,2022-07-17 00:40:05,7.272s,PASSED
+"verifyElementExist(findTestObject(""03_Mobile/04_My Class/SC017_View Feedback/feedback_list""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:05,2022-07-17 00:40:06,0.985s,PASSED
+driver = getDriver(),,,,2022-07-17 00:40:06,2022-07-17 00:40:06,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:40:06,2022-07-17 00:40:07,0.556s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History,,,,2022-07-17 00:40:07,2022-07-17 00:40:23,16.164s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:07,2022-07-17 00:40:17,9.601s,PASSED
+"tap(findTestObject(""03_Mobile/05_History/SC023_View History/menu_history""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:17,2022-07-17 00:40:22,5.592s,PASSED
+"verifyElementExist(findTestObject(""03_Mobile/05_History/SC023_View History/history""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:22,2022-07-17 00:40:22,0.161s,PASSED
+driver = getDriver(),,,,2022-07-17 00:40:22,2022-07-17 00:40:22,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:40:22,2022-07-17 00:40:23,0.429s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile,,,,2022-07-17 00:40:23,2022-07-17 00:41:25,1m - 2.258s,PASSED
+"startExistingApplication(""com.example.capstone_project_lms"", CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:23,2022-07-17 00:40:32,9.220s,PASSED
+"tap(findTestObject(""03_Mobile/06_Settings/menu_settings""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:32,2022-07-17 00:40:38,5.677s,PASSED
+"tapAndHold(findTestObject(""03_Mobile/06_Settings/menu_editprofile""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:40:38,2022-07-17 00:40:41,2.713s,PASSED
+"for ([i = 1, i <= 4, (i++)])",,,,2022-07-17 00:40:41,2022-07-17 00:41:24,43.583s,PASSED
+driver = getDriver(),,,,2022-07-17 00:41:24,2022-07-17 00:41:24,0.001s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:41:24,2022-07-17 00:41:25,0.597s,PASSED
+,,,,,,,
+Test Cases/03_Mobile/02_Auth/SC004_Logout/TC001_Logout,,,,2022-07-17 00:41:25,2022-07-17 00:41:45,19.930s,PASSED
+"startExistingApplication(id_mobile_apk, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:41:25,2022-07-17 00:41:35,9.197s,PASSED
+"tap(findTestObject(""03_Mobile/06_Settings/menu_settings""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:41:35,2022-07-17 00:41:40,5.765s,PASSED
+"tapAndHold(findTestObject(""03_Mobile/02_Auth/SC004_Logout/signout""), 0, 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:41:40,2022-07-17 00:41:43,2.741s,PASSED
+"tap(findTestObject(""03_Mobile/02_Auth/SC004_Logout/signout_ok""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:41:43,2022-07-17 00:41:44,1.150s,PASSED
+"verifyElementExist(findTestObject(""03_Mobile/02_Auth/SC004_Logout/welcome_back""), 0, CONTINUE_ON_FAILURE)",,,,2022-07-17 00:41:44,2022-07-17 00:41:44,0.166s,PASSED
+driver = getDriver(),,,,2022-07-17 00:41:44,2022-07-17 00:41:44,0.000s,PASSED
+"driver.terminateApp(""com.example.capstone_project_lms"")",,,,2022-07-17 00:41:44,2022-07-17 00:41:45,0.563s,PASSED

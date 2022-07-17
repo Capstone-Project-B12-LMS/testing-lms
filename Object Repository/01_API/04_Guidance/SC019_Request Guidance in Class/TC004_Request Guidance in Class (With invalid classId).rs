@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;topic\&quot;: \&quot;Materi 1\&quot;,\n  \&quot;userId\&quot;: \&quot;${GlobalVariable.id_user}\&quot;,\n  \&quot;classId\&quot;: \&quot;abcd1\&quot;,\n  \&quot;content\&quot;: \&quot;Text...\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;topic\&quot;: \&quot;Mobile Testing\&quot;,\n  \&quot;userId\&quot;: \&quot;${GlobalVariable.id_user}\&quot;,\n  \&quot;classId\&quot;: \&quot;11223\&quot;,\n  \&quot;content\&quot;: \&quot;Problems with mobile testing automation using Katalon\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

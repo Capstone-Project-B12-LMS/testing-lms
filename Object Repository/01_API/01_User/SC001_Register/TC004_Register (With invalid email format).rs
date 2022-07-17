@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;@emailarchens\&quot;,\n  \&quot;fullName\&quot;: \&quot;Archen\&quot;,\n  \&quot;password\&quot;: \&quot;Archen123!\&quot;,\n  \&quot;telepon\&quot;: \&quot;081324654789\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;archen\&quot;,\n  \&quot;fullName\&quot;: \&quot;Archen\&quot;,\n  \&quot;password\&quot;: \&quot;Archen123!\&quot;,\n  \&quot;telepon\&quot;: \&quot;081324654789\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

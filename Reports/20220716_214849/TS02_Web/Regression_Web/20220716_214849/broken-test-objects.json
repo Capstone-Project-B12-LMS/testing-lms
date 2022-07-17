@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027feedback\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220716_214849/TS02_Web/Regression_Web/20220716_214849/Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div/div[2]/div[3]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Notification\u0027])[2]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220716_214849/TS02_Web/Regression_Web/20220716_214849/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/06_Settings/input_name_name",
+      "brokenLocator": "//input[@name\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220716_214849/TS02_Web/Regression_Web/20220716_214849/Object Repository/02_Web/06_Settings/input_name_name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/06_Settings/button_Change",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027email\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220716_214849/TS02_Web/Regression_Web/20220716_214849/Object Repository/02_Web/06_Settings/button_Change_neighbor.png"
+    }
+  ]
+}

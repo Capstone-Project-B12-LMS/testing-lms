@@ -23,9 +23,9 @@ WebUI.click(findTestObject('02_Web/04_My Class/SC011_Request Counselling/class_o
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC011_Request Counselling/button_reqc'))
 
-WebUI.setText(findTestObject('02_Web/04_My Class/Create Material/input_topic_topic'), 'Testing Multi-platform')
+WebUI.setText(findTestObject('02_Web/04_My Class/SC011_Request Counselling/input_topic'), 'Mobile Testing')
 
-WebUI.setText(findTestObject('02_Web/04_My Class/Create Material/input_content_content'), 'Katalon stuffs')
+WebUI.setText(findTestObject('02_Web/04_My Class/SC011_Request Counselling/input_content'), 'I have problem to get an object element in mobile apk, so i want to discuss about it.')
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC011_Request Counselling/button_submit'))
 

@@ -23,9 +23,9 @@ WebUI.click(findTestObject('02_Web/04_My Class/SC011_Request Counselling/class_o
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC011_Request Counselling/button_reqc'))
 
-WebUI.setText(findTestObject('02_Web/04_My Class/Create Material/input_topic_topic'), '')
+WebUI.setText(findTestObject('02_Web/04_My Class/SC011_Request Counselling/input_topic'), '')
 
-WebUI.setText(findTestObject('02_Web/04_My Class/Create Material/input_content_content'), '')
+WebUI.setText(findTestObject('02_Web/04_My Class/SC011_Request Counselling/input_content'), '')
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC011_Request Counselling/button_submit'))
 

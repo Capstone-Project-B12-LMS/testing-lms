@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Edit email (With invalid email format)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>759d8cb4-096f-43ec-b191-dd3e23d1c150</testCaseGuid>
+</TestCaseEntity>

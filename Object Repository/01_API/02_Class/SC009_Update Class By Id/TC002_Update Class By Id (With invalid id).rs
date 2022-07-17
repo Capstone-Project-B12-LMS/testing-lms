@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Quality Engineer 1\&quot;,\n  \&quot;room\&quot;: \&quot;Class A\&quot;,\n  \&quot;status\&quot;: \&quot;ACTIVE\&quot;,\n  \&quot;reportUrl\&quot;: \&quot;https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA/edit?usp\u003dsharing\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Quality Engineer\&quot;,\n  \&quot;room\&quot;: \&quot;Class A\&quot;,\n  \&quot;status\&quot;: \&quot;ACTIVE\&quot;,\n  \&quot;reportUrl\&quot;: \&quot;https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA/edit?usp\u003dsharing\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.base_url_api}/${GlobalVariable.api_version}/class/1111</restUrl>
+   <restUrl>${GlobalVariable.base_url_api}/${GlobalVariable.api_version}/class/11223</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

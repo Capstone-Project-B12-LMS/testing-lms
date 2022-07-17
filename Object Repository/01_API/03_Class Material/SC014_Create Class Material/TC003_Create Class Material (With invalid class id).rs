@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;classId\&quot;: \&quot;1123\&quot;,\n  \&quot;title\&quot;: \&quot;Introduction to QE\&quot;,\n  \&quot;content\&quot;: \&quot;QE\&quot;,\n  \&quot;topicId\&quot;: \&quot;QE\&quot;,\n  \&quot;video\&quot;: \&quot;https://youtu.be/8Wmo4Fjatoo\&quot;,\n  \&quot;file\&quot;: \&quot;https://docs.google.com/presentation/d/1NjM5yM68CHO1LbGGbV8PdvPvrRaYXXJO6c07FBpZBMQ/edit?usp\u003dsharing\&quot;,\n  \&quot;deadline\&quot;: null,\n  \&quot;point\&quot;: 0,\n  \&quot;category\&quot;: \&quot;QE\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;classId\&quot;: 11223,\n  \&quot;title\&quot;: \&quot;Introduction to QE\&quot;,\n  \&quot;content\&quot;: \&quot;Introduction to QE\&quot;,\n  \&quot;topicId\&quot;: \&quot;\&quot;,\n  \&quot;video\&quot;: \&quot;https://youtu.be/8Wmo4Fjatoo\&quot;,\n  \&quot;file\&quot;: \&quot;https://docs.google.com/presentation/d/1dLNf9XOcEllyQTA4dj4G45lkWwR3dmqY\&quot;,\n  \&quot;deadline\&quot;: null,\n  \&quot;point\&quot;: 0,\n  \&quot;category\&quot;: \&quot;QE\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

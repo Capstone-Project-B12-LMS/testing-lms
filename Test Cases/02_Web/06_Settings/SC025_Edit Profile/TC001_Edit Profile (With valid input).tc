@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Edit Profile (With valid input)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c013f82e-2510-429b-8749-716456c2357c</testCaseGuid>
+</TestCaseEntity>

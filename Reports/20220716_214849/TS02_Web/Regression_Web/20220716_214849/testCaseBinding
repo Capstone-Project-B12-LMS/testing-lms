@@ -1,0 +1,26 @@
+{"testCaseName":"Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us","testCaseId":"Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us"}
+{"testCaseName":"Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up","testCaseId":"Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up"}
+{"testCaseName":"Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In","testCaseId":"Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In"}
+{"testCaseName":"Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout","testCaseId":"Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout"}
+{"testCaseName":"Test Cases/02_Web/03_Home/SC005_Create Class/Create Class","testCaseId":"Test Cases/02_Web/03_Home/SC005_Create Class/Create Class"}
+{"testCaseName":"Test Cases/02_Web/03_Home/SC006_Join Class/Join Class","testCaseId":"Test Cases/02_Web/03_Home/SC006_Join Class/Join Class"}
+{"testCaseName":"Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class","testCaseId":"Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class","testCaseId":"Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class","testCaseId":"Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class","testCaseId":"Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class","testCaseId":"Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling","testCaseId":"Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields)","testCaseId":"Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields)"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications","testCaseId":"Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling","testCaseId":"Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling","testCaseId":"Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class","testCaseId":"Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC017_View Detail Content Material/TC001_View Detail Content Material","testCaseId":"Test Cases/02_Web/04_My Class/SC017_View Detail Content Material/TC001_View Detail Content Material"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name","testCaseId":"Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report","testCaseId":"Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class","testCaseId":"Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class"}
+{"testCaseName":"Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class","testCaseId":"Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class"}
+{"testCaseName":"Test Cases/02_Web/05_History/SC024_View History/TC001_View History","testCaseId":"Test Cases/02_Web/05_History/SC024_View History/TC001_View History"}
+{"testCaseName":"Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input)","testCaseId":"Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input)"}
+{"testCaseName":"Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email)","testCaseId":"Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email)"}
+{"testCaseName":"Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format)","testCaseId":"Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format)"}

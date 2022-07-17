@@ -3,7 +3,7 @@
    <description></description>
    <name>choose_materi1</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>d67e8e62-7c8e-4859-bd99-8af9954ec741</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -171,7 +171,7 @@ Members
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[11]/android.widget.ScrollView[1]/android.view.View[2]/android.view.View[1]</value>
    </webElementProperties>
    <locator>Materi 1
-archen@gmail.com
+sal@gmail.com
 Members
 2</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>

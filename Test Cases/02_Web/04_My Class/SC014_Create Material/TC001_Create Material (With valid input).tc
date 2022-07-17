@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_Create Material (With valid input)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>21306217-e0e0-4707-8704-fe1a538d6b08</testCaseGuid>
-</TestCaseEntity>

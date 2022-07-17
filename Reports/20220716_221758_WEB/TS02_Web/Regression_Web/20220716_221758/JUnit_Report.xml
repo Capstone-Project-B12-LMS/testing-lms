@@ -1,0 +1,2311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_Web" time="1037.322" tests="26" failures="0" errors="0">
+   <testsuite name="Regression_Web" tests="26" failures="0" errors="0" time="1037.322" skipped="0" timestamp="2022-07-16 22:18:03" hostname="salsa - SALSABILA" id="Test Suites/TS02_Web/Regression_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758\\execution0.log"/>
+         <property name="attachments" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758\\1657985255955.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758\\1657985289410.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758\\1657985344654.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758\\1657985378066.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220716_221758\\TS02_Web\\Regression_Web\\20220716_221758\\1657985513281.png"/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.8.131"/>
+         <property name="sessionId" value="069cc14aed7d00afaae9e068869b1bfe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us" time="18.422" classname="Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:18:03 - [TEST_CASE][PASSED] - Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us: Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us
+
+2022-07-16 22:18:04 - [TEST_STEP][PASSED] - openBrowser(url_website): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:18:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:18:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:18:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:18:10 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-07-16 22:18:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:18:10 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): null
+
+2022-07-16 22:18:10 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name"), findTestData("contact_us").getValue(3, i)): Text '' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'
+
+2022-07-16 22:18:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'
+
+2022-07-16 22:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email"), findTestData("contact_us").getValue(4, i)): Text '' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'
+
+2022-07-16 22:18:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'
+
+2022-07-16 22:18:13 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message"), findTestData("contact_us").getValue(5, i)): Text '' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'
+
+2022-07-16 22:18:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'
+
+2022-07-16 22:18:14 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/button_Submit")): Object: 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/button_Submit' is clicked on
+
+2022-07-16 22:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/button_Submit' is clicked on
+
+2022-07-16 22:18:15 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "positive"): null
+
+2022-07-16 22:18:15 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name"), findTestData("contact_us").getValue(3, i)): Text 'sal' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'
+
+2022-07-16 22:18:16 - [MESSAGE][PASSED] - Text 'sal' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'
+
+2022-07-16 22:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email"), findTestData("contact_us").getValue(4, i)): Text 'salgmail.com' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'
+
+2022-07-16 22:18:16 - [MESSAGE][PASSED] - Text 'salgmail.com' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'
+
+2022-07-16 22:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message"), findTestData("contact_us").getValue(5, i)): Text 'Hi.' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'
+
+2022-07-16 22:18:17 - [MESSAGE][PASSED] - Text 'Hi.' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'
+
+2022-07-16 22:18:17 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/button_Submit")): Object: 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/button_Submit' is clicked on
+
+2022-07-16 22:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/button_Submit' is clicked on
+
+2022-07-16 22:18:17 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "positive"): null
+
+2022-07-16 22:18:18 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name"), findTestData("contact_us").getValue(3, i)): Text 'sal' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'
+
+2022-07-16 22:18:19 - [MESSAGE][PASSED] - Text 'sal' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Name_name'
+
+2022-07-16 22:18:19 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email"), findTestData("contact_us").getValue(4, i)): Text 'sal@gmail.com' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'
+
+2022-07-16 22:18:19 - [MESSAGE][PASSED] - Text 'sal@gmail.com' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/input_Your Email_email'
+
+2022-07-16 22:18:19 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message"), findTestData("contact_us").getValue(5, i)): Text 'Hi.' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'
+
+2022-07-16 22:18:20 - [MESSAGE][PASSED] - Text 'Hi.' is set on object 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/textarea_Your Message_message'
+
+2022-07-16 22:18:20 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/01_Landing Page/SC001_Contact Us/button_Submit")): Object: 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/button_Submit' is clicked on
+
+2022-07-16 22:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/01_Landing Page/SC001_Contact Us/button_Submit' is clicked on
+
+2022-07-16 22:18:21 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "positive"): null
+
+2022-07-16 22:18:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:18:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up" time="67.485" classname="Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:18:21 - [TEST_CASE][PASSED] - Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up: Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up
+
+2022-07-16 22:18:22 - [TEST_STEP][PASSED] - openBrowser(url_website): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:18:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:18:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:18:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:18:25 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-07-16 22:18:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:18:25 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Sign up")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Sign up' is clicked on
+
+2022-07-16 22:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Sign up' is clicked on
+
+2022-07-16 22:18:25 - [TEST_STEP][PASSED] - for ([i = 1, i <= 9, (i++)]): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:18:25 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text '' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text '' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text '' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:28 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:28 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is present
+
+2022-07-16 22:18:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is present
+
+2022-07-16 22:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is present
+
+2022-07-16 22:18:29 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:30 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:30 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'arch-gmail' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:31 - [MESSAGE][PASSED] - Text 'arch-gmail' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:31 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:32 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:32 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): null
+
+2022-07-16 22:18:32 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:32 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:32 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:33 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:34 - [MESSAGE][PASSED] - Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'Arc12!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:35 - [MESSAGE][PASSED] - Text 'Arc12!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:35 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:35 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:35 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): null
+
+2022-07-16 22:18:35 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:36 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:37 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:37 - [MESSAGE][PASSED] - Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'Archenarchen123*' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:38 - [MESSAGE][PASSED] - Text 'Archenarchen123*' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:38 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:38 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:39 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): null
+
+2022-07-16 22:18:39 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:39 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:39 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:40 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:40 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:41 - [MESSAGE][PASSED] - Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:41 - [MESSAGE][PASSED] - Text 'archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:41 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:42 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:42 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): null
+
+2022-07-16 22:18:42 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:42 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:43 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:43 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:44 - [MESSAGE][PASSED] - Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:44 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'archen123' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:44 - [MESSAGE][PASSED] - Text 'archen123' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:44 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:45 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:45 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): null
+
+2022-07-16 22:18:45 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:45 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:45 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:46 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:46 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:47 - [MESSAGE][PASSED] - Text 'iniarch@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'archens!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:48 - [MESSAGE][PASSED] - Text 'archens!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:48 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:48 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:48 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): null
+
+2022-07-16 22:18:48 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require"), 0): Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:18:48 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/password_doesnt_match_require' is present
+
+2022-07-16 22:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:49 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:50 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:51 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:51 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:51 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:51 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:18:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/02_Auth/SC002_Sign Up/register_message"), findTestData("signup_web").getValue(6, i), CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message' are matched.
+
+2022-07-16 22:18:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message' are matched.
+
+2022-07-16 22:18:53 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/btn_popup_message")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:18:53 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname"), findTestData("signup_web").getValue(3, i)): Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:54 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_fullname_fullname'
+
+2022-07-16 22:18:54 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_email_email"), findTestData("signup_web").getValue(4, i)): Text 'archens2@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:55 - [MESSAGE][PASSED] - Text 'archens2@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_email_email'
+
+2022-07-16 22:18:55 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC002_Sign Up/input_password_password"), findTestData("signup_web").getValue(5, i)): Text 'Salsa123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:56 - [MESSAGE][PASSED] - Text 'Salsa123!' is set on object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/input_password_password'
+
+2022-07-16 22:18:56 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/button_Daftar")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/button_Daftar' is clicked on
+
+2022-07-16 22:18:56 - [TEST_STEP][PASSED] - if (findTestData("signup_web").getValue(2, i) == "negative" && findTestData("signup_web").getValue(4, i) == ""): null
+
+2022-07-16 22:18:56 - [TEST_STEP][PASSED] - else if (i == 8 || i == 9): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:18:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/02_Auth/SC002_Sign Up/register_message"), findTestData("signup_web").getValue(6, i), CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message' are matched.
+
+2022-07-16 22:19:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'swal2-popup swal2-modal swal2-icon-error swal2-show']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-16 22:19:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message'. Try using Self-healing.
+
+2022-07-16 22:19:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message' was broken. Propose an alternative one: '/html/body/div[2]/div'.
+
+2022-07-16 22:19:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message' are matched.
+
+2022-07-16 22:19:28 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC002_Sign Up/btn_popup_message")): Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC002_Sign Up/btn_popup_message' is clicked on
+
+2022-07-16 22:19:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:19:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In" time="34.354" classname="Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:19:29 - [TEST_CASE][PASSED] - Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In: Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In
+
+2022-07-16 22:19:29 - [TEST_STEP][PASSED] - openBrowser(url_website): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:19:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:19:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:19:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:19:33 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-07-16 22:19:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:19:33 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:19:34 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_profile icon' is present
+
+2022-07-16 22:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), findTestData("signin_web").getValue(3, i)): Text '' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:35 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), findTestData("signin_web").getValue(4, i)): Text '' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:35 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:36 - [TEST_STEP][PASSED] - if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) != "" && findTestData("signin_web").getValue(5, i) == ""): null
+
+2022-07-16 22:19:36 - [TEST_STEP][PASSED] - else if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) == ""): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is present
+
+2022-07-16 22:19:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), 0): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is present
+
+2022-07-16 22:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is present
+
+2022-07-16 22:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), findTestData("signin_web").getValue(3, i)): Text 'archenie@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:38 - [MESSAGE][PASSED] - Text 'archenie@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:38 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), findTestData("signin_web").getValue(4, i)): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:42 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:42 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:42 - [TEST_STEP][PASSED] - if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) != "" && findTestData("signin_web").getValue(5, i) == ""): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/close_failed_msg' is clicked on
+
+2022-07-16 22:19:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC003_Sign In/failed_login"), 0): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/failed_login' is present
+
+2022-07-16 22:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:19:43 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/failed_login' is present
+
+2022-07-16 22:19:43 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/close_failed_msg")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/close_failed_msg' is clicked on
+
+2022-07-16 22:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/close_failed_msg' is clicked on
+
+2022-07-16 22:19:44 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), findTestData("signin_web").getValue(3, i)): Text 'arch-gmail' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:45 - [MESSAGE][PASSED] - Text 'arch-gmail' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), findTestData("signin_web").getValue(4, i)): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:46 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:46 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:46 - [TEST_STEP][PASSED] - if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) != "" && findTestData("signin_web").getValue(5, i) == ""): null
+
+2022-07-16 22:19:46 - [TEST_STEP][PASSED] - else if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) == ""): null
+
+2022-07-16 22:19:46 - [TEST_STEP][PASSED] - else if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(5, i) != ""): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/email_doesnt_match' is present
+
+2022-07-16 22:19:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(findTestData("signin_web").getValue(5, i)), 0): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/email_doesnt_match' is present
+
+2022-07-16 22:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/email_doesnt_match' is present
+
+2022-07-16 22:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), findTestData("signin_web").getValue(3, i)): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:48 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), findTestData("signin_web").getValue(4, i)): Text 'Archen321!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:49 - [MESSAGE][PASSED] - Text 'Archen321!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:49 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:49 - [TEST_STEP][PASSED] - if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) != "" && findTestData("signin_web").getValue(5, i) == ""): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/close_failed_msg' is clicked on
+
+2022-07-16 22:19:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC003_Sign In/failed_login"), 0): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/failed_login' is present
+
+2022-07-16 22:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/failed_login' is present
+
+2022-07-16 22:19:51 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/close_failed_msg")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/close_failed_msg' is clicked on
+
+2022-07-16 22:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/close_failed_msg' is clicked on
+
+2022-07-16 22:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), findTestData("signin_web").getValue(3, i)): Text 'sal@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:54 - [MESSAGE][PASSED] - Text 'sal@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), findTestData("signin_web").getValue(4, i)): Text 'Salsa123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:55 - [MESSAGE][PASSED] - Text 'Salsa123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:19:55 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit")): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:19:55 - [TEST_STEP][PASSED] - if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) != "" && findTestData("signin_web").getValue(5, i) == ""): null
+
+2022-07-16 22:19:55 - [TEST_STEP][PASSED] - else if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(3, i) == ""): null
+
+2022-07-16 22:19:55 - [TEST_STEP][PASSED] - else if (findTestData("signin_web").getValue(2, i) == "negative" && findTestData("signin_web").getValue(5, i) != ""): null
+
+2022-07-16 22:19:55 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_profile icon' is present
+
+2022-07-16 22:19:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC003_Sign In/button_profile icon"), 0): Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_profile icon' is present
+
+2022-07-16 22:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_profile icon' is present
+
+2022-07-16 22:20:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:20:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout" time="22.431" classname="Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:20:03 - [TEST_CASE][PASSED] - Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout: Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout
+
+2022-07-16 22:20:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:20:04 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:20:05 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:20:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:20:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:20:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:20:12 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:20:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:20:12 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:20:13 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:20:14 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:20:14 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:20:15 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:20:15 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:20:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:20:16 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC004_Logout/account")): Object: 'Object Repository/02_Web/02_Auth/SC004_Logout/account' is clicked on
+
+2022-07-16 22:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC004_Logout/account' is clicked on
+
+2022-07-16 22:20:23 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC004_Logout/button_logout")): Object: 'Object Repository/02_Web/02_Auth/SC004_Logout/button_logout' is clicked on
+
+2022-07-16 22:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC004_Logout/button_logout' is clicked on
+
+2022-07-16 22:20:24 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC004_Logout/button_oklogout")): Object: 'Object Repository/02_Web/02_Auth/SC004_Logout/button_oklogout' is clicked on
+
+2022-07-16 22:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC004_Logout/button_oklogout' is clicked on
+
+2022-07-16 22:20:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/02_Auth/SC004_Logout/menu_login"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/02_Web/02_Auth/SC004_Logout/menu_login' is present
+
+2022-07-16 22:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:20:25 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/02_Auth/SC004_Logout/menu_login' is present
+
+2022-07-16 22:20:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:20:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/03_Home/SC005_Create Class/Create Class" time="57.384" classname="Test Cases/02_Web/03_Home/SC005_Create Class/Create Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:20:26 - [TEST_CASE][PASSED] - Test Cases/02_Web/03_Home/SC005_Create Class/Create Class: Test Cases/02_Web/03_Home/SC005_Create Class/Create Class
+
+2022-07-16 22:20:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:20:27 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:20:27 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:20:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:20:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:20:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:20:31 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:20:31 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:20:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:20:32 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:20:33 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:20:33 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:20:34 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:20:34 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:20:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:20:34 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC005_Create Class/button_Create Class")): Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create Class' is clicked on
+
+2022-07-16 22:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create Class' is clicked on
+
+2022-07-16 22:20:43 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): Object 'Object Repository/02_Web/03_Home/SC005_Create Class/a_description' is present
+
+2022-07-16 22:20:43 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC005_Create Class/input_class"), findTestData("create_class").getValue(3, i)): Text '' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_class'
+
+2022-07-16 22:20:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_class'
+
+2022-07-16 22:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC005_Create Class/input_room"), findTestData("create_class").getValue(4, i)): Text '' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_room'
+
+2022-07-16 22:20:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_room'
+
+2022-07-16 22:20:44 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC005_Create Class/button_Create")): Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is clicked on
+
+2022-07-16 22:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is clicked on
+
+2022-07-16 22:20:45 - [TEST_STEP][PASSED] - if (findTestData("create_class").getValue(2, i) == "negative"): Object 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is present
+
+2022-07-16 22:20:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/03_Home/SC005_Create Class/button_Create"), 0): Object 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is present
+
+2022-07-16 22:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:20:45 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is present
+
+2022-07-16 22:20:45 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC005_Create Class/input_class"), findTestData("create_class").getValue(3, i)): Text 'Quality $ Engineer' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_class'
+
+2022-07-16 22:20:46 - [MESSAGE][PASSED] - Text 'Quality $ Engineer' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_class'
+
+2022-07-16 22:20:46 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC005_Create Class/input_room"), findTestData("create_class").getValue(4, i)): Text 'Class * A' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_room'
+
+2022-07-16 22:20:47 - [MESSAGE][PASSED] - Text 'Class * A' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_room'
+
+2022-07-16 22:20:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC005_Create Class/button_Create")): Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is clicked on
+
+2022-07-16 22:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is clicked on
+
+2022-07-16 22:20:48 - [TEST_STEP][PASSED] - if (findTestData("create_class").getValue(2, i) == "negative"): Object 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is present
+
+2022-07-16 22:20:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/03_Home/SC005_Create Class/button_Create"), 0): Object 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is present
+
+2022-07-16 22:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is present
+
+2022-07-16 22:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC005_Create Class/input_class"), findTestData("create_class").getValue(3, i)): Text 'Quality Engineer' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_class'
+
+2022-07-16 22:20:49 - [MESSAGE][PASSED] - Text 'Quality Engineer' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_class'
+
+2022-07-16 22:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC005_Create Class/input_room"), findTestData("create_class").getValue(4, i)): Text 'QE A' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_room'
+
+2022-07-16 22:20:50 - [MESSAGE][PASSED] - Text 'QE A' is set on object 'Object Repository/02_Web/03_Home/SC005_Create Class/input_room'
+
+2022-07-16 22:20:50 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC005_Create Class/button_Create")): Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is clicked on
+
+2022-07-16 22:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC005_Create Class/button_Create' is clicked on
+
+2022-07-16 22:20:50 - [TEST_STEP][PASSED] - if (findTestData("create_class").getValue(2, i) == "negative"): null
+
+2022-07-16 22:20:50 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/03_Home/SC005_Create Class/a_description' is present
+
+2022-07-16 22:20:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/03_Home/SC005_Create Class/a_description"), 0): Object 'Object Repository/02_Web/03_Home/SC005_Create Class/a_description' is present
+
+2022-07-16 22:20:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC005_Create Class/a_description' is present
+
+2022-07-16 22:21:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:21:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/03_Home/SC006_Join Class/Join Class" time="26.934" classname="Test Cases/02_Web/03_Home/SC006_Join Class/Join Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:21:23 - [TEST_CASE][PASSED] - Test Cases/02_Web/03_Home/SC006_Join Class/Join Class: Test Cases/02_Web/03_Home/SC006_Join Class/Join Class
+
+2022-07-16 22:21:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:21:24 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:21:24 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:21:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:21:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:21:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:21:28 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:21:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:21:28 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:21:28 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:21:29 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:21:29 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:21:30 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:21:30 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:21:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:21:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC006_Join Class/button_Join Class")): Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join Class' is clicked on
+
+2022-07-16 22:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join Class' is clicked on
+
+2022-07-16 22:21:38 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): Object 'Object Repository/02_Web/03_Home/SC006_Join Class/a_description' is present
+
+2022-07-16 22:21:38 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC006_Join Class/input_class code"), findTestData("join_class").getValue(3, i)): Text '' is set on object 'Object Repository/02_Web/03_Home/SC006_Join Class/input_class code'
+
+2022-07-16 22:21:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/03_Home/SC006_Join Class/input_class code'
+
+2022-07-16 22:21:39 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC006_Join Class/button_Join")): Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is clicked on
+
+2022-07-16 22:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is clicked on
+
+2022-07-16 22:21:40 - [TEST_STEP][PASSED] - if (findTestData("join_class").getValue(2, i) == "negative"): Object 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is present
+
+2022-07-16 22:21:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/03_Home/SC006_Join Class/button_Join"), 0): Object 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is present
+
+2022-07-16 22:21:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:21:40 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is present
+
+2022-07-16 22:21:40 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC006_Join Class/input_class code"), findTestData("join_class").getValue(3, i)): Text 'abcdefh12' is set on object 'Object Repository/02_Web/03_Home/SC006_Join Class/input_class code'
+
+2022-07-16 22:21:41 - [MESSAGE][PASSED] - Text 'abcdefh12' is set on object 'Object Repository/02_Web/03_Home/SC006_Join Class/input_class code'
+
+2022-07-16 22:21:41 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC006_Join Class/button_Join")): Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is clicked on
+
+2022-07-16 22:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is clicked on
+
+2022-07-16 22:21:41 - [TEST_STEP][PASSED] - if (findTestData("join_class").getValue(2, i) == "negative"): Object 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is present
+
+2022-07-16 22:21:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/03_Home/SC006_Join Class/button_Join"), 0): Object 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is present
+
+2022-07-16 22:21:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is present
+
+2022-07-16 22:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/03_Home/SC006_Join Class/input_class code"), findTestData("join_class").getValue(3, i)): Text '0343c1af6a' is set on object 'Object Repository/02_Web/03_Home/SC006_Join Class/input_class code'
+
+2022-07-16 22:21:43 - [MESSAGE][PASSED] - Text '0343c1af6a' is set on object 'Object Repository/02_Web/03_Home/SC006_Join Class/input_class code'
+
+2022-07-16 22:21:43 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC006_Join Class/button_Join")): Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is clicked on
+
+2022-07-16 22:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC006_Join Class/button_Join' is clicked on
+
+2022-07-16 22:21:43 - [TEST_STEP][PASSED] - if (findTestData("join_class").getValue(2, i) == "negative"): null
+
+2022-07-16 22:21:43 - [TEST_STEP][PASSED] - else: Object 'Object Repository/02_Web/03_Home/SC006_Join Class/a_description' is present
+
+2022-07-16 22:21:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/03_Home/SC006_Join Class/a_description"), 0): Object 'Object Repository/02_Web/03_Home/SC006_Join Class/a_description' is present
+
+2022-07-16 22:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC006_Join Class/a_description' is present
+
+2022-07-16 22:21:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:21:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class" time="34.366" classname="Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:21:50 - [TEST_CASE][PASSED] - Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class: Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class
+
+2022-07-16 22:21:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:21:51 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:21:51 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:21:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:21:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:21:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:21:53 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:21:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:21:54 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:21:55 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:21:56 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:21:56 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:21:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:21:57 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/03_Home/SC008_Active Class/a_view all")): Object: 'Object Repository/02_Web/03_Home/SC008_Active Class/a_view all' is clicked on
+
+2022-07-16 22:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/03_Home/SC008_Active Class/a_view all' is clicked on
+
+2022-07-16 22:22:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("02_Web/03_Home/SC008_Active Class/div_AllClass StudentClass Teacher"), 0): Object 'Object Repository/02_Web/03_Home/SC008_Active Class/div_AllClass StudentClass Teacher' is present
+
+2022-07-16 22:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:22:24 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/03_Home/SC008_Active Class/div_AllClass StudentClass Teacher' is present
+
+2022-07-16 22:22:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:22:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class" time="23.25" classname="Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:22:24 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class: Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class
+
+2022-07-16 22:22:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:22:25 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:22:25 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:22:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:22:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:22:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:22:28 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:22:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:22:28 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:22:29 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:22:29 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:22:30 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:22:30 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:22:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:22:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/menu_sidebar")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/menu_sidebar' is clicked on
+
+2022-07-16 22:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/menu_sidebar' is clicked on
+
+2022-07-16 22:22:38 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/a_my class")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_my class' is clicked on
+
+2022-07-16 22:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_my class' is clicked on
+
+2022-07-16 22:22:39 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/a_All")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_All' is clicked on
+
+2022-07-16 22:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_All' is clicked on
+
+2022-07-16 22:22:44 - [TEST_STEP][PASSED] - class_name = getText(findTestObject("02_Web/04_My Class/SC009_Class List/class_name_myclass"), STOP_ON_FAILURE).toUpperCase(): Text of object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_myclass' is: 'Quality Engineer 1'
+
+2022-07-16 22:22:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_myclass' is: 'Quality Engineer 1'
+
+2022-07-16 22:22:44 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/all_class_object")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/all_class_object' is clicked on
+
+2022-07-16 22:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/all_class_object' is clicked on
+
+2022-07-16 22:22:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/04_My Class/SC009_Class List/class_name_detail"), class_name, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' are matched.
+
+2022-07-16 22:22:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' are matched.
+
+2022-07-16 22:22:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:22:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class" time="52.554" classname="Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:22:48 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class: Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class
+
+2022-07-16 22:22:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:22:48 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:22:48 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:22:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:22:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:22:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:22:51 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:22:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:22:51 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:22:53 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:22:53 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:22:54 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:22:54 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:22:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:22:54 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/menu_sidebar")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/menu_sidebar' is clicked on
+
+2022-07-16 22:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/menu_sidebar' is clicked on
+
+2022-07-16 22:23:02 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/a_my class")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_my class' is clicked on
+
+2022-07-16 22:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_my class' is clicked on
+
+2022-07-16 22:23:02 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/a_Student")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_Student' is clicked on
+
+2022-07-16 22:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_Student' is clicked on
+
+2022-07-16 22:23:07 - [TEST_STEP][PASSED] - class_name = getText(findTestObject("02_Web/04_My Class/SC009_Class List/class_name_myclass"), STOP_ON_FAILURE).toUpperCase(): Text of object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_myclass' is: 'Kelas Baru'
+
+2022-07-16 22:23:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_myclass' is: 'Kelas Baru'
+
+2022-07-16 22:23:08 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/all_class_object")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/all_class_object' is clicked on
+
+2022-07-16 22:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/all_class_object' is clicked on
+
+2022-07-16 22:23:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/04_My Class/SC009_Class List/class_name_detail"), class_name, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' are matched.
+
+2022-07-16 22:23:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='parent']/div[2]/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-16 22:23:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail'. Try using Self-healing.
+
+2022-07-16 22:23:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='feedback'])[1]/following::p[1]'.
+
+2022-07-16 22:23:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' are matched.
+
+2022-07-16 22:23:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:23:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class" time="24.997" classname="Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:23:40 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class: Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class
+
+2022-07-16 22:23:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:23:41 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:23:41 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:23:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:23:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:23:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:23:44 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:23:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:23:44 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:23:46 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:23:46 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:23:47 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:23:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:23:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:23:48 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/menu_sidebar")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/menu_sidebar' is clicked on
+
+2022-07-16 22:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/menu_sidebar' is clicked on
+
+2022-07-16 22:23:56 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/a_my class")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_my class' is clicked on
+
+2022-07-16 22:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_my class' is clicked on
+
+2022-07-16 22:23:56 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/a_Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_Teacher' is clicked on
+
+2022-07-16 22:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/a_Teacher' is clicked on
+
+2022-07-16 22:24:01 - [TEST_STEP][PASSED] - class_name = getText(findTestObject("02_Web/04_My Class/SC009_Class List/class_name_myclass"), STOP_ON_FAILURE).toUpperCase(): Text of object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_myclass' is: 'Quality Engineer 1'
+
+2022-07-16 22:24:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_myclass' is: 'Quality Engineer 1'
+
+2022-07-16 22:24:02 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC009_Class List/all_class_object")): Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/all_class_object' is clicked on
+
+2022-07-16 22:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC009_Class List/all_class_object' is clicked on
+
+2022-07-16 22:24:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/04_My Class/SC009_Class List/class_name_detail"), class_name, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' are matched.
+
+2022-07-16 22:24:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail' are matched.
+
+2022-07-16 22:24:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:24:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class" time="17.378" classname="Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:24:05 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class: Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class
+
+2022-07-16 22:24:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:24:06 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:24:06 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:24:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:24:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:24:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:24:08 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:24:09 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:24:09 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:24:09 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:24:10 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:24:11 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:24:11 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:24:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:24:11 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC010_Class Members/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC010_Class Members/class_object' is clicked on
+
+2022-07-16 22:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC010_Class Members/class_object' is clicked on
+
+2022-07-16 22:24:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("02_Web/04_My Class/SC010_Class Members/class_members"), 0): Object 'Object Repository/02_Web/04_My Class/SC010_Class Members/class_members' is present
+
+2022-07-16 22:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/04_My Class/SC010_Class Members/class_members' is present
+
+2022-07-16 22:24:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:24:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling" time="23.196" classname="Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:24:23 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling: Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling
+
+2022-07-16 22:24:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:24:23 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:24:23 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:24:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:24:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:24:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:24:27 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:24:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:24:27 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:24:28 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:24:29 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:24:29 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:24:29 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:24:29 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:24:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:24:30 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC011_Request Counselling/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/class_object' is clicked on
+
+2022-07-16 22:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/class_object' is clicked on
+
+2022-07-16 22:24:38 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC011_Request Counselling/button_reqc")): Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_reqc' is clicked on
+
+2022-07-16 22:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_reqc' is clicked on
+
+2022-07-16 22:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/04_My Class/SC011_Request Counselling/input_topic"), "Testing Multi-platform"): Text 'Testing Multi-platform' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_topic'
+
+2022-07-16 22:24:41 - [MESSAGE][PASSED] - Text 'Testing Multi-platform' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_topic'
+
+2022-07-16 22:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/04_My Class/SC011_Request Counselling/input_content"), "Katalon stuffs"): Text 'Katalon stuffs' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_content'
+
+2022-07-16 22:24:42 - [MESSAGE][PASSED] - Text 'Katalon stuffs' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_content'
+
+2022-07-16 22:24:42 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC011_Request Counselling/button_submit")): Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_submit' is clicked on
+
+2022-07-16 22:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_submit' is clicked on
+
+2022-07-16 22:24:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/04_My Class/SC011_Request Counselling/success_msg"), 0): Object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/success_msg' is present
+
+2022-07-16 22:24:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:24:45 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/success_msg' is present
+
+2022-07-16 22:24:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:24:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields)" time="25.104" classname="Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields)" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:24:46 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields): Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields)
+
+2022-07-16 22:24:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:24:47 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:24:47 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:24:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:24:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:24:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:24:50 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:24:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:24:51 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:24:51 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:24:52 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:24:52 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:24:53 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:24:53 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:24:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:24:54 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC011_Request Counselling/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/class_object' is clicked on
+
+2022-07-16 22:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/class_object' is clicked on
+
+2022-07-16 22:25:01 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC011_Request Counselling/button_reqc")): Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_reqc' is clicked on
+
+2022-07-16 22:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_reqc' is clicked on
+
+2022-07-16 22:25:04 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/04_My Class/SC011_Request Counselling/input_topic"), ""): Text '' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_topic'
+
+2022-07-16 22:25:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_topic'
+
+2022-07-16 22:25:05 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/04_My Class/SC011_Request Counselling/input_content"), ""): Text '' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_content'
+
+2022-07-16 22:25:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/input_content'
+
+2022-07-16 22:25:06 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC011_Request Counselling/button_submit")): Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_submit' is clicked on
+
+2022-07-16 22:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_submit' is clicked on
+
+2022-07-16 22:25:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-16 22:25:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-16 22:25:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/04_My Class/SC011_Request Counselling/button_submit"), 0): Object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_submit' is present
+
+2022-07-16 22:25:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/04_My Class/SC011_Request Counselling/button_submit' is present
+
+2022-07-16 22:25:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:25:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications" time="90.047" classname="Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:25:11 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications: Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications
+
+2022-07-16 22:25:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:25:11 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:25:11 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:25:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:25:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:25:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:25:16 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:25:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:25:17 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:25:17 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:25:18 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:25:19 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:25:19 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:25:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:25:19 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico' is clicked on
+
+2022-07-16 22:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico' is clicked on
+
+2022-07-16 22:25:27 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class' is clicked on
+
+2022-07-16 22:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class' is clicked on
+
+2022-07-16 22:25:27 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher' is clicked on
+
+2022-07-16 22:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher' is clicked on
+
+2022-07-16 22:25:33 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/class_object' is clicked on
+
+2022-07-16 22:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/class_object' is clicked on
+
+2022-07-16 22:25:34 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all' is clicked on
+
+2022-07-16 22:26:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='parent']/div[3]/div/div[2]/div/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-16 22:26:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all'. Try using Self-healing.
+
+2022-07-16 22:26:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Class code'])[1]/following::p[1]'.
+
+2022-07-16 22:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all' is clicked on
+
+2022-07-16 22:26:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/notifs"), 0): Object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs' is present
+
+2022-07-16 22:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:26:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='parent']/div[3]/div/div[2]/div[3]/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-16 22:26:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs'. Try using Self-healing.
+
+2022-07-16 22:26:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Notification'])[2]/following::div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-16 22:26:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='parent']/div[3]/div/div[2]/div[3]/div/div[2]/div'.
+
+2022-07-16 22:26:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Notification'])[2]/following::div[2]'.
+
+2022-07-16 22:26:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Material1'])[1]/following::div[5]'.
+
+2022-07-16 22:26:40 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Add Link'])[1]/preceding::div[2]'.
+
+2022-07-16 22:26:40 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: F:/1. UNNES/6. Semester 6/2 - MSIB/CAPSTONE PROJECT/testing-lms/Reports/Self-healing/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs_neighbor.png
+
+2022-07-16 22:26:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Add Link'])[1]/preceding::div[2]'.
+
+2022-07-16 22:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs' is present
+
+2022-07-16 22:26:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:26:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling" time="24.045" classname="Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:29:39 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling: Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling
+
+2022-07-16 22:29:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:29:39 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:29:39 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:29:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:29:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:29:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:29:42 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:29:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:29:42 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:29:43 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:29:43 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:29:44 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:29:44 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:29:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:29:44 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico' is clicked on
+
+2022-07-16 22:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico' is clicked on
+
+2022-07-16 22:29:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class' is clicked on
+
+2022-07-16 22:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class' is clicked on
+
+2022-07-16 22:29:52 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher' is clicked on
+
+2022-07-16 22:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher' is clicked on
+
+2022-07-16 22:29:57 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/class_object' is clicked on
+
+2022-07-16 22:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/class_object' is clicked on
+
+2022-07-16 22:29:58 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' is clicked on
+
+2022-07-16 22:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' is clicked on
+
+2022-07-16 22:30:01 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/button_confirm")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/button_confirm' is clicked on
+
+2022-07-16 22:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/button_confirm' is clicked on
+
+2022-07-16 22:30:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:30:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling" time="23.805" classname="Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:30:03 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling: Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling
+
+2022-07-16 22:30:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:30:03 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:30:03 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:30:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:30:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:30:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:30:06 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:30:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:30:07 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:30:07 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:30:08 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:30:09 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:30:09 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:30:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:30:09 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico' is clicked on
+
+2022-07-16 22:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico' is clicked on
+
+2022-07-16 22:30:13 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class' is clicked on
+
+2022-07-16 22:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class' is clicked on
+
+2022-07-16 22:30:17 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher' is clicked on
+
+2022-07-16 22:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher' is clicked on
+
+2022-07-16 22:30:22 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/class_object' is clicked on
+
+2022-07-16 22:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/class_object' is clicked on
+
+2022-07-16 22:30:23 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' is clicked on
+
+2022-07-16 22:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' is clicked on
+
+2022-07-16 22:30:25 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC012_Request Counselling Notifications/decline_button")): Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/decline_button' is clicked on
+
+2022-07-16 22:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/decline_button' is clicked on
+
+2022-07-16 22:30:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:30:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class" time="26.585" classname="Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:30:26 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class: Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class
+
+2022-07-16 22:30:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:30:27 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:30:27 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:30:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:30:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:30:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:30:30 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:30:30 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:30:30 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:30:31 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:30:31 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:30:32 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:30:32 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:30:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:30:32 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC013_Switch Class/sidebar_menu")): Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/sidebar_menu' is clicked on
+
+2022-07-16 22:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/sidebar_menu' is clicked on
+
+2022-07-16 22:30:40 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC013_Switch Class/a_My Class")): Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/a_My Class' is clicked on
+
+2022-07-16 22:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/a_My Class' is clicked on
+
+2022-07-16 22:30:41 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC013_Switch Class/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:30:46 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC013_Switch Class/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/class_object' is clicked on
+
+2022-07-16 22:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/class_object' is clicked on
+
+2022-07-16 22:30:46 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC013_Switch Class/btn_switch")): Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/btn_switch' is clicked on
+
+2022-07-16 22:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/btn_switch' is clicked on
+
+2022-07-16 22:30:49 - [TEST_STEP][PASSED] - class_name = getText(findTestObject("02_Web/04_My Class/SC013_Switch Class/class_name_choose"), STOP_ON_FAILURE).toUpperCase(): Text of object 'Object Repository/02_Web/04_My Class/SC013_Switch Class/class_name_choose' is: 'Quality Engineer - 01'
+
+2022-07-16 22:30:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/02_Web/04_My Class/SC013_Switch Class/class_name_choose' is: 'Quality Engineer - 01'
+
+2022-07-16 22:30:49 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC013_Switch Class/btn_choose_class")): Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/btn_choose_class' is clicked on
+
+2022-07-16 22:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC013_Switch Class/btn_choose_class' is clicked on
+
+2022-07-16 22:30:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/04_My Class/SC013_Switch Class/class_name_detail"), class_name): Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC013_Switch Class/class_name_detail' are matched.
+
+2022-07-16 22:30:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC013_Switch Class/class_name_detail' are matched.
+
+2022-07-16 22:30:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:30:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC017_View Detail Content Material/TC001_View Detail Content Material" time="0.309" classname="Test Cases/02_Web/04_My Class/SC017_View Detail Content Material/TC001_View Detail Content Material" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:30:53 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC017_View Detail Content Material/TC001_View Detail Content Material: Test Cases/02_Web/04_My Class/SC017_View Detail Content Material/TC001_View Detail Content Material
+
+2022-07-16 22:30:53 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name" time="37.67" classname="Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:31:54 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name: Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name
+
+2022-07-16 22:31:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:31:54 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:31:54 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:31:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:31:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:32:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:32:05 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:32:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:32:05 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:32:06 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:32:07 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:32:07 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:32:08 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:32:08 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:32:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:32:08 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/menu_ico")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_ico' is clicked on
+
+2022-07-16 22:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_ico' is clicked on
+
+2022-07-16 22:32:16 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/menu_my class")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_my class' is clicked on
+
+2022-07-16 22:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_my class' is clicked on
+
+2022-07-16 22:32:16 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:32:21 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_object' is clicked on
+
+2022-07-16 22:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_object' is clicked on
+
+2022-07-16 22:32:22 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_settings")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_settings' is clicked on
+
+2022-07-16 22:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_settings' is clicked on
+
+2022-07-16 22:32:25 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_profile")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_profile' is clicked on
+
+2022-07-16 22:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_profile' is clicked on
+
+2022-07-16 22:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/input_classname"), "Quality Engineer - 01"): Text 'Quality Engineer - 01' is set on object 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/input_classname'
+
+2022-07-16 22:32:26 - [MESSAGE][PASSED] - Text 'Quality Engineer - 01' is set on object 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/input_classname'
+
+2022-07-16 22:32:26 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes' is clicked on
+
+2022-07-16 22:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes' is clicked on
+
+2022-07-16 22:32:27 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/button_Yes")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes' is clicked on
+
+2022-07-16 22:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes' is clicked on
+
+2022-07-16 22:32:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/class_name"), "QUALITY ENGINEER - 01"): Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_name' are matched.
+
+2022-07-16 22:32:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_name' are matched.
+
+2022-07-16 22:32:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:32:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report" time="27.765" classname="Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:32:32 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report: Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report
+
+2022-07-16 22:32:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:32:32 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:32:32 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:32:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:32:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:32:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:32:36 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:32:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:32:36 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:32:37 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:32:38 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:32:38 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:32:38 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:32:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:32:39 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/menu_ico")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_ico' is clicked on
+
+2022-07-16 22:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_ico' is clicked on
+
+2022-07-16 22:32:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/menu_my class")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_my class' is clicked on
+
+2022-07-16 22:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_my class' is clicked on
+
+2022-07-16 22:32:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:32:52 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_object' is clicked on
+
+2022-07-16 22:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_object' is clicked on
+
+2022-07-16 22:32:53 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_settings")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_settings' is clicked on
+
+2022-07-16 22:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_settings' is clicked on
+
+2022-07-16 22:32:56 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_profile")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_profile' is clicked on
+
+2022-07-16 22:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_profile' is clicked on
+
+2022-07-16 22:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/input_datareport"), "https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA"): Text 'https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA' is set on object 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/input_datareport'
+
+2022-07-16 22:32:58 - [MESSAGE][PASSED] - Text 'https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA' is set on object 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/input_datareport'
+
+2022-07-16 22:32:58 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes' is clicked on
+
+2022-07-16 22:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes' is clicked on
+
+2022-07-16 22:32:58 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/button_Yes")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes' is clicked on
+
+2022-07-16 22:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes' is clicked on
+
+2022-07-16 22:32:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:32:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class" time="32.648" classname="Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:32:59 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class: Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class
+
+2022-07-16 22:33:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:33:00 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:33:00 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:33:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:33:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:33:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:33:03 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:33:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:33:03 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:33:04 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:33:05 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:33:05 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:33:05 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:33:05 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:33:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:33:06 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/menu_ico")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_ico' is clicked on
+
+2022-07-16 22:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_ico' is clicked on
+
+2022-07-16 22:33:14 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/menu_my class")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_my class' is clicked on
+
+2022-07-16 22:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/menu_my class' is clicked on
+
+2022-07-16 22:33:14 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher' is clicked on
+
+2022-07-16 22:33:19 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_object' is clicked on
+
+2022-07-16 22:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/class_object' is clicked on
+
+2022-07-16 22:33:20 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_settings")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_settings' is clicked on
+
+2022-07-16 22:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_settings' is clicked on
+
+2022-07-16 22:33:23 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/a_profile")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_profile' is clicked on
+
+2022-07-16 22:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/a_profile' is clicked on
+
+2022-07-16 22:33:23 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/button_delete")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_delete' is clicked on
+
+2022-07-16 22:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_delete' is clicked on
+
+2022-07-16 22:33:24 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC022_Setting Profile Class/button_Yes")): Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes' is clicked on
+
+2022-07-16 22:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes' is clicked on
+
+2022-07-16 22:33:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/04_My Class/SC023_Leave Class/active_class"), 0): Object 'Object Repository/02_Web/04_My Class/SC023_Leave Class/active_class' is present
+
+2022-07-16 22:33:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:33:31 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/04_My Class/SC023_Leave Class/active_class' is present
+
+2022-07-16 22:33:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:33:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class" time="26.665" classname="Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:33:32 - [TEST_CASE][PASSED] - Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class: Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class
+
+2022-07-16 22:33:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:33:33 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:33:33 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:33:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:33:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:33:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:33:36 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:33:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:33:37 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:33:37 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:33:38 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:33:38 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:33:39 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:33:39 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:33:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:33:40 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC023_Leave Class/class_object")): Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/class_object' is clicked on
+
+2022-07-16 22:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/class_object' is clicked on
+
+2022-07-16 22:33:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC023_Leave Class/a_settings")): Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/a_settings' is clicked on
+
+2022-07-16 22:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/a_settings' is clicked on
+
+2022-07-16 22:33:50 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC023_Leave Class/button_Leave Class")): Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/button_Leave Class' is clicked on
+
+2022-07-16 22:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/button_Leave Class' is clicked on
+
+2022-07-16 22:33:51 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/04_My Class/SC023_Leave Class/button_Leave")): Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/button_Leave' is clicked on
+
+2022-07-16 22:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/04_My Class/SC023_Leave Class/button_Leave' is clicked on
+
+2022-07-16 22:33:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("02_Web/04_My Class/SC023_Leave Class/active_class"), "Active Class"): Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC023_Leave Class/active_class' are matched.
+
+2022-07-16 22:33:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_Web/04_My Class/SC023_Leave Class/active_class' are matched.
+
+2022-07-16 22:33:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:33:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/05_History/SC024_View History/TC001_View History" time="17.006" classname="Test Cases/02_Web/05_History/SC024_View History/TC001_View History" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:33:59 - [TEST_CASE][PASSED] - Test Cases/02_Web/05_History/SC024_View History/TC001_View History: Test Cases/02_Web/05_History/SC024_View History/TC001_View History
+
+2022-07-16 22:33:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:33:59 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:33:59 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:33:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:33:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:34:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:02 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:34:02 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:34:03 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:34:04 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:34:04 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:34:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:34:05 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/05_History/SC024_View History/menu_ico")): Object: 'Object Repository/02_Web/05_History/SC024_View History/menu_ico' is clicked on
+
+2022-07-16 22:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/05_History/SC024_View History/menu_ico' is clicked on
+
+2022-07-16 22:34:12 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/05_History/SC024_View History/history_menu")): Object: 'Object Repository/02_Web/05_History/SC024_View History/history_menu' is clicked on
+
+2022-07-16 22:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/05_History/SC024_View History/history_menu' is clicked on
+
+2022-07-16 22:34:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/05_History/SC024_View History/history"), 0): Object 'Object Repository/02_Web/05_History/SC024_View History/history' is present
+
+2022-07-16 22:34:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/05_History/SC024_View History/history' is present
+
+2022-07-16 22:34:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:34:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format)" time="17.74" classname="Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format)" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:34:16 - [TEST_CASE][PASSED] - Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format): Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format)
+
+2022-07-16 22:34:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:34:16 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:34:16 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:34:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:34:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:19 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:34:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:34:19 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:34:20 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:34:21 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:34:21 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:34:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:34:22 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_profile")): Object: 'Object Repository/02_Web/06_Settings/button_profile' is clicked on
+
+2022-07-16 22:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_profile' is clicked on
+
+2022-07-16 22:34:25 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/menu_my account")): Object: 'Object Repository/02_Web/06_Settings/menu_my account' is clicked on
+
+2022-07-16 22:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/menu_my account' is clicked on
+
+2022-07-16 22:34:29 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/input_name_name")): Object: 'Object Repository/02_Web/06_Settings/input_name_name' is clicked on
+
+2022-07-16 22:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/input_name_name' is clicked on
+
+2022-07-16 22:34:30 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_email_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:30 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/06_Settings/input_email_email"), "archengmail.com"): Text 'archengmail.com' is set on object 'Object Repository/02_Web/06_Settings/input_email_email'
+
+2022-07-16 22:34:31 - [MESSAGE][PASSED] - Text 'archengmail.com' is set on object 'Object Repository/02_Web/06_Settings/input_email_email'
+
+2022-07-16 22:34:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_email_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_Change")): Object: 'Object Repository/02_Web/06_Settings/button_Change' is clicked on
+
+2022-07-16 22:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_Change' is clicked on
+
+2022-07-16 22:34:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/06_Settings/SC025_Edit Profile/h2_Wrong EmailTelepon Pattern"), 0): Object 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/h2_Wrong EmailTelepon Pattern' is present
+
+2022-07-16 22:34:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/h2_Wrong EmailTelepon Pattern' is present
+
+2022-07-16 22:34:32 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/button_Cancel")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/button_Cancel' is clicked on
+
+2022-07-16 22:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/button_Cancel' is clicked on
+
+2022-07-16 22:34:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:34:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email)" time="21.088" classname="Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email)" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:34:34 - [TEST_CASE][PASSED] - Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email): Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email)
+
+2022-07-16 22:34:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:34:34 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:34:34 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:34:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:34:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:37 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:34:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:34:38 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:38 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:34:39 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:34:39 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:34:40 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:34:40 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:34:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:34:40 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_profile")): Object: 'Object Repository/02_Web/06_Settings/button_profile' is clicked on
+
+2022-07-16 22:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_profile' is clicked on
+
+2022-07-16 22:34:47 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/menu_my account")): Object: 'Object Repository/02_Web/06_Settings/menu_my account' is clicked on
+
+2022-07-16 22:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/menu_my account' is clicked on
+
+2022-07-16 22:34:48 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/input_name_name")): Object: 'Object Repository/02_Web/06_Settings/input_name_name' is clicked on
+
+2022-07-16 22:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/input_name_name' is clicked on
+
+2022-07-16 22:34:48 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_email_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/06_Settings/input_email_email"), "sal@gmail.com"): Text 'sal@gmail.com' is set on object 'Object Repository/02_Web/06_Settings/input_email_email'
+
+2022-07-16 22:34:50 - [MESSAGE][PASSED] - Text 'sal@gmail.com' is set on object 'Object Repository/02_Web/06_Settings/input_email_email'
+
+2022-07-16 22:34:50 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_email_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:34:50 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_Change")): Object: 'Object Repository/02_Web/06_Settings/button_Change' is clicked on
+
+2022-07-16 22:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_Change' is clicked on
+
+2022-07-16 22:34:50 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_Yes")): Object: 'Object Repository/02_Web/06_Settings/button_Yes' is clicked on
+
+2022-07-16 22:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_Yes' is clicked on
+
+2022-07-16 22:34:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/06_Settings/SC025_Edit Profile/error_msg"), 0): Object 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/error_msg' is present
+
+2022-07-16 22:34:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/error_msg' is present
+
+2022-07-16 22:34:53 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/button_Cancel")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/button_Cancel' is clicked on
+
+2022-07-16 22:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/button_Cancel' is clicked on
+
+2022-07-16 22:34:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:34:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input)" time="25.296" classname="Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input)" status="PASSED">
+         <system-out><![CDATA[2022-07-16 22:34:55 - [TEST_CASE][PASSED] - Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input): Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input)
+
+2022-07-16 22:34:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02_Web/signin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:34:55 - [TEST_CASE][PASSED] - Test Cases/02_Web/signin: Test Cases/02_Web/signin
+
+2022-07-16 22:34:55 - [TEST_STEP][PASSED] - openBrowser(url_website, CONTINUE_ON_FAILURE): Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-16 22:34:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-16 22:34:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://capstone-study-space.netlify.app/'
+
+2022-07-16 22:34:58 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-07-16 22:34:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-16 22:34:58 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login' is clicked on
+
+2022-07-16 22:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_email_email"), "archen@gmail.com", CONTINUE_ON_FAILURE): Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:35:00 - [MESSAGE][PASSED] - Text 'archen@gmail.com' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_email_email'
+
+2022-07-16 22:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/02_Auth/SC003_Sign In/input_password_password"), "Archen123!", CONTINUE_ON_FAILURE): Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:35:00 - [MESSAGE][PASSED] - Text 'Archen123!' is set on object 'Object Repository/02_Web/02_Auth/SC003_Sign In/input_password_password'
+
+2022-07-16 22:35:00 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/02_Auth/SC003_Sign In/button_Login_submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/02_Auth/SC003_Sign In/button_Login_submit' is clicked on
+
+2022-07-16 22:35:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02_Web/signin' successfully
+
+2022-07-16 22:35:01 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_profile")): Object: 'Object Repository/02_Web/06_Settings/button_profile' is clicked on
+
+2022-07-16 22:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_profile' is clicked on
+
+2022-07-16 22:35:08 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/menu_my account")): Object: 'Object Repository/02_Web/06_Settings/menu_my account' is clicked on
+
+2022-07-16 22:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/menu_my account' is clicked on
+
+2022-07-16 22:35:09 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/input_name_name")): Object: 'Object Repository/02_Web/06_Settings/input_name_name' is clicked on
+
+2022-07-16 22:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/input_name_name' is clicked on
+
+2022-07-16 22:35:09 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_name_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_name_ico' is clicked on
+
+2022-07-16 22:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_name_ico' is clicked on
+
+2022-07-16 22:35:10 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/06_Settings/input_name_name"), "Archie"): Text 'Archie' is set on object 'Object Repository/02_Web/06_Settings/input_name_name'
+
+2022-07-16 22:35:10 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/02_Web/06_Settings/input_name_name'
+
+2022-07-16 22:35:10 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_name_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_name_ico' is clicked on
+
+2022-07-16 22:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_name_ico' is clicked on
+
+2022-07-16 22:35:11 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_email_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:35:11 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/06_Settings/input_email_email"), "archens@gmail.com"): Text 'archens@gmail.com' is set on object 'Object Repository/02_Web/06_Settings/input_email_email'
+
+2022-07-16 22:35:12 - [MESSAGE][PASSED] - Text 'archens@gmail.com' is set on object 'Object Repository/02_Web/06_Settings/input_email_email'
+
+2022-07-16 22:35:12 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_email_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_email_ico' is clicked on
+
+2022-07-16 22:35:13 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_telp_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_telp_ico' is clicked on
+
+2022-07-16 22:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_telp_ico' is clicked on
+
+2022-07-16 22:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("02_Web/06_Settings/input_telepon_telepon"), "082345678900"): Text '082345678900' is set on object 'Object Repository/02_Web/06_Settings/input_telepon_telepon'
+
+2022-07-16 22:35:14 - [MESSAGE][PASSED] - Text '082345678900' is set on object 'Object Repository/02_Web/06_Settings/input_telepon_telepon'
+
+2022-07-16 22:35:14 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/SC025_Edit Profile/change_telp_ico")): Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_telp_ico' is clicked on
+
+2022-07-16 22:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/change_telp_ico' is clicked on
+
+2022-07-16 22:35:14 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_Change")): Object: 'Object Repository/02_Web/06_Settings/button_Change' is clicked on
+
+2022-07-16 22:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_Change' is clicked on
+
+2022-07-16 22:35:15 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_Yes")): Object: 'Object Repository/02_Web/06_Settings/button_Yes' is clicked on
+
+2022-07-16 22:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_Yes' is clicked on
+
+2022-07-16 22:35:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("02_Web/06_Settings/SC025_Edit Profile/success_msg"), 0): Object 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/success_msg' is present
+
+2022-07-16 22:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-16 22:35:19 - [MESSAGE][PASSED] - Object 'Object Repository/02_Web/06_Settings/SC025_Edit Profile/success_msg' is present
+
+2022-07-16 22:35:19 - [TEST_STEP][PASSED] - click(findTestObject("02_Web/06_Settings/button_OK")): Object: 'Object Repository/02_Web/06_Settings/button_OK' is clicked on
+
+2022-07-16 22:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Web/06_Settings/button_OK' is clicked on
+
+2022-07-16 22:35:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-16 22:35:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-16 22:18:03 - [TEST_SUITE][FAILED] - Regression_Web: Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002_Confirm Request Counselling.run(TC002_Confirm Request Counselling:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657984678655.run(TempTestSuite1657984678655.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' located by '/html/body/div[1]/div/div[4]/div/div[3]/div[1]/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1657976668303.run(Script1657976668303.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002_Confirm Request Counselling.run(TC002_Confirm Request Counselling:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657984678655.run(TempTestSuite1657984678655.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' located by '/html/body/div[1]/div/div[4]/div/div[3]/div[1]/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-07-16 22:18:03 - [TEST_SUITE][FAILED] - Regression_Web: Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002_Confirm Request Counselling.run(TC002_Confirm Request Counselling:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657984678655.run(TempTestSuite1657984678655.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' located by '/html/body/div[1]/div/div[4]/div/div[3]/div[1]/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1657976668303.run(Script1657976668303.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002_Confirm Request Counselling.run(TC002_Confirm Request Counselling:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657984678655.run(TempTestSuite1657984678655.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object' located by '/html/body/div[1]/div/div[4]/div/div[3]/div[1]/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

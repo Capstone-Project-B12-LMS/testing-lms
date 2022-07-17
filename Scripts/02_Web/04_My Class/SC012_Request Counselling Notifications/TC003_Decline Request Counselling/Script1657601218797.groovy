@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('02_Web/signin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico'))
+
+WebUI.click(findTestObject('02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class'))
+
+WebUI.click(findTestObject('02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher'))
+
+WebUI.click(findTestObject('02_Web/04_My Class/SC012_Request Counselling Notifications/class_object'))
+
+WebUI.click(findTestObject('02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object'))
+
+WebUI.click(findTestObject('02_Web/04_My Class/SC012_Request Counselling Notifications/decline_button'))
+
+WebUI.closeBrowser()
+

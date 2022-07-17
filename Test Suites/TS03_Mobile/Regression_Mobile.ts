@@ -63,13 +63,13 @@
       <guid>22bdf4d6-ba92-4bac-b32d-3a89f5ad4a4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_Mobile/05_History/SC024_View History/TC001_View List of History</testCaseId>
+      <testCaseId>Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>62bb250c-6796-4e8b-b083-1179fef1854c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_Mobile/06_Settings/SC025_Edit Profile/Edit Profile</testCaseId>
+      <testCaseId>Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8af337be-d27b-4795-9daf-69f4f9290fec</guid>

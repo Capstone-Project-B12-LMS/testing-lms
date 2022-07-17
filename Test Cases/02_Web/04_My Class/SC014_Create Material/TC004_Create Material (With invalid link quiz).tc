@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC004_Create Material (With invalid link quiz)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7d0f73d8-d788-40db-a909-e75c611e0c83</testCaseGuid>
-</TestCaseEntity>

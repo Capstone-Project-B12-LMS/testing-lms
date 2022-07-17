@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('02_Web/signin'), [:], FailureHandling.STOP_ON_F
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC013_Switch Class/sidebar_menu'))
 
-WebUI.click(findTestObject('Object Repository/02_Web/04_My Class/SC013_Switch Class/Page_React App/a_my class'))
+WebUI.click(findTestObject('02_Web/04_My Class/SC013_Switch Class/a_My Class'))
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC013_Switch Class/a_Class Teacher'))
 
@@ -34,4 +34,6 @@ class_name = WebUI.getText(findTestObject('02_Web/04_My Class/SC013_Switch Class
 WebUI.click(findTestObject('02_Web/04_My Class/SC013_Switch Class/btn_choose_class'))
 
 WebUI.verifyElementText(findTestObject('02_Web/04_My Class/SC013_Switch Class/class_name_detail'), class_name)
+
+WebUI.closeBrowser()
 

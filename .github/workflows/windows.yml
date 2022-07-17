@@ -1,4 +1,4 @@
-name: API Testing
+name: Web Testing
 on:
   push:
     branches: [ master ]
@@ -15,4 +15,4 @@ jobs:
       with:
           version: '8.2.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuitePath="Test Suites/TS01_API/Regression_API" -apiKey="53579014-5d95-4a55-aac5-1913d85f67ed" --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuitePath="Test Suites/TS02_Web/Regression_Web" -apiKey="53579014-5d95-4a55-aac5-1913d85f67ed" --config -webui.autoUpdateDrivers=true'

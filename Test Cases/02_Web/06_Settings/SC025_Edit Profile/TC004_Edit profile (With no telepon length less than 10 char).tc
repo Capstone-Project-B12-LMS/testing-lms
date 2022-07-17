@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_Edit profile (With no telepon length less than 10 char)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8063f18-93f6-4039-9cd3-37246d1aca7e</testCaseGuid>
+</TestCaseEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>feedback_list</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>3a7b8d4f-44a8-4650-8580-eba3efc613c8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

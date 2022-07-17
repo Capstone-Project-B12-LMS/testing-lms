@@ -6,6 +6,21 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'http://ec2-34-219-136-154.us-west-2.compute.amazonaws.com'</initValue>
+      <name>base_url_api</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'restapi/v1'</initValue>
+      <name>api_version</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://capstone-study-space.netlify.app/'</initValue>
+      <name>url_website</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'com.example.capstone_project_lms'</initValue>
       <name>id_mobile_apk</name>
    </GlobalVariableEntity>
@@ -28,6 +43,16 @@
       <description></description>
       <initValue>500</initValue>
       <name>response_500</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>401</initValue>
+      <name>response_401</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>403</initValue>
+      <name>response_403</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -66,58 +91,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'restapi/v1'</initValue>
-      <name>api_version</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'http://ec2-34-219-136-154.us-west-2.compute.amazonaws.com'</initValue>
-      <name>base_url_api</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Email baru untuk sign up</description>
-      <initValue>'archen8@gmail.com'</initValue>
-      <name>register_email</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'archen@gmail.com'</initValue>
-      <name>email_user</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Archen123!'</initValue>
-      <name>password_user</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'archen1@gmail.com'</initValue>
-      <name>registered_email</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>401</initValue>
-      <name>response_401</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>403</initValue>
-      <name>response_403</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'65369db45e'</initValue>
-      <name>code_class</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'19ab7ae2-9335-4e91-b176-ec31c1f41c56'</initValue>
       <name>id_class</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'edfe061679'</initValue>
-      <name>code_class_join</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -126,28 +101,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'archen@gmail.com'</initValue>
-      <name>new_email</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Arch'</initValue>
-      <name>nama_user</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://capstone-study-space.netlify.app/'</initValue>
-      <name>url_website</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'562add46-904d-4ed0-923a-0c15da57d7dd'</initValue>
       <name>id_class_student</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'http://ec2-34-219-136-154.us-west-2.compute.amazonaws.com/gql/v1/graphql'</initValue>
-      <name>graphql_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -168,6 +123,46 @@
       <description>id class student yang digunakan untuk diberikan feedback</description>
       <initValue>'562add46-904d-4ed0-923a-0c15da57d7dd'</initValue>
       <name>id_class_student_feedback</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'65369db45e'</initValue>
+      <name>code_class</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'edfe061679'</initValue>
+      <name>code_class_join</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email baru untuk sign up</description>
+      <initValue>'archen8@gmail.com'</initValue>
+      <name>register_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'archen@gmail.com'</initValue>
+      <name>email_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'salsabilarhdsy@gmail.com'</initValue>
+      <name>registered_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Archen123!'</initValue>
+      <name>password_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>new email for update profile</description>
+      <initValue>'archen@gmail.com'</initValue>
+      <name>new_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Archen Aydin'</initValue>
+      <name>nama_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Code class sebagai teacher untuk test dalam menghapus student</description>
