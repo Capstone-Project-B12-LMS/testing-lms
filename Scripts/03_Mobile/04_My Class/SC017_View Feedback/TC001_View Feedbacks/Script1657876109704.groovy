@@ -25,7 +25,7 @@ Mobile.tapAndHold(findTestObject('Object Repository/03_Mobile/04_My Class/SC017_
 
 Mobile.tap(findTestObject('Object Repository/03_Mobile/04_My Class/SC017_View Feedback/menu_feedback'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('03_Mobile/04_My Class/SC017_View Feedback/feedback_list'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('03_Mobile/04_My Class/SC017_View Feedback/feedback_list (1)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 

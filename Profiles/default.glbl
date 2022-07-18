@@ -81,17 +81,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwNDkwNTUwLCJ1c2VySWQiOiJiZGFiZWU1MC0zMjllLTQ4NzUtYjk0MS1kOWNhMmRhYWM4ZTUiLCJpYXQiOjE2NTc4OTg1NTB9.m8xm5ZhPzV3MdxeAw8SS4CAB4htAweTIW6pGpYH56jc'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwNzAwODU5LCJ1c2VySWQiOiIxMjU2YjE2MS1kMjViLTQxYTUtYWRjMC04OTVlYjljYjQ3YWMiLCJpYXQiOjE2NTgxMDg4NTl9._Ps5-MPlKArGV4oI8jTotJEssoB0G4aJQs3U5iGnpOg'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bdabee50-329e-4875-b941-d9ca2daac8e5'</initValue>
+      <initValue>'1256b161-d25b-41a5-adc0-895eb9cb47ac'</initValue>
       <name>id_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'19ab7ae2-9335-4e91-b176-ec31c1f41c56'</initValue>
+      <description>class Quality Assurance</description>
+      <initValue>'c2c90a1f-9c22-4f7d-9801-ed11e16e9e9f'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -105,38 +105,38 @@
       <name>id_class_student</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'327c9ab9-70e7-4b4a-906d-5985a85122d3'</initValue>
+      <description>Product Management Class</description>
+      <initValue>'cae91c1f-7160-4b0f-9530-a9ef5ba679e0'</initValue>
       <name>id_class_delete</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'214ca80f-6092-4e1e-b2e3-0b8960e8eff3'</initValue>
+      <initValue>'c22ea600-81b8-4c76-a730-32dfc15dbee0'</initValue>
       <name>id_guidance</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>id user (student) yang akan dihapus dari kelas</description>
-      <initValue>'ab1993fe-3b5f-4313-9a54-d4820332fad2'</initValue>
+      <description>id user (student) yang akan dihapus dari kelas (akun salsabilarhdsy@gmail.com)</description>
+      <initValue>'c8c20e02-23d2-4886-a9c4-492ae54c7c98'</initValue>
       <name>id_user_delete</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>id class student yang digunakan untuk diberikan feedback</description>
-      <initValue>'562add46-904d-4ed0-923a-0c15da57d7dd'</initValue>
+      <description>id class student yang digunakan untuk memberikan feedback (class by salsabilarhdsy)</description>
+      <initValue>'93c64085-bde9-443a-8957-8e7e1b3981fb'</initValue>
       <name>id_class_student_feedback</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'65369db45e'</initValue>
+      <initValue>''</initValue>
       <name>code_class</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'edfe061679'</initValue>
+      <description>class by salsabilarhdsy</description>
+      <initValue>'486689068d'</initValue>
       <name>code_class_join</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Email baru untuk sign up</description>
-      <initValue>'archen8@gmail.com'</initValue>
+      <initValue>'archen10@gmail.com'</initValue>
       <name>register_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -165,8 +165,8 @@
       <name>nama_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Code class sebagai teacher untuk test dalam menghapus student</description>
-      <initValue>'2ee6612c49'</initValue>
+      <description>Code class sebagai teacher &quot;Quality Assurance&quot; untuk test untuk menghapus student</description>
+      <initValue>'03e6b33140'</initValue>
       <name>code_class_teacher</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

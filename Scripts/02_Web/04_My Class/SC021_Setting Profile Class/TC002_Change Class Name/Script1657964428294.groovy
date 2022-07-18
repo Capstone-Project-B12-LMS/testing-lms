@@ -31,15 +31,15 @@ WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/a_set
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/a_profile'))
 
-WebUI.setText(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/input_classname'), 
-    'Quality Engineer - 01')
+WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/edit_button'))
+
+WebUI.setText(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/input_classname'), 'Quality Engineer - 01')
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes'))
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/button_Yes'))
 
-WebUI.verifyElementText(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/class_name'), 
-    'QUALITY ENGINEER - 01')
+WebUI.verifyElementText(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/class_name'), 'QUALITY ENGINEER - 01')
 
 WebUI.closeBrowser()
 

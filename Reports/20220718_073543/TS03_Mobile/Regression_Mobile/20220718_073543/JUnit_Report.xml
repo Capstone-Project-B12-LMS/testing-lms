@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_Mobile" time="592.343" tests="11" failures="2" errors="0">
+   <testsuite name="Regression_Mobile" tests="11" failures="2" errors="0" time="592.343" skipped="0" timestamp="2022-07-18 07:35:50" hostname="salsa - SALSABILA" id="Test Suites/TS03_Mobile/Regression_Mobile">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\appium.log, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\execution0.log"/>
+         <property name="attachments" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\1658104969694.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\1658105014130.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\1658105045212.png"/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.8.131"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aeebca410407"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/03_Mobile/02_Auth/SC002_Sign Up/Sign Up" time="131.616" classname="Test Cases/03_Mobile/02_Auth/SC002_Sign Up/Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:35:51 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/02_Auth/SC002_Sign Up/Sign Up: Test Cases/03_Mobile/02_Auth/SC002_Sign Up/Sign Up
+
+2022-07-18 07:35:52 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", STOP_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:35:57 - [MESSAGE][INFO] - Appium server started on port 57,760
+
+2022-07-18 07:36:19 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:36:19 - [TEST_STEP][PASSED] - delay(8, CONTINUE_ON_FAILURE): Delayed 8 second(s)
+
+2022-07-18 07:36:27 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-07-18 07:36:27 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/a_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/a_signup'
+
+2022-07-18 07:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/a_signup'
+
+2022-07-18 07:36:30 - [TEST_STEP][PASSED] - for ([i = 1, i <= 9, (i++)]): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/success' is exist
+
+2022-07-18 07:36:30 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:31 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:33 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:33 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:34 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:34 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:35 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:36 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:36 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:36:36 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:36:36 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:36:38 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/create_acc' is exist
+
+2022-07-18 07:36:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/create_acc"), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/create_acc' is exist
+
+2022-07-18 07:36:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:38 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/create_acc' is exist
+
+2022-07-18 07:36:38 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:40 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:40 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:43 - [MESSAGE][PASSED] - Text 'joongarc' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:43 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:46 - [MESSAGE][PASSED] - Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:46 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:36:46 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:36:46 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:36:48 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/create_acc' is exist
+
+2022-07-18 07:36:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/create_acc"), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/create_acc' is exist
+
+2022-07-18 07:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:48 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/create_acc' is exist
+
+2022-07-18 07:36:48 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:50 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:50 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:54 - [MESSAGE][PASSED] - Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:36:54 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Jng12!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:56 - [MESSAGE][PASSED] - Text 'Jng12!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:36:56 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:36:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:36:56 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:36:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:36:58 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:36:58 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:36:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:58 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:36:58 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:36:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:58 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:36:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:00 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:00 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:02 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:03 - [MESSAGE][PASSED] - Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:03 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:05 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Joongjoong12345!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:07 - [MESSAGE][PASSED] - Text 'Joongjoong12345!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:07 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:37:08 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:37:08 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:09 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:37:09 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_15_char' is exist
+
+2022-07-18 07:37:09 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_15_char' is exist
+
+2022-07-18 07:37:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:10 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_15_char' is exist
+
+2022-07-18 07:37:10 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:12 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:12 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:14 - [MESSAGE][PASSED] - Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:14 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:15 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:17 - [MESSAGE][PASSED] - Text 'joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:17 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:37:18 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:37:18 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:19 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:37:20 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:20 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:20 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:22 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:22 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:25 - [MESSAGE][PASSED] - Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:25 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:26 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Joong123' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:27 - [MESSAGE][PASSED] - Text 'Joong123' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:27 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:37:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:37:28 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:30 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:37:30 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:30 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:30 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:30 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:30 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:32 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:32 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:35 - [MESSAGE][PASSED] - Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:35 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Joongs#!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:38 - [MESSAGE][PASSED] - Text 'Joongs#!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:38 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:37:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:37:38 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:40 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:37:40 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:40 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/pwd_validation' is exist
+
+2022-07-18 07:37:40 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:42 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:42 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:43 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:45 - [MESSAGE][PASSED] - Text 'joongarc@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:45 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:47 - [MESSAGE][PASSED] - Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:47 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:37:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:37:48 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:50 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:37:50 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/email_already_taken' is exist
+
+2022-07-18 07:37:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/email_already_taken' is exist
+
+2022-07-18 07:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:51 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/email_already_taken' is exist
+
+2022-07-18 07:37:51 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:51 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_fullname"), findTestData("signup").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:54 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_fullname'
+
+2022-07-18 07:37:54 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_email"), findTestData("signup").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'joong19@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:56 - [MESSAGE][PASSED] - Text 'joong19@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_email'
+
+2022-07-18 07:37:56 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/field_password"), findTestData("signup").getValue(5, i), 0, CONTINUE_ON_FAILURE): Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:37:58 - [MESSAGE][PASSED] - Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/field_password'
+
+2022-07-18 07:37:58 - [TEST_STEP][PASSED] - pressBack(CONTINUE_ON_FAILURE): Press back button successfully
+
+2022-07-18 07:37:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:37:59 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC002_Sign Up/button_signup"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:37:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/button_signup'
+
+2022-07-18 07:38:00 - [TEST_STEP][PASSED] - if (findTestData("signup").getValue(2, i) == "negative" && findTestData("signup").getValue(6, i) == ""): null
+
+2022-07-18 07:38:00 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/success' is exist
+
+2022-07-18 07:38:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject(findTestData("signup").getValue(6, i)), 0): Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/success' is exist
+
+2022-07-18 07:38:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:02 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC002_Sign Up/success' is exist
+
+2022-07-18 07:38:02 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:38:02 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/02_Auth/SC003_Sign In/Sign In" time="69.64" classname="Test Cases/03_Mobile/02_Auth/SC003_Sign In/Sign In" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:38:03 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/02_Auth/SC003_Sign In/Sign In: Test Cases/03_Mobile/02_Auth/SC003_Sign In/Sign In
+
+2022-07-18 07:38:03 - [TEST_STEP][PASSED] - startExistingApplication(id_mobile_apk, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:38:17 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:38:17 - [TEST_STEP][PASSED] - delay(8, CONTINUE_ON_FAILURE): Delayed 8 second(s)
+
+2022-07-18 07:38:25 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-07-18 07:38:25 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/profile_view' is exist
+
+2022-07-18 07:38:25 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), findTestData("signin").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:27 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:27 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:28 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), findTestData("signin").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:29 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:29 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:38:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:38:30 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/button_signin"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:32 - [TEST_STEP][PASSED] - if (findTestData("signin").getValue(3, i) == ""): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/something_wrong' is exist
+
+2022-07-18 07:38:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC003_Sign In/something_wrong"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/something_wrong' is exist
+
+2022-07-18 07:38:32 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/something_wrong' is exist
+
+2022-07-18 07:38:32 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), findTestData("signin").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'joongarch@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:35 - [MESSAGE][PASSED] - Text 'joongarch@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:35 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), findTestData("signin").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'Archen123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:37 - [MESSAGE][PASSED] - Text 'Archen123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:37 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:38:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:38:38 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/button_signin"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:39 - [TEST_STEP][PASSED] - if (findTestData("signin").getValue(3, i) == ""): null
+
+2022-07-18 07:38:39 - [TEST_STEP][PASSED] - else if (findTestData("signin").getValue(2, i) == "negative" && findTestData("signin").getValue(3, i) != ""): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC003_Sign In/failed_signin"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:40 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:41 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), findTestData("signin").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'joong' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:43 - [MESSAGE][PASSED] - Text 'joong' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:43 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), findTestData("signin").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:47 - [MESSAGE][PASSED] - Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:47 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:38:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:38:47 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/button_signin"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:48 - [TEST_STEP][PASSED] - if (findTestData("signin").getValue(3, i) == ""): null
+
+2022-07-18 07:38:49 - [TEST_STEP][PASSED] - else if (findTestData("signin").getValue(2, i) == "negative" && findTestData("signin").getValue(3, i) != ""): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC003_Sign In/failed_signin"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:49 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:49 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:50 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), findTestData("signin").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'joong@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:52 - [MESSAGE][PASSED] - Text 'joong@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:38:52 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:54 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), findTestData("signin").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'Joong13!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:56 - [MESSAGE][PASSED] - Text 'Joong13!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:38:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:38:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:38:56 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/button_signin"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:38:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:38:58 - [TEST_STEP][PASSED] - if (findTestData("signin").getValue(3, i) == ""): null
+
+2022-07-18 07:38:58 - [TEST_STEP][PASSED] - else if (findTestData("signin").getValue(2, i) == "negative" && findTestData("signin").getValue(3, i) != ""): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC003_Sign In/failed_signin"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:59 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/failed_signin' is exist
+
+2022-07-18 07:38:59 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:39:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:39:01 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_email"), findTestData("signin").getValue(3, i), 0, CONTINUE_ON_FAILURE): Text 'joong@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:39:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:03 - [MESSAGE][PASSED] - Text 'joong@gmail.com' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_email'
+
+2022-07-18 07:39:03 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), 0): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:39:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/02_Auth/SC003_Sign In/field_password"), findTestData("signin").getValue(4, i), 0, CONTINUE_ON_FAILURE): Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:39:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:05 - [MESSAGE][PASSED] - Text 'Joong123!' has been set to element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/field_password'
+
+2022-07-18 07:39:05 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:39:06 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:39:06 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC003_Sign In/button_signin"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/button_signin'
+
+2022-07-18 07:39:07 - [TEST_STEP][PASSED] - if (findTestData("signin").getValue(3, i) == ""): null
+
+2022-07-18 07:39:07 - [TEST_STEP][PASSED] - else if (findTestData("signin").getValue(2, i) == "negative" && findTestData("signin").getValue(3, i) != ""): null
+
+2022-07-18 07:39:07 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/profile_view' is exist
+
+2022-07-18 07:39:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC003_Sign In/profile_view"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/profile_view' is exist
+
+2022-07-18 07:39:12 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC003_Sign In/profile_view' is exist
+
+2022-07-18 07:39:12 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:39:12 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/03_Home/SC006_Join Class/Join Class" time="47.063" classname="Test Cases/03_Mobile/03_Home/SC006_Join Class/Join Class" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:39:12 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/03_Home/SC006_Join Class/Join Class: Test Cases/03_Mobile/03_Home/SC006_Join Class/Join Class
+
+2022-07-18 07:39:13 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:39:25 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:39:25 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/success' is exist
+
+2022-07-18 07:39:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)"), 0): Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'
+
+2022-07-18 07:39:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'
+
+2022-07-18 07:39:31 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)"), 0, 0): Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)' with duration (default)
+
+2022-07-18 07:39:31 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:39:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:34 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)' with duration (default)
+
+2022-07-18 07:39:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)"), findTestData("join_class").getValue(3, i), 0): Text '' has been set to element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'
+
+2022-07-18 07:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:35 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'
+
+2022-07-18 07:39:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)"), 0): Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'
+
+2022-07-18 07:39:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'
+
+2022-07-18 07:39:37 - [TEST_STEP][PASSED] - if (findTestData("join_class").getValue(2, i) == "negative"): Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/failed_message' is exist
+
+2022-07-18 07:39:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/03_Home/SC006_Join Class/failed_message"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/failed_message' is exist
+
+2022-07-18 07:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:40 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/failed_message' is exist
+
+2022-07-18 07:39:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)"), 0): Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'
+
+2022-07-18 07:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'
+
+2022-07-18 07:39:41 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)"), 0, 0): Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)' with duration (default)
+
+2022-07-18 07:39:41 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:39:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:44 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)' with duration (default)
+
+2022-07-18 07:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)"), findTestData("join_class").getValue(3, i), 0): Text 'abcdefh12' has been set to element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'
+
+2022-07-18 07:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:45 - [MESSAGE][PASSED] - Text 'abcdefh12' has been set to element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'
+
+2022-07-18 07:39:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)"), 0): Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'
+
+2022-07-18 07:39:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'
+
+2022-07-18 07:39:47 - [TEST_STEP][PASSED] - if (findTestData("join_class").getValue(2, i) == "negative"): Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/failed_message' is exist
+
+2022-07-18 07:39:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/03_Home/SC006_Join Class/failed_message"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/failed_message' is exist
+
+2022-07-18 07:39:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:49 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/failed_message' is exist
+
+2022-07-18 07:39:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)"), 0): Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'
+
+2022-07-18 07:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_joinclass (1)'
+
+2022-07-18 07:39:50 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)"), 0, 0): Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)' with duration (default)
+
+2022-07-18 07:39:50 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:53 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)' with duration (default)
+
+2022-07-18 07:39:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)"), findTestData("join_class").getValue(3, i), 0): Text '5360e6355a' has been set to element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'
+
+2022-07-18 07:39:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:54 - [MESSAGE][PASSED] - Text '5360e6355a' has been set to element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/txt_codeclass (2)'
+
+2022-07-18 07:39:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)"), 0): Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'
+
+2022-07-18 07:39:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/btn_join (1)'
+
+2022-07-18 07:39:55 - [TEST_STEP][PASSED] - if (findTestData("join_class").getValue(2, i) == "negative"): null
+
+2022-07-18 07:39:55 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/success' is exist
+
+2022-07-18 07:39:55 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/03_Home/SC006_Join Class/success"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/success' is exist
+
+2022-07-18 07:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:39:59 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/03_Home/SC006_Join Class/success' is exist
+
+2022-07-18 07:39:59 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:39:59 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/03_Home/SC008_Active Class/TC001_View Detail Active Class" time="28.974" classname="Test Cases/03_Mobile/03_Home/SC008_Active Class/TC001_View Detail Active Class" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:39:59 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/03_Home/SC008_Active Class/TC001_View Detail Active Class: Test Cases/03_Mobile/03_Home/SC008_Active Class/TC001_View Detail Active Class
+
+2022-07-18 07:40:00 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:40:12 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:40:12 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/03_Home/SC008_Active Class/class"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC008_Active Class/class' with duration (default)
+
+2022-07-18 07:40:12 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:40:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:40:19 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/03_Home/SC008_Active Class/class' with duration (default)
+
+2022-07-18 07:40:19 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/03_Home/SC008_Active Class/class_title"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/03_Home/SC008_Active Class/class_title' is exist
+
+2022-07-18 07:40:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:40:28 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/03_Home/SC008_Active Class/class_title' is exist
+
+2022-07-18 07:40:28 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:40:28 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/04_My Class/SC009_Class List/TC001_View Detail Class in My Class" time="27.049" classname="Test Cases/03_Mobile/04_My Class/SC009_Class List/TC001_View Detail Class in My Class" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:40:28 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/04_My Class/SC009_Class List/TC001_View Detail Class in My Class: Test Cases/03_Mobile/04_My Class/SC009_Class List/TC001_View Detail Class in My Class
+
+2022-07-18 07:40:29 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:40:40 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:40:40 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/04_My Class/SC009_Class List/myclass"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/04_My Class/SC009_Class List/myclass'
+
+2022-07-18 07:40:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:40:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/04_My Class/SC009_Class List/myclass'
+
+2022-07-18 07:40:47 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/04_My Class/SC009_Class List/class_object"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC009_Class List/class_object' with duration (default)
+
+2022-07-18 07:40:47 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:40:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:40:50 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC009_Class List/class_object' with duration (default)
+
+2022-07-18 07:40:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/04_My Class/SC009_Class List/class_title"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/04_My Class/SC009_Class List/class_title' is exist
+
+2022-07-18 07:40:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:40:55 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/04_My Class/SC009_Class List/class_title' is exist
+
+2022-07-18 07:40:55 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:40:55 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/04_My Class/SC010_Class Members/TC001_View Number of Members in A Class" time="23.517" classname="Test Cases/03_Mobile/04_My Class/SC010_Class Members/TC001_View Number of Members in A Class" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:40:55 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/04_My Class/SC010_Class Members/TC001_View Number of Members in A Class: Test Cases/03_Mobile/04_My Class/SC010_Class Members/TC001_View Number of Members in A Class
+
+2022-07-18 07:40:56 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:41:08 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:41:08 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/03_Mobile/04_My Class/SC010_Class Members/class_object"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC010_Class Members/class_object' with duration (default)
+
+2022-07-18 07:41:08 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:41:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:16 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC010_Class Members/class_object' with duration (default)
+
+2022-07-18 07:41:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/03_Mobile/04_My Class/SC010_Class Members/number_members"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/04_My Class/SC010_Class Members/number_members' is exist
+
+2022-07-18 07:41:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:18 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/04_My Class/SC010_Class Members/number_members' is exist
+
+2022-07-18 07:41:18 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:41:18 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/04_My Class/SC016_View Detail Content Material/TC001_View Detail Content Material" time="33.251" classname="Test Cases/03_Mobile/04_My Class/SC016_View Detail Content Material/TC001_View Detail Content Material" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:41:19 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/04_My Class/SC016_View Detail Content Material/TC001_View Detail Content Material: Test Cases/03_Mobile/04_My Class/SC016_View Detail Content Material/TC001_View Detail Content Material
+
+2022-07-18 07:41:19 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:41:31 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:41:31 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/class_object"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/class_object' with duration (default)
+
+2022-07-18 07:41:31 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:41:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:39 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/class_object' with duration (default)
+
+2022-07-18 07:41:39 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/04_My Class/SC016_View Detail Content Material/menu_contents"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/menu_contents'
+
+2022-07-18 07:41:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/menu_contents'
+
+2022-07-18 07:41:46 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/choose_materi1"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/choose_materi1' with duration (default)
+
+2022-07-18 07:41:46 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:41:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:49 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/choose_materi1' with duration (default)
+
+2022-07-18 07:41:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/title_materi1"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/title_materi1' is exist
+
+2022-07-18 07:41:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:49 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/title_materi1' is exist
+
+2022-07-18 07:41:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/menu_desc"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/menu_desc'
+
+2022-07-18 07:41:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/menu_desc'
+
+2022-07-18 07:41:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/desc_materi1"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/desc_materi1' is exist
+
+2022-07-18 07:41:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:41:51 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/04_My Class/SC016_View Detail Content Material/desc_materi1' is exist
+
+2022-07-18 07:41:51 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:41:51 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks" time="59.031" classname="Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks" status="FAILED">
+         <failure type="FAILED" message="Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at TC001_View Feedbacks.run(TC001_View Feedbacks:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-18 07:41:52 - [TEST_CASE][FAILED] - Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks: Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at TC001_View Feedbacks.run(TC001_View Feedbacks:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)
+
+
+2022-07-18 07:41:53 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:42:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:42:05 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/03_Mobile/04_My Class/SC017_View Feedback/class_object"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/class_object' with duration (default)
+
+2022-07-18 07:42:05 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:42:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:42:12 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/class_object' with duration (default)
+
+2022-07-18 07:42:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/03_Mobile/04_My Class/SC017_View Feedback/menu_feedback"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/menu_feedback'
+
+2022-07-18 07:42:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:42:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/menu_feedback'
+
+2022-07-18 07:42:19 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("03_Mobile/04_My Class/SC017_View Feedback/feedback_list"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+
+2022-07-18 07:42:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:42:50 - [MESSAGE][FAILED] - Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\1658104969694.png]]
+
+2022-07-18 07:42:50 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:42:50 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[2022-07-18 07:41:52 - [TEST_CASE][FAILED] - Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks: Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at TC001_View Feedbacks.run(TC001_View Feedbacks:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History" time="75.46" classname="Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History" status="FAILED">
+         <failure type="FAILED" message="Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/03_Mobile/05_History/SC023_View History/menu_history not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1341)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC001_View List of History.run(TC001_View List of History:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-18 07:42:51 - [TEST_CASE][FAILED] - Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History: Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/03_Mobile/05_History/SC023_View History/menu_history not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1341)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC001_View List of History.run(TC001_View List of History:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)
+
+
+2022-07-18 07:42:52 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:43:03 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:43:03 - [TEST_STEP][FAILED] - tap(findTestObject("03_Mobile/05_History/SC023_View History/menu_history"), 0, CONTINUE_ON_FAILURE): Object Object Repository/03_Mobile/05_History/SC023_View History/menu_history not found
+
+2022-07-18 07:43:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:43:35 - [MESSAGE][FAILED] - Object Object Repository/03_Mobile/05_History/SC023_View History/menu_history not found
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\1658105014130.png]]
+
+2022-07-18 07:43:35 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("03_Mobile/05_History/SC023_View History/history"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/05_History/SC023_View History/history' not found
+
+2022-07-18 07:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:06 - [MESSAGE][FAILED] - Element 'Object Repository/03_Mobile/05_History/SC023_View History/history' not found
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\CAPSTONE PROJECT\\testing-lms\\Reports\\20220718_073543\\TS03_Mobile\\Regression_Mobile\\20220718_073543\\1658105045212.png]]
+
+2022-07-18 07:44:06 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:44:06 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[2022-07-18 07:42:51 - [TEST_CASE][FAILED] - Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History: Test Cases/03_Mobile/05_History/SC023_View History/TC001_View List of History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/03_Mobile/05_History/SC023_View History/menu_history not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1341)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC001_View List of History.run(TC001_View List of History:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile" time="70.289" classname="Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:44:07 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile: Test Cases/03_Mobile/06_Settings/SC024_Edit Profile/Edit Profile
+
+2022-07-18 07:44:07 - [TEST_STEP][PASSED] - startExistingApplication("com.example.capstone_project_lms", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:44:19 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:44:19 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/menu_settings"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/menu_settings'
+
+2022-07-18 07:44:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/menu_settings'
+
+2022-07-18 07:44:25 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/06_Settings/menu_editprofile"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/06_Settings/menu_editprofile' with duration (default)
+
+2022-07-18 07:44:25 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:44:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:28 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/06_Settings/menu_editprofile' with duration (default)
+
+2022-07-18 07:44:28 - [TEST_STEP][PASSED] - for ([i = 1, i <= 4, (i++)]): Element 'Object Repository/03_Mobile/06_Settings/success (2)' is exist
+
+2022-07-18 07:44:28 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_fullname"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_fullname"), findTestData("edit_profile").getValue(3, i), 0): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:31 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:31 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_email"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_email"), findTestData("edit_profile").getValue(4, i), 0): Text 'archen@gmail.com' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:33 - [MESSAGE][PASSED] - Text 'archen@gmail.com' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:33 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_telp"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:34 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_telp"), findTestData("edit_profile").getValue(5, i), 0): Text '08123456789' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:35 - [MESSAGE][PASSED] - Text '08123456789' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:35 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/btn_save"), 0): Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:44:36 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:44:37 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:44:37 - [TEST_STEP][PASSED] - if (findTestData("edit_profile").getValue(2, i) == "negative"): Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:44:37 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("03_Mobile/06_Settings/success (2)"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:44:40 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:44:40 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_fullname"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_fullname"), findTestData("edit_profile").getValue(3, i), 0): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:42 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:42 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_email"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_email"), findTestData("edit_profile").getValue(4, i), 0): Text 'joong' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:44 - [MESSAGE][PASSED] - Text 'joong' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:44 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_telp"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_telp"), findTestData("edit_profile").getValue(5, i), 0): Text '08123456789' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:46 - [MESSAGE][PASSED] - Text '08123456789' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:46 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/btn_save"), 0): Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:44:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:44:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:44:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:44:48 - [TEST_STEP][PASSED] - if (findTestData("edit_profile").getValue(2, i) == "negative"): Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:44:48 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("03_Mobile/06_Settings/success (2)"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:44:51 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:44:51 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_fullname"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:53 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_fullname"), findTestData("edit_profile").getValue(3, i), 0): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:54 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:44:54 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_email"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:55 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_email"), findTestData("edit_profile").getValue(4, i), 0): Text 'joong@gmail.com' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:57 - [MESSAGE][PASSED] - Text 'joong@gmail.com' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:44:57 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_telp"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_telp"), findTestData("edit_profile").getValue(5, i), 0): Text '0812345' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:44:59 - [MESSAGE][PASSED] - Text '0812345' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:44:59 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/btn_save"), 0): Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:45:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:45:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:45:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:45:02 - [TEST_STEP][PASSED] - if (findTestData("edit_profile").getValue(2, i) == "negative"): Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:45:02 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("03_Mobile/06_Settings/success (2)"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:45:05 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/06_Settings/success (2)' not found
+
+2022-07-18 07:45:05 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_fullname"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:45:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:45:06 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_fullname"), findTestData("edit_profile").getValue(3, i), 0): Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:45:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:08 - [MESSAGE][PASSED] - Text 'Joong A' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_fullname'
+
+2022-07-18 07:45:08 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_email"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:45:09 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_email"), findTestData("edit_profile").getValue(4, i), 0): Text 'joongs@gmail.com' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:45:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:10 - [MESSAGE][PASSED] - Text 'joongs@gmail.com' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_email'
+
+2022-07-18 07:45:10 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/txt_telp"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:45:11 - [TEST_STEP][PASSED] - setText(findTestObject("03_Mobile/06_Settings/txt_telp"), findTestData("edit_profile").getValue(5, i), 0): Text '08123456789' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:13 - [MESSAGE][PASSED] - Text '08123456789' has been set to element 'Object Repository/03_Mobile/06_Settings/txt_telp'
+
+2022-07-18 07:45:13 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/btn_save"), 0): Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/btn_save'
+
+2022-07-18 07:45:14 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-07-18 07:45:15 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-18 07:45:15 - [TEST_STEP][PASSED] - if (findTestData("edit_profile").getValue(2, i) == "negative"): null
+
+2022-07-18 07:45:15 - [TEST_STEP][PASSED] - else: Element 'Object Repository/03_Mobile/06_Settings/success (2)' is exist
+
+2022-07-18 07:45:15 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/06_Settings/success (2)"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/06_Settings/success (2)' is exist
+
+2022-07-18 07:45:16 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/06_Settings/success (2)' is exist
+
+2022-07-18 07:45:16 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:45:16 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_Mobile/02_Auth/SC004_Logout/TC001_Logout" time="25.379" classname="Test Cases/03_Mobile/02_Auth/SC004_Logout/TC001_Logout" status="PASSED">
+         <system-out><![CDATA[2022-07-18 07:45:17 - [TEST_CASE][PASSED] - Test Cases/03_Mobile/02_Auth/SC004_Logout/TC001_Logout: Test Cases/03_Mobile/02_Auth/SC004_Logout/TC001_Logout
+
+2022-07-18 07:45:19 - [TEST_STEP][PASSED] - startExistingApplication(id_mobile_apk, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:45:31 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.capstone_project_lms'
+
+2022-07-18 07:45:31 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/06_Settings/menu_settings"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/06_Settings/menu_settings'
+
+2022-07-18 07:45:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/06_Settings/menu_settings'
+
+2022-07-18 07:45:37 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("03_Mobile/02_Auth/SC004_Logout/signout"), 0, 0, CONTINUE_ON_FAILURE): Tapped and held on element 'Object Repository/03_Mobile/02_Auth/SC004_Logout/signout' with duration (default)
+
+2022-07-18 07:45:37 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-18 07:45:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:40 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/03_Mobile/02_Auth/SC004_Logout/signout' with duration (default)
+
+2022-07-18 07:45:40 - [TEST_STEP][PASSED] - tap(findTestObject("03_Mobile/02_Auth/SC004_Logout/signout_ok"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/03_Mobile/02_Auth/SC004_Logout/signout_ok'
+
+2022-07-18 07:45:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/03_Mobile/02_Auth/SC004_Logout/signout_ok'
+
+2022-07-18 07:45:41 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("03_Mobile/02_Auth/SC004_Logout/welcome_back"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/03_Mobile/02_Auth/SC004_Logout/welcome_back' is exist
+
+2022-07-18 07:45:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 07:45:42 - [MESSAGE][PASSED] - Element 'Object Repository/03_Mobile/02_Auth/SC004_Logout/welcome_back' is exist
+
+2022-07-18 07:45:42 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-18 07:45:42 - [TEST_STEP][PASSED] - driver.terminateApp("com.example.capstone_project_lms"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-18 07:35:50 - [TEST_SUITE][FAILED] - Regression_Mobile: Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at TC001_View Feedbacks.run(TC001_View Feedbacks:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-18 07:35:50 - [TEST_SUITE][FAILED] - Regression_Mobile: Test Cases/03_Mobile/04_My Class/SC017_View Feedback/TC001_View Feedbacks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/03_Mobile/04_My Class/SC017_View Feedback/feedback_list' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at TC001_View Feedbacks.run(TC001_View Feedbacks:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658104543487.run(TempTestSuite1658104543487.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

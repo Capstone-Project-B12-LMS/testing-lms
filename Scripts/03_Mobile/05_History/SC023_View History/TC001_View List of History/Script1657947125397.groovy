@@ -21,9 +21,9 @@ import io.appium.java_client.AppiumDriver as AppiumDriver
 
 Mobile.startExistingApplication('com.example.capstone_project_lms', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('03_Mobile/05_History/SC023_View History/menu_history'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('03_Mobile/05_History/SC023_View History/history_menu'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('03_Mobile/05_History/SC023_View History/history'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('03_Mobile/05_History/SC023_View History/history_list (1)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 

@@ -27,13 +27,13 @@ WebUI.click(findTestObject('02_Web/06_Settings/input_name_name'))
 
 WebUI.click(findTestObject('02_Web/06_Settings/SC025_Edit Profile/change_name_ico'))
 
-WebUI.setText(findTestObject('02_Web/06_Settings/input_name_name'), 'Archen A')
+WebUI.setText(findTestObject('02_Web/06_Settings/input_name_name'), 'Salsabila Rahadatul Aisy')
 
 WebUI.click(findTestObject('02_Web/06_Settings/SC025_Edit Profile/change_name_ico'))
 
 WebUI.click(findTestObject('02_Web/06_Settings/SC025_Edit Profile/change_email_ico'))
 
-WebUI.setText(findTestObject('02_Web/06_Settings/input_email_email'), 'archens@gmail.com')
+WebUI.setText(findTestObject('02_Web/06_Settings/input_email_email'), 'salsabilarhdsys@gmail.com')
 
 WebUI.click(findTestObject('02_Web/06_Settings/SC025_Edit Profile/change_email_ico'))
 

@@ -1,0 +1,266 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_Web,Chrome 103.0.5060.114,,,2022-07-18 09:57:36,2022-07-18 10:11:42,14m - 6.027s,FAILED
+,,,,,,,
+Test Cases/02_Web/01_Landing Page/SC001_Contact Us/Contact Us,Chrome 103.0.5060.114,,,2022-07-18 09:57:36,2022-07-18 09:57:55,18.993s,PASSED
+openBrowser(url_website),Chrome 103.0.5060.114,,,2022-07-18 09:57:37,2022-07-18 09:57:43,6.471s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-18 09:57:43,2022-07-18 09:57:44,0.245s,PASSED
+"for ([i = 1, i <= 3, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 09:57:44,2022-07-18 09:57:55,10.931s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 09:57:55,2022-07-18 09:57:55,0.735s,PASSED
+,,,,,,,
+Test Cases/02_Web/02_Auth/SC002_Sign Up/Sign Up,Chrome 103.0.5060.114,,,2022-07-18 09:57:55,2022-07-18 09:59:13,1m - 17.284s,PASSED
+openBrowser(url_website),Chrome 103.0.5060.114,,,2022-07-18 09:57:56,2022-07-18 09:57:59,3.040s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-18 09:57:59,2022-07-18 09:57:59,0.148s,PASSED
+"click(findTestObject(""02_Web/02_Auth/SC002_Sign Up/button_Sign up""))",Chrome 103.0.5060.114,,,2022-07-18 09:57:59,2022-07-18 09:57:59,0.510s,PASSED
+"for ([i = 1, i <= 9, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 09:57:59,2022-07-18 09:59:12,1m - 12.294s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 09:59:12,2022-07-18 09:59:13,0.885s,PASSED
+,,,,,,,
+Test Cases/02_Web/02_Auth/SC003_Sign In/Sign In,Chrome 103.0.5060.114,,,2022-07-18 09:59:13,2022-07-18 09:59:40,27.299s,PASSED
+openBrowser(url_website),Chrome 103.0.5060.114,,,2022-07-18 09:59:13,2022-07-18 09:59:16,3.114s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-18 09:59:16,2022-07-18 09:59:16,0.185s,PASSED
+"click(findTestObject(""02_Web/02_Auth/SC003_Sign In/button_Login""))",Chrome 103.0.5060.114,,,2022-07-18 09:59:16,2022-07-18 09:59:17,0.546s,PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 09:59:17,2022-07-18 09:59:39,22.262s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 09:59:39,2022-07-18 09:59:40,0.786s,PASSED
+,,,,,,,
+Test Cases/02_Web/02_Auth/SC004_Logout/TC001_Logout,Chrome 103.0.5060.114,,,2022-07-18 09:59:40,2022-07-18 09:59:54,14.126s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 09:59:40,2022-07-18 09:59:46,6.029s,PASSED
+"click(findTestObject(""02_Web/02_Auth/SC004_Logout/account""))",Chrome 103.0.5060.114,,,2022-07-18 09:59:46,2022-07-18 09:59:51,5.132s,PASSED
+"click(findTestObject(""02_Web/02_Auth/SC004_Logout/button_logout""))",Chrome 103.0.5060.114,,,2022-07-18 09:59:51,2022-07-18 09:59:52,0.435s,PASSED
+"click(findTestObject(""02_Web/02_Auth/SC004_Logout/button_oklogout""))",Chrome 103.0.5060.114,,,2022-07-18 09:59:52,2022-07-18 09:59:53,0.938s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/02_Auth/SC004_Logout/menu_login""), 0, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 09:59:53,2022-07-18 09:59:53,0.483s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 09:59:53,2022-07-18 09:59:54,0.765s,PASSED
+,,,,,,,
+Test Cases/02_Web/03_Home/SC005_Create Class/Create Class,Chrome 103.0.5060.114,,,2022-07-18 09:59:54,2022-07-18 10:00:20,25.608s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 09:59:54,2022-07-18 10:00:00,5.773s,PASSED
+"click(findTestObject(""02_Web/03_Home/SC005_Create Class/button_add""))",Chrome 103.0.5060.114,,,2022-07-18 10:00:00,2022-07-18 10:00:07,6.921s,PASSED
+"click(findTestObject(""02_Web/03_Home/SC005_Create Class/button_Create Class""))",Chrome 103.0.5060.114,,,2022-07-18 10:00:07,2022-07-18 10:00:07,0.401s,PASSED
+"for ([i = 1, i <= 3, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 10:00:07,2022-07-18 10:00:19,11.431s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:00:19,2022-07-18 10:00:20,0.784s,PASSED
+,,,,,,,
+Test Cases/02_Web/03_Home/SC006_Join Class/Join Class,Chrome 103.0.5060.114,,,2022-07-18 10:00:20,2022-07-18 10:01:10,50.087s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:00:20,2022-07-18 10:00:26,5.624s,PASSED
+"click(findTestObject(""02_Web/03_Home/SC006_Join Class/button_Join Class""))",Chrome 103.0.5060.114,,,2022-07-18 10:00:26,2022-07-18 10:00:58,32.006s,PASSED
+"for ([i = 1, i <= 3, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 10:00:58,2022-07-18 10:01:09,11.273s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:01:09,2022-07-18 10:01:10,0.856s,PASSED
+,,,,,,,
+Test Cases/02_Web/03_Home/SC008_Active Class/TC001_View All Active Class,Chrome 103.0.5060.114,,,2022-07-18 10:01:10,2022-07-18 10:01:25,15.692s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:01:10,2022-07-18 10:01:16,5.724s,PASSED
+"click(findTestObject(""02_Web/03_Home/SC008_Active Class/a_view all""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:16,2022-07-18 10:01:22,5.857s,PASSED
+"waitForElementPresent(findTestObject(""02_Web/03_Home/SC008_Active Class/div_AllClass StudentClass Teacher""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:01:22,2022-07-18 10:01:25,3.065s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:01:25,2022-07-18 10:01:25,0.750s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC009_Class List/TC001_View Detail Class in My Class,Chrome 103.0.5060.114,,,2022-07-18 10:01:25,2022-07-18 10:01:45,19.607s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:01:26,2022-07-18 10:01:31,5.615s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/menu_sidebar""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:31,2022-07-18 10:01:37,5.757s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/a_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:37,2022-07-18 10:01:38,0.472s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/a_All""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:38,2022-07-18 10:01:41,3.213s,PASSED
+"class_name = getText(findTestObject(""02_Web/04_My Class/SC009_Class List/class_name_myclass""), STOP_ON_FAILURE).toUpperCase()",Chrome 103.0.5060.114,,,2022-07-18 10:01:41,2022-07-18 10:01:41,0.391s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/all_class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:41,2022-07-18 10:01:42,0.488s,PASSED
+"verifyElementText(findTestObject(""02_Web/04_My Class/SC009_Class List/class_name_detail""), class_name, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:01:42,2022-07-18 10:01:44,2.532s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:01:44,2022-07-18 10:01:45,0.778s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC009_Class List/TC002_View Detail Student Class in My Class,Chrome 103.0.5060.114,,,2022-07-18 10:01:45,2022-07-18 10:02:34,48.910s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:01:45,2022-07-18 10:01:51,5.794s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/menu_sidebar""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:51,2022-07-18 10:01:57,5.774s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/a_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:57,2022-07-18 10:01:57,0.471s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/a_Student""))",Chrome 103.0.5060.114,,,2022-07-18 10:01:57,2022-07-18 10:02:01,3.208s,PASSED
+"class_name = getText(findTestObject(""02_Web/04_My Class/SC009_Class List/class_name_myclass""), STOP_ON_FAILURE).toUpperCase()",Chrome 103.0.5060.114,,,2022-07-18 10:02:01,2022-07-18 10:02:01,0.496s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/all_class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:02:01,2022-07-18 10:02:02,0.469s,PASSED
+"verifyElementText(findTestObject(""02_Web/04_My Class/SC009_Class List/class_name_detail""), class_name, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:02:02,2022-07-18 10:02:33,31.540s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:02:33,2022-07-18 10:02:34,0.813s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC009_Class List/TC003_View Detail Teacher Class in My Class,Chrome 103.0.5060.114,,,2022-07-18 10:02:34,2022-07-18 10:02:55,20.866s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:02:34,2022-07-18 10:02:41,6.992s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/menu_sidebar""))",Chrome 103.0.5060.114,,,2022-07-18 10:02:41,2022-07-18 10:02:47,5.977s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/a_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:02:47,2022-07-18 10:02:48,0.486s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/a_Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:02:48,2022-07-18 10:02:51,3.287s,PASSED
+"class_name = getText(findTestObject(""02_Web/04_My Class/SC009_Class List/class_name_myclass""), STOP_ON_FAILURE).toUpperCase()",Chrome 103.0.5060.114,,,2022-07-18 10:02:51,2022-07-18 10:02:51,0.493s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC009_Class List/all_class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:02:51,2022-07-18 10:02:52,0.463s,PASSED
+"verifyElementText(findTestObject(""02_Web/04_My Class/SC009_Class List/class_name_detail""), class_name, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:02:52,2022-07-18 10:02:54,2.111s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:02:54,2022-07-18 10:02:55,0.728s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC010_Class Members/TC001_View Numbers of Student in A Class,Chrome 103.0.5060.114,,,2022-07-18 10:02:55,2022-07-18 10:03:11,15.904s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:02:55,2022-07-18 10:03:01,5.737s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC010_Class Members/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:01,2022-07-18 10:03:07,6.001s,PASSED
+"waitForElementPresent(findTestObject(""02_Web/04_My Class/SC010_Class Members/class_members""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:03:07,2022-07-18 10:03:10,3.051s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:03:10,2022-07-18 10:03:11,0.770s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC001_Request Counselling,Chrome 103.0.5060.114,,,2022-07-18 10:03:11,2022-07-18 10:03:31,20.485s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:03:11,2022-07-18 10:03:16,5.416s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:16,2022-07-18 10:03:22,5.521s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/button_reqc""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:22,2022-07-18 10:03:25,3.002s,PASSED
+"setText(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/input_topic""), ""Mobile Testing"")",Chrome 103.0.5060.114,,,2022-07-18 10:03:25,2022-07-18 10:03:26,0.901s,PASSED
+"setText(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/input_content""), ""I have problem to get an object element in mobile apk, so i want to discuss about it."")",Chrome 103.0.5060.114,,,2022-07-18 10:03:26,2022-07-18 10:03:27,1.369s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/button_submit""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:27,2022-07-18 10:03:28,0.394s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/success_msg""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:03:28,2022-07-18 10:03:30,2.756s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:03:30,2022-07-18 10:03:31,0.812s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC011_Request Counselling/TC002_Request Counselling (Without fill all fields),Chrome 103.0.5060.114,,,2022-07-18 10:03:31,2022-07-18 10:03:52,21.083s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:03:31,2022-07-18 10:03:37,5.677s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:37,2022-07-18 10:03:43,5.710s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/button_reqc""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:43,2022-07-18 10:03:46,2.962s,PASSED
+"setText(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/input_topic""), """")",Chrome 103.0.5060.114,,,2022-07-18 10:03:46,2022-07-18 10:03:47,0.777s,PASSED
+"setText(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/input_content""), """")",Chrome 103.0.5060.114,,,2022-07-18 10:03:47,2022-07-18 10:03:47,0.811s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/button_submit""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:47,2022-07-18 10:03:48,0.493s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-18 10:03:48,2022-07-18 10:03:51,3.027s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/04_My Class/SC011_Request Counselling/button_submit""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:03:51,2022-07-18 10:03:51,0.455s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:03:51,2022-07-18 10:03:52,0.857s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC001_View All Request Counselling Notifications,Chrome 103.0.5060.114,,,2022-07-18 10:03:52,2022-07-18 10:04:43,50.459s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:03:53,2022-07-18 10:03:58,5.461s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:03:58,2022-07-18 10:04:04,5.876s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:04,2022-07-18 10:04:04,0.456s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:04,2022-07-18 10:04:08,3.170s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:08,2022-07-18 10:04:08,0.550s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/p_View all""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:08,2022-07-18 10:04:10,2.276s,PASSED
+"waitForElementPresent(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/notifs""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:04:10,2022-07-18 10:04:42,31.544s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:04:42,2022-07-18 10:04:43,0.797s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC002_Confirm Request Counselling,Chrome 103.0.5060.114,,,2022-07-18 10:04:43,2022-07-18 10:05:03,20.178s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:04:43,2022-07-18 10:04:49,5.884s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:49,2022-07-18 10:04:55,5.698s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:55,2022-07-18 10:04:55,0.478s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:55,2022-07-18 10:04:58,3.230s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:58,2022-07-18 10:04:59,0.565s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:04:59,2022-07-18 10:05:02,2.633s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/button_confirm""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:02,2022-07-18 10:05:02,0.565s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:05:02,2022-07-18 10:05:03,0.827s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC012_Request Counselling Notifications/TC003_Decline Request Counselling,Chrome 103.0.5060.114,,,2022-07-18 10:05:03,2022-07-18 10:05:22,19.291s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:05:03,2022-07-18 10:05:09,5.621s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:09,2022-07-18 10:05:15,5.766s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/menu_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:15,2022-07-18 10:05:15,0.478s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:15,2022-07-18 10:05:18,2.981s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:18,2022-07-18 10:05:19,0.547s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/notif_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:19,2022-07-18 10:05:21,2.229s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC012_Request Counselling Notifications/decline_button""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:21,2022-07-18 10:05:21,0.541s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:05:21,2022-07-18 10:05:22,0.812s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC013_Switch Class/TC001_Switch to Another Teacher Class,Chrome 103.0.5060.114,,,2022-07-18 10:05:22,2022-07-18 10:05:46,23.863s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:05:22,2022-07-18 10:05:28,5.629s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC013_Switch Class/sidebar_menu""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:28,2022-07-18 10:05:34,5.740s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC013_Switch Class/a_My Class""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:34,2022-07-18 10:05:34,0.470s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC013_Switch Class/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:34,2022-07-18 10:05:38,3.210s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC013_Switch Class/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:38,2022-07-18 10:05:38,0.506s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC013_Switch Class/btn_switch""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:38,2022-07-18 10:05:42,3.916s,PASSED
+"class_name = getText(findTestObject(""02_Web/04_My Class/SC013_Switch Class/class_name_choose""), STOP_ON_FAILURE).toUpperCase()",Chrome 103.0.5060.114,,,2022-07-18 10:05:42,2022-07-18 10:05:42,0.485s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC013_Switch Class/btn_choose_class""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:42,2022-07-18 10:05:43,0.444s,PASSED
+"verifyElementText(findTestObject(""02_Web/04_My Class/SC013_Switch Class/class_name_detail""), class_name)",Chrome 103.0.5060.114,,,2022-07-18 10:05:43,2022-07-18 10:05:45,2.366s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:05:45,2022-07-18 10:05:46,0.785s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC002_Change Class Name,Chrome 103.0.5060.114,,,2022-07-18 10:05:46,2022-07-18 10:06:12,25.773s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:05:46,2022-07-18 10:05:52,5.520s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:52,2022-07-18 10:05:58,5.976s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/menu_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:58,2022-07-18 10:05:58,0.503s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:05:58,2022-07-18 10:06:02,3.215s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:02,2022-07-18 10:06:02,0.534s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_settings""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:02,2022-07-18 10:06:04,2.241s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:04,2022-07-18 10:06:05,0.558s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/edit_button""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:05,2022-07-18 10:06:05,0.530s,PASSED
+"setText(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/input_classname""), ""Quality Engineer - 01"")",Chrome 103.0.5060.114,,,2022-07-18 10:06:05,2022-07-18 10:06:06,0.983s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:06,2022-07-18 10:06:07,0.409s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/button_Yes""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:07,2022-07-18 10:06:07,0.575s,PASSED
+"verifyElementText(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/class_name""), ""QUALITY ENGINEER - 01"")",Chrome 103.0.5060.114,,,2022-07-18 10:06:07,2022-07-18 10:06:11,3.640s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:06:11,2022-07-18 10:06:12,0.775s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC003_Add link data report,Chrome 103.0.5060.114,,,2022-07-18 10:06:12,2022-07-18 10:06:35,23.046s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:06:12,2022-07-18 10:06:18,5.613s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:18,2022-07-18 10:06:23,5.650s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/menu_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:23,2022-07-18 10:06:24,0.759s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:24,2022-07-18 10:06:27,3.299s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:27,2022-07-18 10:06:28,0.518s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_settings""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:28,2022-07-18 10:06:31,2.748s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:31,2022-07-18 10:06:31,0.600s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/edit_button""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:31,2022-07-18 10:06:32,0.555s,PASSED
+"setText(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/input_datareport""), ""https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA"")",Chrome 103.0.5060.114,,,2022-07-18 10:06:32,2022-07-18 10:06:33,1.168s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:33,2022-07-18 10:06:34,0.446s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/button_Yes""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:34,2022-07-18 10:06:34,0.537s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:06:34,2022-07-18 10:06:35,0.838s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC021_Setting Profile Class/TC004_Delete Class,Chrome 103.0.5060.114,,,2022-07-18 10:06:35,2022-07-18 10:07:00,25.575s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:06:35,2022-07-18 10:06:41,5.446s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:41,2022-07-18 10:06:47,5.893s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/menu_my class""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:47,2022-07-18 10:06:47,0.444s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_Class Teacher""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:47,2022-07-18 10:06:50,3.188s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:50,2022-07-18 10:06:51,0.530s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_settings""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:51,2022-07-18 10:06:53,2.194s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/a_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:53,2022-07-18 10:06:53,0.569s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/button_delete""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:53,2022-07-18 10:06:54,0.617s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC022_Setting Profile Class/button_Yes""))",Chrome 103.0.5060.114,,,2022-07-18 10:06:54,2022-07-18 10:06:55,0.555s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/04_My Class/SC023_Leave Class/active_class""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:06:55,2022-07-18 10:07:00,4.984s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:07:00,2022-07-18 10:07:00,0.839s,PASSED
+,,,,,,,
+Test Cases/02_Web/04_My Class/SC022_Leave Class/TC001_Leave Class,Chrome 103.0.5060.114,,,2022-07-18 10:07:00,2022-07-18 10:07:22,21.311s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:07:01,2022-07-18 10:07:06,5.527s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC023_Leave Class/class_object""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:06,2022-07-18 10:07:12,5.620s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC023_Leave Class/a_settings""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:12,2022-07-18 10:07:15,3.105s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC023_Leave Class/button_Leave Class""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:15,2022-07-18 10:07:16,0.567s,PASSED
+"click(findTestObject(""02_Web/04_My Class/SC023_Leave Class/button_Leave""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:16,2022-07-18 10:07:16,0.573s,PASSED
+"verifyElementText(findTestObject(""02_Web/04_My Class/SC023_Leave Class/active_class""), ""Active Class"")",Chrome 103.0.5060.114,,,2022-07-18 10:07:16,2022-07-18 10:07:21,4.839s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:07:21,2022-07-18 10:07:22,0.783s,PASSED
+,,,,,,,
+Test Cases/02_Web/05_History/SC024_View History/TC001_View History,Chrome 103.0.5060.114,,,2022-07-18 10:07:22,2022-07-18 10:07:36,14.544s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:07:22,2022-07-18 10:07:28,5.878s,PASSED
+"click(findTestObject(""02_Web/05_History/SC024_View History/menu_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:28,2022-07-18 10:07:33,5.230s,PASSED
+"click(findTestObject(""02_Web/05_History/SC024_View History/history_menu""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:33,2022-07-18 10:07:34,0.494s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/05_History/SC024_View History/history""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:07:34,2022-07-18 10:07:36,1.863s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:07:36,2022-07-18 10:07:36,0.766s,PASSED
+,,,,,,,
+Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC003_Edit email (With invalid email format),Chrome 103.0.5060.114,,,2022-07-18 10:07:36,2022-07-18 10:07:53,16.202s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:07:37,2022-07-18 10:07:42,5.605s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:42,2022-07-18 10:07:47,5.209s,PASSED
+"click(findTestObject(""02_Web/06_Settings/menu_my account""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:47,2022-07-18 10:07:48,0.501s,PASSED
+"click(findTestObject(""02_Web/06_Settings/input_name_name""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:48,2022-07-18 10:07:48,0.559s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_email_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:48,2022-07-18 10:07:49,0.379s,PASSED
+"setText(findTestObject(""02_Web/06_Settings/input_email_email""), ""salsagmail.com"")",Chrome 103.0.5060.114,,,2022-07-18 10:07:49,2022-07-18 10:07:50,0.932s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_email_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:50,2022-07-18 10:07:50,0.410s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_Change""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:50,2022-07-18 10:07:51,0.549s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/popup_failed""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:07:51,2022-07-18 10:07:51,0.493s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_OK""))",Chrome 103.0.5060.114,,,2022-07-18 10:07:51,2022-07-18 10:07:52,0.477s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:07:52,2022-07-18 10:07:53,0.790s,PASSED
+,,,,,,,
+Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC002_Edit email (With another registered email),Chrome 103.0.5060.114,,,2022-07-18 10:10:15,2022-07-18 10:11:03,47.523s,FAILED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:10:15,2022-07-18 10:10:21,5.648s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:21,2022-07-18 10:10:26,5.270s,PASSED
+"click(findTestObject(""02_Web/06_Settings/menu_my account""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:26,2022-07-18 10:10:27,0.460s,PASSED
+"click(findTestObject(""02_Web/06_Settings/input_name_name""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:27,2022-07-18 10:10:27,0.565s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_email_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:27,2022-07-18 10:10:28,0.411s,PASSED
+"setText(findTestObject(""02_Web/06_Settings/input_email_email""), ""archen@gmail.com"")",Chrome 103.0.5060.114,,,2022-07-18 10:10:28,2022-07-18 10:10:29,1.039s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_email_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:29,2022-07-18 10:10:29,0.427s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_Change""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:29,2022-07-18 10:10:30,0.597s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_Yes""))",Chrome 103.0.5060.114,,,2022-07-18 10:10:30,2022-07-18 10:10:30,0.572s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/error_msg""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:10:30,2022-07-18 10:11:02,31.313s,FAILED
+"click(findTestObject(""02_Web/06_Settings/button_OK""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:02,2022-07-18 10:11:02,0.413s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:11:02,2022-07-18 10:11:03,0.792s,PASSED
+,,,,,,,
+Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC004_Edit profile (With no telepon length less than 10 char),Chrome 103.0.5060.114,,,2022-07-18 10:11:03,2022-07-18 10:11:19,15.921s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:11:03,2022-07-18 10:11:09,5.440s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:09,2022-07-18 10:11:14,5.067s,PASSED
+"click(findTestObject(""02_Web/06_Settings/menu_my account""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:14,2022-07-18 10:11:14,0.412s,PASSED
+"click(findTestObject(""02_Web/06_Settings/input_name_name""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:14,2022-07-18 10:11:15,0.559s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_telp_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:15,2022-07-18 10:11:15,0.391s,PASSED
+"setText(findTestObject(""02_Web/06_Settings/input_telepon_telepon""), ""08123456"")",Chrome 103.0.5060.114,,,2022-07-18 10:11:15,2022-07-18 10:11:16,0.979s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_telp_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:16,2022-07-18 10:11:16,0.433s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_Change""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:16,2022-07-18 10:11:17,0.577s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/popup_failed""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:11:17,2022-07-18 10:11:18,0.527s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_OK""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:18,2022-07-18 10:11:18,0.418s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:11:18,2022-07-18 10:11:19,0.820s,PASSED
+,,,,,,,
+Test Cases/02_Web/06_Settings/SC025_Edit Profile/TC001_Edit Profile (With valid input),Chrome 103.0.5060.114,,,2022-07-18 10:11:19,2022-07-18 10:11:42,22.983s,PASSED
+"callTestCase(findTestCase(""02_Web/signin""), [:], CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-18 10:11:19,2022-07-18 10:11:25,5.714s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_profile""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:25,2022-07-18 10:11:30,4.982s,PASSED
+"click(findTestObject(""02_Web/06_Settings/menu_my account""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:30,2022-07-18 10:11:30,0.456s,PASSED
+"click(findTestObject(""02_Web/06_Settings/input_name_name""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:30,2022-07-18 10:11:31,0.533s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_name_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:31,2022-07-18 10:11:31,0.421s,PASSED
+"setText(findTestObject(""02_Web/06_Settings/input_name_name""), ""Salsabila Rahadatul Aisy"")",Chrome 103.0.5060.114,,,2022-07-18 10:11:31,2022-07-18 10:11:32,1.020s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_name_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:32,2022-07-18 10:11:33,0.410s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_email_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:33,2022-07-18 10:11:33,0.484s,PASSED
+"setText(findTestObject(""02_Web/06_Settings/input_email_email""), ""salsabilarhdsys@gmail.com"")",Chrome 103.0.5060.114,,,2022-07-18 10:11:33,2022-07-18 10:11:34,0.954s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_email_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:34,2022-07-18 10:11:34,0.396s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_telp_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:34,2022-07-18 10:11:35,0.553s,PASSED
+"setText(findTestObject(""02_Web/06_Settings/input_telepon_telepon""), ""08123456789"")",Chrome 103.0.5060.114,,,2022-07-18 10:11:35,2022-07-18 10:11:36,0.886s,PASSED
+"click(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/change_telp_ico""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:36,2022-07-18 10:11:36,0.371s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_Change""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:36,2022-07-18 10:11:37,0.518s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_Yes""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:37,2022-07-18 10:11:37,0.493s,PASSED
+"verifyElementPresent(findTestObject(""02_Web/06_Settings/SC025_Edit Profile/success_msg""), 0)",Chrome 103.0.5060.114,,,2022-07-18 10:11:37,2022-07-18 10:11:40,3.188s,PASSED
+"click(findTestObject(""02_Web/06_Settings/button_OK""))",Chrome 103.0.5060.114,,,2022-07-18 10:11:40,2022-07-18 10:11:41,0.437s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-18 10:11:41,2022-07-18 10:11:42,0.837s,PASSED

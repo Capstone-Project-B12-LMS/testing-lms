@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message",
+      "brokenLocator": "//*[@class \u003d \u0027swal2-popup swal2-modal swal2-icon-error swal2-show\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_090208/TS02_Web/Regression_Web/20220718_090208/Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/02_Auth/SC002_Sign Up/input_phone_number",
+      "brokenLocator": "/html/body/div/div/div/div/form/div[3]/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_090208/TS02_Web/Regression_Web/20220718_090208/Object Repository/02_Web/02_Auth/SC002_Sign Up/input_phone_number_attributes.png"
+    }
+  ]
+}

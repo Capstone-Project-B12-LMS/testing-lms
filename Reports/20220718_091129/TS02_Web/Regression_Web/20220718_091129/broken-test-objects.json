@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message",
+      "brokenLocator": "//*[@class \u003d \u0027swal2-popup swal2-modal swal2-icon-error swal2-show\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_091129/TS02_Web/Regression_Web/20220718_091129/Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/03_Home/SC005_Create Class/button_Create Class",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[4]/div/div/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Create Class\u0027 or . \u003d \u0027Create Class\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220718_091129/TS02_Web/Regression_Web/20220718_091129/Object Repository/02_Web/03_Home/SC005_Create Class/button_Create Class_BASIC.png"
+    }
+  ]
+}

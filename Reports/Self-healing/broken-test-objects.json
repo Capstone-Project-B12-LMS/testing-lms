@@ -129,6 +129,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/02_Auth/SC002_Sign Up/input_phone_number",
+      "brokenLocator": "/html/body/div/div/div/div/form/div[3]/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/02_Auth/SC002_Sign Up/input_phone_number_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/03_Home/SC005_Create Class/button_Create Class",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[4]/div/div/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Create Class\u0027 or . \u003d \u0027Create Class\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/03_Home/SC005_Create Class/button_Create Class_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/input_classname",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div[2]/div/div/div/div[2]/div/div/div[3]/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/input_classname_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/04_My Class/SC022_Setting Profile Class/button_Yes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/03_Home/SC006_Join Class/button_Join Class",
+      "brokenLocator": "/html/body/div/div/div[4]/div/div/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div[4]/div/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02_Web/03_Home/SC006_Join Class/button_Join Class_idRelative.png"
     }
   ]
 }

@@ -35,7 +35,7 @@ WebUI.click(findTestObject('02_Web/06_Settings/button_Change'))
 
 WebUI.click(findTestObject('02_Web/06_Settings/button_Yes'))
 
-WebUI.verifyElementPresent(findTestObject('02_Web/06_Settings/SC025_Edit Profile/error_msg'), 0)
+WebUI.verifyElementPresent(findTestObject('02_Web/06_Settings/update_failed'), 0)
 
 WebUI.click(findTestObject('02_Web/06_Settings/button_OK'))
 

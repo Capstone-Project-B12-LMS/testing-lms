@@ -31,6 +31,8 @@ WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/a_set
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/a_profile'))
 
+WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/edit_button'))
+
 WebUI.setText(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/input_datareport'), 'https://docs.google.com/spreadsheets/d/1m4Nvj81jKSIMlu26CB4iM8s3QGg7mBS7ZRuukaHxFNA')
 
 WebUI.click(findTestObject('02_Web/04_My Class/SC022_Setting Profile Class/button_Save Changes'))

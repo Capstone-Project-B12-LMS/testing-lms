@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message",
+      "brokenLocator": "//*[@class \u003d \u0027swal2-popup swal2-modal swal2-icon-error swal2-show\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_101913/TS02_Web/Regression_Web/20220718_101913/Object Repository/02_Web/02_Auth/SC002_Sign Up/register_message_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/03_Home/SC006_Join Class/button_Join Class",
+      "brokenLocator": "/html/body/div/div/div[4]/div/div/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div[4]/div/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_101913/TS02_Web/Regression_Web/20220718_101913/Object Repository/02_Web/03_Home/SC006_Join Class/button_Join Class_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027feedback\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_101913/TS02_Web/Regression_Web/20220718_101913/Object Repository/02_Web/04_My Class/SC009_Class List/class_name_detail_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs",
+      "brokenLocator": "//div[@id\u003d\u0027parent\u0027]/div[3]/div/div[2]/div[3]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add Link\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220718_101913/TS02_Web/Regression_Web/20220718_101913/Object Repository/02_Web/04_My Class/SC012_Request Counselling Notifications/notifs_neighbor.png"
+    }
+  ]
+}

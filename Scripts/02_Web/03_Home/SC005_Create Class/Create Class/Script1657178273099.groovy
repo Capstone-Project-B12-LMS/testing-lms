@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('02_Web/signin'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_add'))
+
 WebUI.click(findTestObject('02_Web/03_Home/SC005_Create Class/button_Create Class'))
 
 for (int i = 1; i <= 3; i++) {
