@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://ec2-34-219-136-154.us-west-2.compute.amazonaws.com'</initValue>
+      <initValue>'http://ec2-52-37-92-72.us-west-2.compute.amazonaws.com/'</initValue>
       <name>base_url_api</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,7 +81,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwNzAwODU5LCJ1c2VySWQiOiIxMjU2YjE2MS1kMjViLTQxYTUtYWRjMC04OTVlYjljYjQ3YWMiLCJpYXQiOjE2NTgxMDg4NTl9._Ps5-MPlKArGV4oI8jTotJEssoB0G4aJQs3U5iGnpOg'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjYwNzMxNTQ4LCJ1c2VySWQiOiI0ZWRiNDgzYS1kYWUzLTQ5ZTAtOWJmMS01YWNmZDYxOTNmMDciLCJpYXQiOjE2NTgxMzk1NDh9.5Y65dfavG-CO3Vy4Oaf-y-hpY3xRDgE1tKn_gw5OeXo'</initValue>
       <name>bearertoken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -90,7 +90,7 @@
       <name>id_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>class Quality Assurance</description>
+      <description>class sebagai teacher</description>
       <initValue>'c2c90a1f-9c22-4f7d-9801-ed11e16e9e9f'</initValue>
       <name>id_class</name>
    </GlobalVariableEntity>
@@ -105,7 +105,7 @@
       <name>id_class_student</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Product Management Class</description>
+      <description>class yang akan dihapus</description>
       <initValue>'cae91c1f-7160-4b0f-9530-a9ef5ba679e0'</initValue>
       <name>id_class_delete</name>
    </GlobalVariableEntity>
